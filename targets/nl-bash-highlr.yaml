@@ -1,0 +1,57 @@
+save_data: targets/nl-bash/run/example
+
+src_vocab: targets/nl-bash/run/example.vocab.src
+tgt_vocab: targets/nl-bash/run/example.vocab.tgt
+
+overwrite: False
+
+data:
+  corpus_1:
+    path_src: targets/nl-bash/src-train.txt
+    path_tgt: targets/nl-bash/tgt-train.txt
+  valid:
+    path_src: targets/nl-bash/src-val.txt
+    path_tgt: targets/nl-bash/tgt-val.txt
+
+# Record run on wandb
+wandb: true
+wandb_project: nl2bash
+
+# GPU configuration
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save checkpoints
+save_model: targets/nl-bash/run/highlr
+save_checkpoint_steps: 100
+
+# Reproducibility
+seed: 9001
+
+# Define model
+encoder_type: transformer
+decoder_type: transformer
+word_vec_size: 512
+rnn_size: 512
+layers: 6
+heads: 8
+transformer_ff: 2048
+batch_size: 1024
+valid_batch_size: 8
+dropout: 0.1
+position_encoding: 'true'
+
+# define optimizer
+optim: adam
+accum_count: 8
+adam_beta1: 0.9
+adam_beta2: 0.998
+decay_method: noam
+learning_rate: 100.
+max_grad_norm: 0.0
+
+
+train_steps: 10000
+valid_steps: 500
+warm_up_steps: 300
+report_every: 10

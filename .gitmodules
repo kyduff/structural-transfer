@@ -1,0 +1,3 @@
+[submodule "utils/OpenNMT-py"]
+	path = utils/OpenNMT-py
+	url = git@github.com:kyduff/OpenNMT-py.git

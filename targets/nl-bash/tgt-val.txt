@@ -1,0 +1,206 @@
+find /var/www
+apropos
+find / -size 15m
+od -t c file
+find / -name passwd
+sudo chown el my_test_expect.exp
+find -name '*.p[lm]'
+find / -name game
+find ~/ -name '*.txt'
+yes | rm -ri foo
+ls -l "$( which studio )"
+comm -3 a b
+df -i
+chown :friends myfile
+crontab -l
+find . -name core -exec rm {} \;
+find /home -group developer
+cat filename
+find . -print | xargs ls -gilds
+find /path -type f -exec rm '{}' +
+find / -name vimrc
+kill `jobs -lp`
+cp -r $1 $2
+zcat /proc/config.gz | grep config_64bit
+find . -type l
+find /home -name filename.txt
+find /some/dir/ -maxdepth 0 -empty
+find . -perm -664
+find . -name test
+date +%y-%m-%d
+gzip -dc /file/address/file.tar.gz
+set -e
+find . -maxdepth 1 -type d
+find /var/www/ -type f -iname "*.php" -print
+find . \! -path "*cvs*" -type f -name "*.css"
+mkdir a b c d e
+find /home -name ".*"
+find --version
+wc -l file
+find / -perm +u=s
+env -u foo somecommand
+find / -nouser | xargs -0 rm
+find /fss/fin -type d -name  "essbase" -print
+echo "hello, world" | tee /tmp/outfile
+rsync -rvv *.txt user@remote.machine:/tmp/newdir/
+sort foo.txt
+find . -mtime -1 -type f
+hey=$(echo "hello world" | gzip -cf)
+find /
+set -o history
+echo "$url" | cut -d':' -f1
+find ./subdirectory/ -type f
+find ./ -name '*.log' | xargs rm
+find /etc -type f -ctime -1
+zcat sample_51770bl1_r1.fastq.gz | wc -l
+find /tmp -type d -empty
+column -t -s $'\n' list-of-entries.txt
+tail -n +1 file1.txt file2.txt file3.txt
+mkdir testexpress
+find . -print|grep ?i dbmspool.sql
+find . -print0 | xargs -i{} -0 echo {}
+find . -type f | xargs ls -l
+find . -name *.jpg
+find "$home/" -name myfile.txt -print
+find -name file1
+mv -t target file1 file2 ...
+tree
+who -b
+read -n 1 -r
+find parent -name dir*
+find /res/values-en-rus /res/xml -iname '*.xml'
+ifconfig en0 | grep inet | grep -v inet6
+diff -rq dir1 dir2
+find . -regextype posix-egrep -regex '\./[a-f0-9\-]{36}\.jpg'
+set | grep "^_="
+find . -name *.pdf
+echo "hello world" | echo test=$(cat)
+apropos -s 3 .
+find -name '*.css'
+df $path_in_question | grep " $path_in_question$"
+ls -l | tail -n +2 | head -n1
+history | grep " 840"
+ln -s newtarget temp
+var=$(ls -l)
+find /path/to/search/in -name 'catalina*'
+echo this dir: `dirname $bash_source`
+sort file -o !#^
+echo -n $line | od -x
+find /home/sdt5z/tmp -name "accepted_hits.bam"
+mkdir /tmp/new
+find . -name "*.pyc" | xargs rm -rf
+find . -print -o -name sccs -prune
+find . -name \*.plist
+find ~ -size +10m
+find * -type f -print -o -type d -prune
+chgrp pub public
+find . -path ./src/emacs -prune -o -print
+su apache -s /bin/ksh
+echo $(date) doing stuff
+find / -name chapter1 -type f -print
+diff -y a b
+source <(echo vara=3)
+diff -qr /tmp/dir1/ /tmp/dir2/
+find . -exec echo {} ;
+echo $foo | rev | cut -c1-3 | rev
+find ~jsmith -exec grep log '{}' /dev/null \; -print
+find / -size +100m
+find myfile -perm 0644 -print
+seq -s % 4|tr -d '[:digit:]'
+pstree -p $$
+ifconfig p2p0 | grep -o -e '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'
+find $dir -type f
+find / -name "*.jpg" -print
+basename testfile.txt.1 .1
+find . -empty -exec ls {} \;
+find /home/user/myusername/ -name myfile.txt -print
+mount |grep nfs
+find . -type d -maxdepth 1
+jobs -x echo %1
+hostname myservershostname
+end_abs=`pwd -p`
+find -name file -delete
+mkdir -p /my/other/path/here
+echo '2-1' |sudo tee /sys/bus/usb/drivers/usb/unbind
+find ./ -type l
+readlink `pwd`
+find . -type d -name ".*"
+find test1 -type f -print
+set | grep ^ifs=
+echo "a,b"|sed 's/,/\r\n/'
+cat file | column -t
+find . -type f -print
+ps1=`hostname`':\w> '
+find / -name "dir-name-here"
+sudo ln -s -f "/usr/local/bin/findpdftext" "/usr/local/bin/fpt"
+cat myfile.txt | wc -l
+cat /proc/17709/cmdline | xargs -0 echo
+paste -d "" - -
+dig @"127.0.0.1"  _etcd-client._tcp. srv
+find /etc -name hosts
+rm --force "${temp}"
+cat www-backup.tar.*|gunzip -c |tar xvf -
+find / -perm /a=x
+chmod 555 /home/sshtunnel/
+find / -name file1
+number=$(echo $filename | tr -cd '[[:digit:]]')
+history | sed 's/^[ ]*[0-9]\+[ ]*//'
+find . -type d -exec rmdir {}\;
+a=$(false)
+find . -name "*.bam"
+find . -type f -name \*
+date '+%y' --date='222 days ago'
+find . -iname foo -type f
+rsync -a --progress --remove-source-files src/test/ dest
+cd  /path/to/pdf
+shopt -s checkwinsize
+find /var/www/ -path '*wp-admin/index.php' -exec mv {} $(dirname {})/index_disabled
+cd "$(dirname "$(which oracle)")"
+man find
+find . -type f -name '*.png'
+dig @server hostname.bind ch txt
+sort file_a file_b|uniq -u
+find . -type f -name "*.php"
+find . -name '*.rb'
+find . -inum 1316256
+find ./ -name desktop
+find -name 'access.log.*.gz' | sort -vr | rename 's/(\d+)/$1+1/ge'
+cd "$(dirname "$(which oracle)")"
+column -t -s '' list-of-entries.txt
+find /home -name core -exec rm {} \;
+uname -o
+find / -name arrow.jpg
+zcat input.gz | sed -n 's/.*\(useragent=[^=]*\) [^ =][^ =]*=.*/\1/p'
+find lpi104-6 -inum 1988884
+find -regex '.*\.\(c\|cpp\)'
+find . -type f -print
+sudo mkdir /var/svn
+od -c oldfile
+echo -n $(pwd)
+find empty1 empty2 not_empty -prune -empty
+find /nas -type d
+find /proc -print0 | xargs -0
+history | vim -
+find /path/to/search -type l -xtype l
+sudo mount device_name mount_point
+tar czfp backup.tar.gz /path/to/catalog
+dig @ns2.newnameserver domain. a
+find /myfiles -type l
+split --help
+chgrp workers shared
+mkdir -p /tmp/test/blah/oops/something
+gunzip -c mygzfile.gz | grep "string to be searched"
+find test -empty
+shopt -s promptvars
+split -l9 your_file
+shopt -s globstar nullglob
+find / -type f ! -perm 644
+find lpi104-6 research/lpi104-6 -type l
+find /path -type f -exec rm '{}' \;
+cal -h | cut -c 4-17
+nl -ba infile
+find $some_directory '.*' -delete
+find . -name .svn -exec ls {} \;
+find -name photo.jpg
+split -b 1024m file.tar.gz
+find /tmp -type f -empty
