@@ -5,6 +5,9 @@ RUN apt-get -y install wget vim
 
 RUN pip install --upgrade pip
 
+ARG WANDB_API_KEY
+ENV WANDB_API_KEY=$WANDB_API_KEY
+
 ENV EDITOR vim
 
 # Create user
