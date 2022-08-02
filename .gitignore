@@ -161,7 +161,6 @@ cython_debug/
 
 # Misc records
 *.tar.gz
-wandb
 run/
 
 # Exclude model files

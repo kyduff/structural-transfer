@@ -1,0 +1,5 @@
+[default]
+entity = kyduff
+project = nl2bash
+base_url = https://api.wandb.ai
+
