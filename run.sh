@@ -14,5 +14,6 @@ fi
 # run image in container
 $cmd run -it \
   -v "$(pwd)":/workspace/opennmt \
+  --shm-size=1g \
   "kyduff:openNMT"
 

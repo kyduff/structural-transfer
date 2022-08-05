@@ -1,17 +1,17 @@
-save_data: pretraining/random-init/run/example
+save_data: targets/nl-bash/run/example
 
-src_vocab: targets/nl-bash/run/example.vocab.src
-tgt_vocab: targets/nl-bash/run/example.vocab.tgt
+src_vocab: targets/nl-bash/run/nl.vocab.src
+tgt_vocab: targets/nl-bash/run/cmd.vocab.tgt
 
 overwrite: False
 
 data:
   corpus_1:
-    path_src: targets/nl-bash/src-train.txt
-    path_tgt: targets/nl-bash/tgt-train.txt
+    path_src: targets/nl-bash/src-train-full.txt
+    path_tgt: targets/nl-bash/tgt-train-full.txt
   valid:
-    path_src: targets/nl-bash/src-val.txt
-    path_tgt: targets/nl-bash/tgt-val.txt
+    path_src: targets/nl-bash/src-test-full.txt
+    path_tgt: targets/nl-bash/tgt-test-full.txt
 
 # Record run on wandb
 wandb: true
@@ -24,8 +24,8 @@ gpu_ranks:
   - 1
 
 # Where to save checkpoints
-save_model: pretraining/random-init/run/model
-save_checkpoint_steps: 1
+save_model: targets/nl-bash/run/full
+save_checkpoint_steps: 100
 keep_checkpoint: 6
 
 # Reproducibility
@@ -60,11 +60,15 @@ accum_count: 8
 adam_beta1: 0.9
 adam_beta2: 0.998
 decay_method: noam
-learning_rate: 0.0 # Don't update weights
+learning_rate: 2.0
 max_grad_norm: 0.0
 
+# Freeze layers
+# freeze_encoder: true
+# freeze_decoder: true
 
-train_steps: 3
-valid_steps: 1000
+
+train_steps: 2500
+valid_steps: 500
 warm_up_steps: 8000
-report_every: 1
+report_every: 10

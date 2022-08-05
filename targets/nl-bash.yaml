@@ -18,12 +18,15 @@ wandb: true
 wandb_project: nl2bash
 
 # GPU configuration
-world_size: 1
-gpu_ranks: [0]
+world_size: 2
+gpu_ranks:
+  - 0
+  - 1
 
 # Where to save checkpoints
 save_model: targets/nl-bash/run/model
 save_checkpoint_steps: 100
+keep_checkpoint: 6
 
 # Reproducibility
 seed: 9001
@@ -36,10 +39,20 @@ rnn_size: 512
 layers: 6
 heads: 8
 transformer_ff: 2048
-batch_size: 1024
-valid_batch_size: 8
+
+# Define hyperparams
+batch_size: 2048
+batch_type: tokens
+normalization: tokens
+valid_batch_size: 512
 dropout: 0.1
-position_encoding: 'true'
+label_smoothing: 0.1
+position_encoding: true
+
+# Initialization
+param_init: 0.0
+param_init_glorot: true
+replace_unk: true
 
 # define optimizer
 optim: adam
@@ -50,8 +63,12 @@ decay_method: noam
 learning_rate: 2.0
 max_grad_norm: 0.0
 
+# Freeze layers
+freeze_encoder: true
+freeze_decoder: true
 
-train_steps: 100
+
+train_steps: 2500
 valid_steps: 500
-warm_up_steps: 3000
+warm_up_steps: 8000
 report_every: 10
