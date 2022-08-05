@@ -1,0 +1,74 @@
+save_data: pretraining/en-de/run/example
+
+src_vocab: pretraining/en-de/run/en.vocab.src
+tgt_vocab: pretraining/en-de/run/de.vocab.tgt
+
+overwrite: False
+
+data:
+  corpus_1:
+    path_src: pretraining/en-de/src-train.txt
+    path_tgt: pretraining/en-de/tgt-train.txt
+  # valid:
+  #   path_src: pretraining/copy-tasks/src-test-full.txt
+  #   path_tgt: pretraining/copy-tasks/tgt-test-full.txt
+
+# Record run on wandb
+wandb: true
+wandb_project: nl2bash
+
+# GPU configuration
+world_size: 2
+gpu_ranks:
+  - 0
+  - 1
+
+# Where to save checkpoints
+save_model: pretraining/en-de/run/en-de
+save_checkpoint_steps: 100
+keep_checkpoint: 6
+
+# Reproducibility
+seed: 9001
+
+# Define model
+encoder_type: transformer
+decoder_type: transformer
+word_vec_size: 512
+rnn_size: 512
+layers: 6
+heads: 8
+transformer_ff: 2048
+
+# Define hyperparams
+batch_size: 2048
+batch_type: tokens
+normalization: tokens
+valid_batch_size: 512
+dropout: 0.1
+label_smoothing: 0.1
+position_encoding: true
+
+# Initialization
+param_init: 0.0
+param_init_glorot: true
+replace_unk: true
+
+# define optimizer
+optim: adam
+accum_count: 8
+adam_beta1: 0.9
+adam_beta2: 0.998
+decay_method: noam
+learning_rate: 2.0
+max_grad_norm: 0.0
+
+# Freeze layers
+# freeze_encoder: true
+# freeze_decoder: true
+
+
+train_steps: 2500
+# valid_steps: 500
+warm_up_steps: 8000
+report_every: 10
