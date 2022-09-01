@@ -1,0 +1,1034 @@
+mani singer
+what is total number of singer
+show name countri age for all singer order by age from oldest to youngest
+what are name countri and age for everi singer in descend order of age
+what is averag minimum and maximum age of all singer from franc
+what is averag minimum and maximum age for all french singer
+show name and releas year of song by youngest singer
+what are name and releas year for all song of youngest singer
+what are all distinct countri where singer abov age _NUMBER are from
+what are differ countri with singer abov age _NUMBER
+show all countri and number of singer in each countri
+mani singer are from each countri
+list all song name by singer abov averag age
+what are all song name by singer who are older than averag
+show locat and name for all stadium with a capac between _NUMBER and _NUMBER
+what are locat and name of all station with capac between _NUMBER and _NUMBER
+what is maximum capac and averag of all stadium
+what is averag and maximum capac for all stadium
+what is name and capac for stadium with highest averag attend
+what is name and capac for stadium with highest averag attend
+mani concert are in year _NUMBER or _NUMBER
+mani concert occur in _NUMBER or _NUMBER
+show stadium name and number of concert in each stadium
+for each stadium mani concert play
+show stadium name and capac with most number of concert in year _NUMBER or after
+what is name and capac of stadium with most concert after _NUMBER
+which year most number of concert
+what is year that most concert
+show stadium name without ani concert
+what are name of stadium without ani concert
+show countri where a singer abov age _NUMBER and a singer below _NUMBER are from
+show name for all stadium except for stadium have a concert in year _NUMBER
+what are name of all stadium that not a concert in _NUMBER
+show name and theme for all concert and number of singer in each concert
+what are name theme and number of singer for everi concert
+list singer name and number of concert for each singer
+what are name of singer and number of concert for each person
+list all singer name in concert in year _NUMBER
+what are name of singer who perform in a concert in _NUMBER
+what is name and nation of singer who a song have _REGEX in it name
+what is name and countri of origin of everi singer who a song with word _REGEX in it titl
+find name and locat of stadium which some concert happen in year of both _NUMBER and _NUMBER
+what are name and locat of stadium that concert that occur in both _NUMBER and _NUMBER
+find number of concert happen in stadium with highest capac
+what are number of concert that occur in stadium with largest capac
+find number of pet whose weight is heavier than _NUMBER
+mani pet a greater weight than _NUMBER
+find weight of youngest dog
+much youngest dog weigh
+find maximum weight for each type of pet list maximum weight and pet type
+list maximum weight and type for each type of pet
+find number of pet own by student who are older than _NUMBER
+mani pet are own by student that an age greater than _NUMBER
+find number of dog pet that are rais by femal student
+mani dog pet are rais by femal student
+find number of distinct type of pet
+mani differ type of pet are
+find first name of student who cat or dog pet
+what are first name of everi student who a cat or dog as a pet
+find first name of student who both cat and dog pet
+what are _REGEX first name who both cat and dog as pet
+find major and age of student who not a cat pet
+what major is everi student who not own a cat as a pet and also old are
+find id of student who not a cat pet
+what are id of student who not own cat as pet
+find first name and age of student who a dog but not a cat as a pet
+what is first name of everi student who a dog but not a cat
+find type and weight of youngest pet
+what type of pet is youngest anim and much it weigh
+find id and weight of all pet whose age is older than _NUMBER
+what is id and weight of everi pet who is older than _NUMBER
+find averag and maximum age for each type of pet
+what is averag and maximum age for each pet type
+find averag weight for each pet type
+what is averag weight for each type of pet
+find first name and age of student who a pet
+what are differ first name and age of student who pet
+find id of pet own by student whose last name is _REGEX
+what is id of pet own by student whose last name is _REGEX
+find number of pet for each student who ani pet and student id
+for student who pet mani pet each student _REGEX list id instead of name
+find first name and gender of student who more than one pet
+what is first name and gender of all student who more than one pet
+find last name of student who a cat that is age _NUMBER
+what is last name of student who a cat that is _TIMESPAN old
+find averag age of student who not ani pet
+what is averag age for all student who not own ani pet
+mani contin are
+what is number of contin
+mani countri each contin _REGEX list contin id contin name and number of countri
+for each contin list it id name and mani countri it
+mani countri are list
+mani countri exist
+mani model each car maker _REGEX list maker full name id and number
+what is full name of each car maker along with it id and mani model it produc
+which model of car minimum horsepow
+what is model of car with smallest amount of horsepow
+find model of car whose weight is below averag weight
+what is model for car with a weight smaller than averag
+find name of maker that produc some car in year of _NUMBER
+what is name of differ car maker who produc a car in _NUMBER
+find make and product time of car that were produc in earliest year
+what is maker of carr produc in earliest year and what year was it
+which distinct car model are produc after _NUMBER
+what are differ model for card produc after _NUMBER
+mani car maker are in each _REGEX list contin name and count
+what is name of each contin and mani car maker are in each one
+which of countri most car _REGEX list countri name
+what is name of countri with most car maker
+mani car model are produc by each maker _REGEX onli list count and maker full name
+what is number of car model that are produc by each maker and what is id and full name of each maker
+what is acceler of car make amc hornet sportabout
+much car acceler that make amc hornet sportabout
+mani car maker are in franc
+what is number of maker of care in franc
+mani car model are produc in usa
+what is count of car model produc in unit state
+what is averag mile per gallon of car with _NUMBER cylind
+what is averag mile per gallon of all card with _NUMBER cylind
+what is smallest weight of car produc with _NUMBER cylind on _NUMBER
+what is minimum weight of car with _NUMBER cylind produc in _NUMBER
+what are all maker and model
+what are maker and model
+what are countri have at least one car _REGEX list name and id
+what are name and id of all countri with at least one car maker
+what is number of car with horsepow more than _NUMBER
+what is number of car with a horsepow greater than _NUMBER
+what is averag weight of car each year
+what is averag weight and year for each year
+which countri in europ at least _NUMBER car manufactur
+what are name of all european countri with at least _NUMBER manufactur
+what is maximum horsepow and make of car model with _NUMBER cylind
+what is largest amount of horsepow for model with _NUMBER cylind and what make is it
+which model save most _REGEX that is to say maximum mile per gallon
+what is car model with highest _FILE
+what is averag horsepow of car befor _NUMBER
+what is averag horsepow for all car produc befor _NUMBER
+what is averag edispl of car of model volvo
+what is averag edispl for all volvo
+what is maximum acceler for differ number of cylind
+what is maximum acceler for all differ cylind
+which model most version of car
+what model most differ version
+mani car more than _NUMBER cylind
+what is number of car with more than _NUMBER cylind
+mani car were produc in _NUMBER
+in _NUMBER mani car were made
+mani car model were produc by maker with full name american motor compani
+what is number of car model creat by car maker american motor compani
+which maker design more than _NUMBER car _REGEX list full name and id
+what are name and id of all maker with more than _NUMBER model
+which distinct model are produc by maker with full name general motor or weigh more than _NUMBER
+what are differ model creat by either car maker general motor or weigh more than _NUMBER
+in which year car were produc weigh no less than _NUMBER and no more than _NUMBER
+what are differ year in which were car produc that weigh less than _NUMBER and also car that weight more than _NUMBER
+what is horsepow of car with largest acceler
+what is horsepow of car with greatest acceler
+for model volvo mani cylind car with least acceler
+for a volvo model mani cylind version with least acceler
+mani car a larger acceler than car with largest horsepow
+what is number of car with a greater acceler than one with most horsepow
+mani countri more than _NUMBER car maker
+what is number of countri with more than _NUMBER car maker
+mani car over _NUMBER cylind
+what is number of carsw ith over _NUMBER cylind
+for car with _NUMBER cylind which model largest horsepow
+for all of _NUMBER cylind car which model most horsepow
+among car with more than lowest horsepow which one not more than _NUMBER _REGEX list car makeid and make name
+among car that not minimum horsepow what are make id and name of all those with less than _NUMBER cylind
+what is maximum mile per gallon of car with _NUMBER cylind or produc befor _NUMBER
+what is maximum _FILE of car that _NUMBER cylind or that were produc befor _NUMBER
+which model are lighter than _NUMBER but not built by _REGEX
+what are differ model wthat are lighter than _NUMBER but were not built by ford motor compani
+what are name of countri where is not a singl car maker
+what are name of countri with no car maker
+which are car maker which produc at least _NUMBER model and more than _NUMBER car maker _REGEX list id and maker
+what are id and maker of all car maker that produc at least _NUMBER model and make more than _NUMBER car
+what are id and name of countri which more than _NUMBER car maker or produc _REGEX model
+what are id and name of all countri that either more than _NUMBER car maker or produc fiat model
+which countri airlin _REGEX belong to
+what countri is jetblu airway affili with
+what is abbrevi of airlin _REGEX
+which abbrevi correspond to jetblu airway
+list all airlin name and abbrevi in _REGEX
+what are airlin name and abbrevi for airlin in usa
+list airport code and name in citi of anthoni
+give airport code and airport name corresond to citi anthoni
+mani airlin
+what is total number of airlin
+mani airport
+return number of airport
+mani flight
+return number of flight
+which airlin abbrevi _REGEX
+give airlin with abbrevi _REGEX
+mani airlin are from usa
+return number of airlin in usa
+which citi and countri is alton airport at
+give citi and countri for alton airport
+what is airport name for airport _REGEX
+return name of airport with code _REGEX
+what are airport name at citi _REGEX
+what are name of airport in aberdeen
+mani flight depart from _REGEX
+count number of flight depart from _REGEX
+mani flight destin ato
+count number of flight into ato
+mani flight depart from citi aberdeen
+return number of flight depart from aberdeen
+mani flight arriv in aberdeen citi
+return number of flight arriv in aberdeen
+mani flight depart from citi _REGEX and destin citi _REGEX
+mani flight fli from aberdeen to ashley
+mani flight airlin _REGEX
+give number of jetblu airway flight
+mani _REGEX flight go to airport _REGEX
+count number of unit airlin flight arriv in asi airport
+mani _REGEX flight depart from airport _REGEX
+return number of unit airlin flight leav from ahd airport
+mani unit airlin flight go to citi _REGEX
+count number of unit airlin flight that arriv in aberdeen
+which citi most number of arriv flight
+which citi most frequent destin airport
+which citi most number of depart flight
+which citi is most frequent sourc airport
+what is code of airport that highest number of flight
+what is airport code of airport with most flight
+what is code of airport that fewest number of flight
+give code of airport with least flight
+which airlin most number of flight
+what airlin serv most flight
+find abbrevi and countri of airlin that fewest number of flight
+what is abbrevi of airiln fewest flight and what countri is it in
+what are airlin that some flight depart from airport _REGEX
+which airlin a flight with sourc airport ahd
+what are airlin that flight arriv at airport _REGEX
+which airlin a flight with destin airport ahd
+find all airlin that flight from both airport _REGEX and _REGEX
+which airlin depart flight from both apg and cvo airport
+find all airlin that flight from airport _REGEX but not from _REGEX
+which airlin departur from cvo but not from apg airport
+find all airlin that at least _NUMBER flight
+which airlin at least _NUMBER flight
+find all airlin that fewer than _NUMBER flight
+which airlin less than _NUMBER flight
+what are flight number of airlin _REGEX
+which flight number correspond to unit airlin flight
+what are flight number of flight depart from airport _REGEX
+give flight number of flight leav from apg
+what are flight number of flight arriv at airport _REGEX
+give flight number of flight land at apg
+what are flight number of flight depart from citi _REGEX
+give flight number of flight leav from aberdeen
+what are flight number of flight arriv at citi _REGEX
+give flight number of flight arriv in aberdeen
+find number of flight land in citi of aberdeen or abilen
+mani flight land in aberdeen or abilen
+find name of airport which not ani flight in and out
+which airport not depart or arriv flight
+mani employe are
+count number of employe
+sort employe name by age in ascend order
+list name of employe and sort in ascend order of age
+what is number of employe from each citi
+count number of employe for each citi
+which citi more than one employe under age _NUMBER come from
+find citi that more than one employe under age _NUMBER
+find number of shop in each locat
+mani shop are in each locat
+find manag name and district of shop whose number of product is largest
+what are manag name and district of shop that sell largest number of product
+find minimum and maximum number of product of all store
+what are minimum and maximum number of product across all shop
+return name locat and district of all shop in descend order of number of product
+sort all shop by number product in descend order and return name locat and district of each shop
+find name of store whose number product is more than averag number of product
+which _REGEX number product is abov _REGEX give shop name
+find name of employe who was award most time in evalu
+which employe receiv most award in _REGEX give employe name
+find name of employe who got highest one time bonus
+which employe receiv biggest _REGEX give employe name
+find name of employe who never won ani award in evalu
+what are name of employe who never receiv ani evalu
+what is name of shop that is hire largest number of employe
+which shop most _REGEX give shop name
+find name of shop that not hire ani employe
+which shop run with no _REGEX find shop name
+find number of employe hire in each shop show shop name as well
+for each shop return number of employe work and name of shop
+what is total bonus given in all evalu
+find total amount of bonus given in all evalu
+give all inform about hire
+what is all inform about hire
+which district both store with less than _NUMBER product and store with more than _NUMBER product
+find district in which are both shop sell less than _NUMBER product and shop sell more than _NUMBER product
+mani differ store locat are
+count number of distinct store locat
+mani document
+count number of document
+list document id document name and document descript for all document
+what are id name and descript for all document
+what is document name and templat id for document with descript with letter _REGEX in it
+return name and templat id for document that contain letter w in descript
+what is document id templat id and descript for document name _REGEX
+return document id templat id and descript for document with name robbin cv
+mani differ templat all document use
+count number of differ templat use for document
+mani document are use templat with type code _FILE
+count number of document that use _FILE templat type
+show all templat id and number of document use each templat
+what are all differ templat id use for document and mani time were each of them use
+what is id and type code for templat use by most document
+return id and type code of templat that is use for greatest number of document
+show id for all templat that are use by more than one document
+what are templat id of ani templat use in more than a singl document
+show id for all templat not use by ani document
+what are id for templat that are not use in ani document
+mani templat
+count number of templat
+show templat id version number and templat type code for all templat
+what are id version number and type code for each templat
+show all distinct templat type code for all templat
+what are differ templat type code
+what are id of templat with templat type code pp or _FILE
+return id of templat that code pp or _FILE
+mani templat templat type code cv
+count number of templat of type cv
+what is version number and templat type code for templat with version number later than _NUMBER
+return version number and templat type code of templat with a version number greater than _NUMBER
+show all templat type code and number of templat for each
+what are differ templat type code and mani templat correspond to each
+which templat type code most number of templat
+return type code of templat type that most templat belong to
+show all templat type code with less than _NUMBER templat
+what are code of templat type that fewer than _NUMBER templat
+what smallest version number and it templat type code
+return lowest version number along with it correspond templat type code
+what is templat type code of templat use by document with name _REGEX
+return templat type code of templat that is use by a document name data base
+show all document name use templat with templat type code bk
+what are name of document that use templat with code bk
+show all templat type code and number of document use each type
+what are differ templat type code and mani document use each type
+which templat type code is use by most number of document
+return code of templat type that is most common use in document
+show all templat type code that are not use by ani document
+what are code of templat type that are not use for ani document
+show all templat type code and descript
+what are type code and descript for all templat type
+what is templat type descript for templat type code _REGEX
+return templat type descript of templat type with code ad
+what is templat type code for templat type descript _REGEX
+return type code of templat type with descript _REGEX
+what are distinct templat type descript for templat ever use by ani document
+return differ descript for templat that been use in a document
+what are templat id with templat type descript _REGEX
+return id correspond to templat with descript _REGEX
+mani paragraph in total
+count number of paragraph
+mani paragraph for document with name _REGEX
+count number of paragraph in document name _REGEX
+show paragraph detail for paragraph with text _REGEX
+what are detail for paragraph that includ text _REGEX
+show all paragraph id and text for document with name _REGEX
+what are id and text of paragraph in document titl _REGEX
+show all paragraph text for document _REGEX
+what are paragraph text for document with name _REGEX
+show all document id and number of paragraph in each document order by document id
+return differ document id along with number of paragraph correspond to each order by id
+show all document id name and number of paragraph in each document
+what are id and name of each document as well as number of paragraph in each
+list all document id with at least _NUMBER paragraph
+what are id of document that _NUMBER or more paragraph
+what is document id and name with greatest number of paragraph
+return id and name of document with most paragraph
+what is document id with least number of paragraph
+return id of document with fewest paragraph
+what is document id with _NUMBER to _NUMBER paragraph
+give id of document that between one and _NUMBER paragraph
+show document id with paragraph text _REGEX and _REGEX
+what are id of document that contain paragraph text _REGEX and _REGEX
+mani teacher are
+what is total count of teacher
+list name of teacher in ascend order of age
+what are name of teacher order by ascend age
+what are age and hometown of teacher
+what is age and hometown of everi teacher
+list name of teacher whose hometown is not _REGEX
+what are name of teacher whose hometown is not _REGEX
+show name of teacher age either _NUMBER or _NUMBER
+what are name of teacher who are age either _NUMBER or _NUMBER
+what is hometown of youngest teacher
+where is youngest teacher from
+show differ hometown of teacher and number of teacher from each hometown
+for each hometown mani teacher are
+list most common hometown of teacher
+what is most commmon hometown for teacher
+show hometown share by at least _NUMBER teacher
+what are town from which at least _NUMBER teacher come from
+show name of teacher and cours are arrang to teach
+what is name of each teacher and what cours teach
+show name of teacher and cours are arrang to teach in ascend alphabet order of teacher 's name
+what are name of teacher and cours teach in ascend alphabet order by name of teacher
+show name of teacher for math cours
+what are name of peopl who teach math cours
+show name of teacher and number of cours teach
+what are name of teacher and mani cours teach
+show name of teacher that teach at least _NUMBER cours
+what are name of teacher who teach at least _NUMBER cours
+list name of teacher who not been arrang to teach cours
+what are name of teacher whose cours not been arrang
+mani visitor below age _NUMBER are
+find name of visitor whose membership level is higher than _NUMBER and order result by level from high to low
+what is averag age of visitor whose membership level is not higher than _NUMBER
+find name and membership level of visitor whose membership level is higher than _NUMBER and sort by age from old to young
+find id and name of museum that most staff member
+find averag number of staff work for museum that were open befor _NUMBER
+what are open year and staff number of museum name plaza museum
+find name of museum which more staff than minimum staff number of all museum open after _NUMBER
+find id name and age for visitor who visit some museum more than onc
+what are id name and membership level of visitor who spent largest amount of money in total in all museum ticket
+what are id and name of museum visit most time
+what is name of museum that no visitor yet
+find name and age of visitor who bought most ticket at onc
+what are averag and maximum number of ticket bought in all visit
+what is total ticket expens of visitor whose membership level is _NUMBER
+what is name of visitor who visit both a museum open befor _NUMBER and a museum open after _NUMBER
+find number of visitor who not visit ani museum open after _NUMBER
+mani museum were open after _NUMBER or befor _NUMBER
+find total number of player
+mani player are
+find total number of match
+count number of match
+list first name and birth date of all player from countri with code usa
+what are first name and birth date of player from usa
+find averag age of loser and winner of all match
+what are averag age of loser and winner across match
+find averag rank of winner in all match
+what is averag rank for winner in all match
+find highest rank of loser in all match
+what is best rank of loser across all match
+find number of distinct countri code of all player
+mani distinct countri player come from
+find number of distinct name of loser
+mani differ loser name are
+find name of tourney that more than _NUMBER match
+what are name of tournament that more than _NUMBER match
+list name of all winner who play in both _NUMBER and _NUMBER
+what are name of player who won in both _NUMBER and _NUMBER
+list number of all match who play in year of _NUMBER or _NUMBER
+mani match were play in _NUMBER or _NUMBER
+what are countri code and first name of player who won in both tourney wta championship and australian open
+what are first name and countri code for player who won both wta championship and australian open
+find first name and countri code of oldest player
+what is first name and countri code of oldest player
+list first and last name of all player in order of birth date
+what are full name of all player sort by birth date
+list first and last name of all player who are left _DIRECTORY l hand in order of birth date
+what are full name of all left hand player in order of birth date
+find first name and countri code of player who most number of tour
+what is first name and countri code of player with most tour
+find year that most number of match
+which year most match
+find name and rank point of winner who won most time
+what is name of winner who won most match and mani rank point player
+find name of winner who highest rank point and particip in australian open tourney
+what is name of winner with most rank point who particip in australian open tournament
+find name of loser and winner who play in match with greatest number of minut
+what are name of winner and loser who play in longest match
+find averag rank for each player and first name
+what are first name of all player and averag rank
+find total rank point for each player and first name
+what are first name of all player and total rank point
+find number of player for each countri
+mani player are from each countri
+find code of countri where greatest number of player
+what is code of countri with most player
+find code of countri that more than _NUMBER player
+what are code of countri with more than _NUMBER player
+find total number of tour for each rank date
+mani total tour were for each rank date
+find number of match happen in each year
+mani match were play in each year
+find name and rank of _NUMBER youngest winner across all match
+what are name and rank of _NUMBER youngest winner across all match
+mani differ winner both particip in wta championship and were left hand
+find number of left hand winner who particip in wta championship
+find first name countri code and birth date of winner who highest rank point in all match
+what is first name countri code and birth date of player with most winner rank point across all match
+find number of player for each hand type
+mani player are for each hand type
+mani ship end up be _REGEX
+list name and tonnag order by in descend alphaet order for name
+list name date and result of each battl
+what is maximum and minimum death toll caus each time
+what is averag number of injuri caus each time
+what are death and injuri situat caus by ship with tonnag _REGEX
+what are name and result of battl when bulgarian command is not _REGEX
+what are differ id and name of battl that lost ani _REGEX type shipe
+what are id and name of battl that led to more than _NUMBER peopl kill in total
+what is ship id and name that caus most total injuri
+what are distinct battl name which are between bulgarian command _REGEX and latin command _REGEX
+mani differ result are for battl
+mani battl not lose ani ship with tonnag _NUMBER
+list name and date battl that lost ship name _REGEX and ship name _REGEX atalanta
+show name result and bulgarian command of battl with no ship lost in _REGEX
+what are note of death event which substr _REGEX
+what are all address includ line _NUMBER and line _NUMBER
+what is first and second line for all address
+mani cours in total are list
+mani cours are
+is math cours describ
+what are descript for all math cours
+what is zip code of address in citi port chelsea
+what is zip code for port chelsea
+which depart offer most number of _REGEX list depart name and id
+what is name and id of depart with most number of degre
+mani depart offer ani degre
+mani differ depart offer degre
+mani differ degre name are offer
+mani differ degre are offer
+mani degre engin depart offer
+mani degre engin depart
+what are name and descript of all section
+what are name and descript for all section
+what are name and id of cours have at most _NUMBER section
+what are name and id of everi cours with less than _NUMBER section
+list _REGEX in revers lexicograph order
+what are name of section in revers alphabet order
+what is semest which most student regist _REGEX show both name and id
+for each semest what is name and id of one with most student regist
+what is descript of depart whose name substr comput
+what is depart descript for one whose name word comput
+who are enrol in _NUMBER degre program in one _REGEX list first name middl name and last name and id
+what are first middl and last name along with id of all student who enrol in _NUMBER degre program in one semest
+who is enrol in a bachelor degre _REGEX list first name middl name last name
+what are first middl and last name for everybodi enrol in a bachelor program
+find kind of program which most number of student are enrol in
+what is degre summari name that most number of student enrol
+find program which most number of student are enrol in list both id and summari
+what is program id and summari of degre that most student enrol
+which student enrol for most time in ani _REGEX list id first name middl name last name number of enrol and student id
+what is first middl and last name along with id and number of enrol for student who enrol most in ani program
+which semest not ani student _REGEX list semest name
+what is name of semest with no student enrol
+what are all cours name of cours which ever student enrol in
+what are name of all cours that some student enrol
+what 's name of cours with most number of enrol
+what is name of cours with most student enrol
+find last name of student who current live in state of north carolina but not regist in ani degre program
+what are last name of student who live in north carolina but not regist in ani degre program
+show date and id of transcript with at least _NUMBER cours result
+what is date and id of transcript with at least _NUMBER cours list
+what is phone number of man with first name timmothi and last name ward
+what is mobil phone number of student name timmothi ward
+who is first student to _REGEX list first name middl name and last name
+what is first middl and last name of first student to regist
+who is earliest graduat of _REGEX list first name middl name and last name
+what is first middl and last name of earliest school graduat
+whose perman address is differ from or current _REGEX list or first name
+what is first name of student whose perman address is differ from or current one
+which address hold most number of student _REGEX list address id and all line
+what is id line _NUMBER and line _NUMBER of address with most student
+on averag when were transcript print
+what is averag transcript date
+when is first transcript _REGEX list date and detail
+what is earliest date of a transcript releas and what detail tell
+mani transcript are releas
+mani transcript are list
+what is last transcript releas date
+when was last transcript releas
+mani time at most a cours enrol result show in differ _REGEX also show cours enrol id
+what is maximum number of time that a cours show up in differ transcript and what is that cours 's enrol id
+show date of transcript which show least number of result also list id
+what is date and id of transcript with least number of result
+find semest when both master student and bachelor student got enrol in
+what is id of semest that both master and bachelor student enrol
+mani differ address student current live
+what are differ address that student live
+list all student detail in revers lexicograph order
+what other detail tell about student in revers alphabet order
+describ section _FILE
+what is descript for section name _FILE
+find first name of student who perman live in countri haiti or cell phone number _NUMBER
+what are first name of student who live in haiti perman or cell phone number _NUMBER
+list titl of all cartoon in alphabet order
+what are titl of cartoon sort alphabet
+list all cartoon direct by _REGEX
+what are name of all cartoon direct by ben jone
+mani cartoon were written by _REGEX
+what is number of cartoon written by joseph kuhr
+list all cartoon titl and director order by air _FILE
+what is name and director of all cartoon that are order by air date
+list titl of all cartoon direct by _REGEX or _REGEX
+what are titl of all cartoon direct by ben jone or brandon vietti
+which countri most of tv _REGEX list countri and number of tv channel it
+what is countri with most number of tv channel and mani it
+list number of differ seri name and content in tv channel tabl
+mani differ seri and content are list in tv channel tabl
+what is content of tv channel with serial name _REGEX
+what is content of seri sky radio
+what is packag option of tv channel with serial name _REGEX
+what are packag option of tv channel whose seri name are sky radio
+mani tv channel use languag english
+mani tv channel use english languag
+list languag use least number of tv channel list languag and number of tv channel
+what are languag use by least number of tv channel and mani channel use it
+list each languag and number of tv channel use it
+for each languag list number of tv channel that use it
+what is tv channel that show cartoon the rise of the blue _REGEX list tv channel 's seri name
+what is seri name of tv channel that show cartoon _REGEX
+list titl of all cartoon show on tv channel with seri name _REGEX
+what is titl of all cartool that are on tv channel with seri name _REGEX
+list episod of all tv seri sort by rate
+what are all of episod order by rate
+list top _NUMBER highest rate tv seri list tv seri 's episod and rate
+what are _NUMBER most high rate episod in tv seri tabl and what were those rate
+what is minimum and maximum share of tv seri
+what is maximum and minimum share for tv seri
+what is air date of tv seri with episod _REGEX
+when episod _REGEX air
+what is week rank of tv seri with episod _REGEX
+what is week rank for episod _REGEX
+what is tv channel of tv seri with episod a love of a _REGEX list tv channel 's seri name
+what is name of seri that episod _REGEX
+list episod of all tv seri show on tv channel with seri name _REGEX
+what is episod for tv seri name _REGEX
+find number of cartoon direct by each of list director
+mani cartoon each director creat
+find product code and channel of most recent air cartoon
+what is produdct code and channel of most recent cartoon
+find packag choic and seri name of tv channel that high definit tv
+what are packag option and name of seri for tv channel that support high definit tv
+which _REGEX tv channel are play some cartoon written by todd casey
+what are countri that cartoon on tv that were written by todd casey
+which _REGEX tv channel are not play ani cartoon written by todd casey
+what are countri that are not play cartoon written by todd casey
+find seri name and countri of tv channel that is play some cartoon direct by ben jone and michael chang
+what is seri name and countri of all tv channel that are play cartoon direct by ben jone and cartoon direct by michael chang
+find pixel aspect ratio and nation of tv channel that not use english
+what is pixel aspect ratio and countri of origin for all tv channel that not use english
+find id of tv channel that from countri where more than _NUMBER tv channel
+what are id of all tv channel that more than _NUMBER tv channel
+find id of tv channel that not play ani cartoon direct by ben jone
+what are id of tv channel that not ani cartoon direct by ben jone
+find packag option of tv channel that not ani cartoon direct by ben jone
+what are packag option of all tv channel that are not play ani cartoon direct by ben jone
+mani poker player are
+count number of poker player
+list earn of poker player in descend order
+what are earn of poker player order descend by valu
+list final tabl made and best finish of poker player
+what are final tabl made and best finish for all poker player
+what is averag earn of poker player
+return averag earn across all poker player
+what is money rank of poker player with highest earn
+return money rank of player with greatest earn
+what is maximum number of final tabl made among poker player with earn less than _NUMBER
+return maximum final tabl made across all poker player who earn below _NUMBER
+what are name of poker player
+return name of all poker player
+what are name of poker player whose earn is higher than _NUMBER
+give name of poker player who earn abov _NUMBER
+list name of poker player order by final tabl made in ascend order
+what are name of poker player order ascend by number of final tabl made
+what is birth date of poker player with lowest earn
+return birth date of poker player with lowest earn
+what is money rank of tallest poker player
+return money rank of poker player with greatest height
+what is averag earn of poker player with height higher than _NUMBER
+give averag earn of poker player who are taller than _NUMBER
+what are name of poker player in descend order of earn
+return name of poker player sort by earn descend
+what are differ nation of peopl and correspond number of peopl from each nation
+mani peopl are of each nation
+what is most common nation of peopl
+give nation that is most common across all peopl
+what are nation that are share by at least _NUMBER peopl
+return nation for which are _NUMBER or more peopl
+list name and birth date of peopl in ascend alphabet order of name
+what are name and birth date of peopl order by name in alphabet order
+show name of peopl whose nation is not _REGEX
+what are name of peopl who are not from russia
+list name of peopl that are not poker player
+what are name of peopl who not play poker
+mani distinct nation are
+count number of differ nation
+mani state are
+list contest number and name order by contest name descend
+list vote id phone number and state of all vote
+what are maximum and minimum valu of area code
+what is last date creat of vote from state _REGEX
+what are name of contest whose name are not _REGEX alloway
+what are distinct state and creat time of all vote
+what are contest number and name of contest who at least _NUMBER vote
+of all contest who got vote what is contest number and name of contest who got least vote
+what are number of vote from state _REGEX or _REGEX
+mani contest not get vote
+what is area code in which most voter vote
+what are creat date state and phone number of vote that were for contest name _REGEX
+list area code in which voter vote both for contest _REGEX and contest _REGEX
+return name of contest whose name contain substr _REGEX
+what are name of all countri that becam independ after _NUMBER
+give name of nation that were found after _NUMBER
+mani countri a republ as form of govern
+mani countri govern that are republ
+what is total surfac area of countri in caribbean region
+much surfac area countir in carribean cover togeth
+which contin is anguilla in
+what is contin name which anguilla belong to
+which region is citi kabul locat in
+what region is kabul in
+which languag is most popular in aruba
+what languag is predomin spoken in aruba
+what are popul and life expect in brazil
+give brazil 's popul and life expect
+what are region and popul of angola
+what region angola belong to and what is it popul
+what is averag expect life expect for countri in region of central africa
+long is peopl 's averag life expect in central africa
+what is name of countri that shortest life expect in asia
+give name of countri in asia with lowest life expect
+what is total popul and maximum gnp in asia
+mani peopl live in asia and what is largest gnp among them
+what is averag life expect in african countri that are republ
+give averag life expect for countri in africa which are republ
+what is total surfac area of contin asia and europ
+give total surfac area cover by countri in asia or europ
+mani peopl live in gelderland district
+what is total popul of gelderland district
+what is averag gnp and total popul in all nation whose govern is us territori
+give mean gnp and total popul of nation which are consid us territori
+mani uniqu languag are spoken in world
+what is number of distinct languag use around world
+mani type of govern are in africa
+mani differ form of govern are in africa
+what is total number of languag use in aruba
+mani languag are spoken in aruba
+mani offici languag afghanistan
+mani offici languag are spoken in afghanistan
+what is name of countri that speak largest number of languag
+give name of nation that use greatest amount of languag
+which contin most divers languag
+which contin speak most languag
+mani countri speak both english and dutch
+what is number of nation that use english and dutch
+what are name of nation speak both english and french
+give name of nation that speak both english and french
+what are name of nation where both english and french are offici languag
+give name of countri with english and french as offici languag
+what is number of distinct contin where chines is spoken
+mani contin speak chines
+what are region that use english or dutch
+which region speak dutch or english
+what are countri where either english or dutch is offici languag
+which countri either english or dutch as an offici languag
+which languag is most popular on asian contin
+what is languag that is use by largest number of asian nation
+which languag are spoken by onli one countri in republ govern
+what languag are onli use by a singl countri with a republ govern
+find citi with largest popul that use english
+what is most populac citi that speak english
+find name popul and expect life length of asian countri with largest area
+what are name popul and life expect of largest asian countri by land
+what is averag life expect in countri where english is not offici languag
+give mean life expect of countri in which english is not offici languag
+what is total number of peopl live in nation that not use english
+mani peopl live in countri that not speak english
+what is offici languag spoken in countri whose head of state is beatrix
+what is offici languag use in countri name of whose head of state is beatrix
+what is total number of uniqu offici languag spoken in countri that are found befor _NUMBER
+for countri found befor _NUMBER what is total number of distinct offici languag
+what are countri that greater surfac area than ani countri in europ
+which countri greater area than that of ani countri in europ
+what are african countri that a popul less than ani countri in asia
+which african countri a smaller popul than that of ani countri in asia
+which asian countri a popul that is larger than ani countri in africa
+what are asian countri which a popul larger than that of ani countri in africa
+what are countri code for countri that not speak english
+return countri code for countri that not speak english
+what are countri code of countri where peopl use languag other than english
+give countri code for countri in which peopl speak langaug that are not english
+what are code of countri that not speak english and whose govern form are not republ
+return code of countri that not speak english and not republ for govern
+which citi are in european countri where english is not offici languag
+what are name of citi in europ for which english is not offici languag
+which uniqu citi are in asian countri where chines is offici languag
+return differ name of citi that are in asia and for which chines is offici languag
+what are name independ year and surfac area of countri with smallest popul
+give name year of independ and surfac area of countri that lowest popul
+what are popul name and leader of countri with largest area
+give name popul and head of state for countri that largest area
+return countri name and number of languag spoken for each countri that speak at least _NUMBER languag
+what are name of countri that speak more than _NUMBER languag as well as mani languag speak
+find number of citi in each district whose popul is greater than averag popul of citi
+mani citi in each district a popul that is abov averag popul across all citi
+find govern form name and total popul for each govern form whose averag life expect is longer than _NUMBER
+what are differ govern form and what is total popul of each for govern form that an averag life expect greater than _NUMBER
+find averag life expect and total popul for each contin where averag life expect is shorter than _NUMBER
+what are differ contin and total popuat and averag life expect correspond to each for contin that an averag life expect less than _NUMBER
+what are name and area of countri with top _NUMBER largest area
+return name and surfac area of _NUMBER largest countri
+what are name of countri with top _NUMBER largest popul
+return name of _NUMBER most popul countri
+what are name of nation with _NUMBER lowest popul
+return name of _NUMBER countri with fewest peopl
+mani countri are in asia
+count number of countri in asia
+what are name of countri that are in contin of europ and a popul of _NUMBER
+give name of countri that are in europ and a popul equal to _NUMBER
+what is total popul and averag area of countri in contin of north america whose area is bigger than _NUMBER
+give total popul and averag surfac area correspond to countri in north america that a surfac area greater than _NUMBER
+what are citi whose popul is between _NUMBER and _NUMBER
+return name of citi that a popul between _NUMBER and _NUMBER
+which languag is spoken by largest number of countri
+give languag that is spoken in most countri
+what is languag spoken by largest percentag of peopl in each countri
+what are countri code of differ countri and what are languag spoken by greatest percentag of peopl for each
+what is total number of countri where spanish is spoken by largest percentag of peopl
+count number of countri for which spanish is predomin spoken languag
+what are code of countri where spanish is spoken by largest percentag of peopl
+return code of countri for which spanish is predomin spoken languag
+mani conductor are
+count number of conductor
+list name of conductor in ascend order of age
+what are name of conductor order by age
+what are name of conductor whose nation are not _REGEX
+return name of conductor that not nation _REGEX
+what are record compani of orchestra in descend order of year in which were found
+return record compani of orchestra sort descend by year in which were found
+what is averag attend of show
+return averag attend across all show
+what are maximum and minimum share of perform whose type is not _REGEX
+return maximum and minimum share for perform that not type _REGEX
+mani differ nation conductor
+count number of differ nation of conductor
+list name of conductor in descend order of year of work
+what are name of conductor sort descend by number of year work
+list name of conductor with most year of work
+what is name of conductor who work greatest number of year
+show name of conductor and orchestra conduct
+what are name of conductor as well as corresond orchestra that conduct
+show name of conductor that conduct more than one orchestra
+what are name of conductor who conduct at more than one orchestra
+show name of conductor that conduct most number of orchestra
+what is name of conductor who conduct most orchestra
+pleas show name of conductor that conduct orchestra found after _NUMBER
+what are name of conductor who conduct orchestra found after year _NUMBER
+pleas show differ record compani and correspond number of orchestra
+mani orchestra each record compani manag
+pleas show record format of orchestra in ascend order of count
+what are major record format of orchestra sort by frequenc
+list record compani share by most number of orchestra
+what is record compani use by greatest number of orchestra
+list name of orchestra that no perform
+what are orchestra that not ani perform
+show record compani share by orchestra found befor _NUMBER and after _NUMBER
+what are record compani that are use by both orchestra found befor _NUMBER and those found after _NUMBER
+find number of orchestra whose record format is _REGEX or _FILE
+count number of orchestra that cd or _FILE as record format
+show year in which orchestra that given more than one perform are found
+what are year of found for orchestra that more than a singl perform
+mani high schooler are
+count number of high schooler
+show name and grade of each high schooler
+what are name and grade for each high schooler
+show all grade of high schooler
+what is grade of each high schooler
+what grade is kyle in
+return grade for high schooler name kyle
+show name of all high schooler in grade _NUMBER
+what are name of all high schooler in grade _NUMBER
+show id of high schooler name kyle
+what is kyle 's id
+mani high schooler are in grade _NUMBER or _NUMBER
+count number of high schooler in grade _NUMBER or _NUMBER
+show number of high schooler for each grade
+mani high schooler are in each grade
+which grade most high schooler
+return grade that greatest number of high schooler
+show all grade that at least _NUMBER student
+which grade _NUMBER or more high schooler
+show student id and number of friend correspond to each
+mani friend each student
+show name of high school student and correspond number of friend
+what are name of high schooler and mani friend each
+what is name of high schooler who greatest number of friend
+return name of high school student with most friend
+show name of high schooler who at least _NUMBER friend
+what are name of high schooler who _NUMBER or more friend
+show name of all of high schooler kyle 's friend
+return name of friend of high school student kyle
+mani friend high school student kyle
+count number of friend kyle
+show id of all student who not ani friend
+what are id of high school student who not friend
+show name of all high school student who not ani friend
+what are name of student who no friend
+show id of high schooler who friend and are also like by someon els
+what are id of student who both friend and are like
+show name of all student who some friend and also are like by someon els
+what are name of high schooler who both friend and are like
+count number of like for each student id
+mani like correspond to each student id
+show name of high schooler who like and number of like for each
+what are name of high schooler who like and mani like each
+what is name of high schooler who greatest number of like
+give name of student with most like
+show name of student who at least _NUMBER like
+what are name of student who _NUMBER or more like
+show name of student who a grade higher than _NUMBER and at least _NUMBER friend
+what are name of high schooler who a grade of over _NUMBER and _NUMBER or more friend
+mani like kyle
+return number of like that high schooler name kyle
+find averag grade of all student who some friend
+what is averag grade of student who friend
+find minimum grade of student who no friend
+what is lowest grade of student who not ani friend
+which state both owner and profession live
+find state where both owner and profession live
+what is averag age of dog who gone through ani treatment
+find averag age of dog who went through treatment
+which profession live in state of indiana or done treatment on more than _NUMBER _REGEX list or id last name and cell phone
+find id last name and cell phone of profession who live in state of indiana or perform more than _NUMBER treatment
+which dog not cost owner more than _NUMBER for treatment _REGEX list dog name
+what are name of dog for which owner not spend more than _NUMBER for treatment
+which first name are use for profession or owner but are not use as dog name
+find first name that are use for profession or owner but are not use as dog name
+which profession not oper ani treatment on _REGEX list profession 's id role and email
+give id role and email of profession who not perform ani treatment on dog
+which owner own most _REGEX list owner id first name and last name
+return owner id first name and last name of owner who most dog
+which profession done at least _NUMBER _REGEX list profession 's id role and first name
+what are id role and first name of profession who perform _NUMBER or more treatment
+what is name of breed with most dog
+which breed most dog _REGEX give breed name
+which owner paid for most treatment on or _REGEX list owner id and last name
+tell owner id and last name of owner who spent most on treatment of or dog
+what is descript of treatment type that cost least money in total
+give descript of treatment type whose total cost is lowest
+which owner paid largest amount of money in total for _REGEX show owner id and zip code
+find owner id and zip code of owner who spent most money in total for or dog
+which profession done at least _NUMBER type of _REGEX list profession id and cell phone
+find id and cell phone of profession who oper _NUMBER or more type of treatment
+what are first name and last name of profession who done treatment with cost below averag
+which profession oper a treatment that cost less than _REGEX give theor first name and last name
+list date of each treatment togeth with first name of profession who oper it
+what are date and oper profession 's first name of each treatment
+list cost of each treatment and correspond treatment type descript
+what are cost and treatment type descript of each treatment
+list each owner 's first name last name and size of for dog
+what are each owner 's first name last name and size of dog
+list pair of owner 's first name and dog 's name
+what are each owner 's first name and dog 's name
+list name of dog of rarest breed and treatment date of them
+which dog are of rarest _REGEX show name and treatment date
+which dog are own by someon who live in _REGEX list owner 's first name and dog 's name
+find first name of owner live in virginia and name of dog own
+what are arriv date and depart date of dog who gone through a treatment
+find arriv date and depart date of dog that receiv a treatment
+list last name of owner own youngest dog
+who own youngest _REGEX give or last name
+list email of profession who live in state of hawaii or state of wisconsin
+what are email of profession live in either state of hawaii or state of wisconsin
+what are arriv date and depart date of all dog
+list arriv date and departur date for all dog
+mani dog went through ani treatment
+count number of dog that went through a treatment
+mani profession perform ani treatment to dog
+find number of profession who ever treat dog
+which profession live in a citi contain substr _REGEX list or role street citi and state
+find role street citi and state of profession live in a citi that contain substr _REGEX
+which owner live in state whose name contain substr _REGEX list first name last name and email
+return first name last name and email of owner live in a state whose name contain substr _REGEX
+mani dog an age below averag
+count number of dog of an age below averag
+much most recent treatment cost
+show cost of most recent perform treatment
+mani dog not gone through ani treatment
+tell number of dog that not receiv ani treatment
+mani owner temporarili not ani dog
+find number of owner who not own ani dog at moment
+mani profession not oper ani treatment on dog
+find number of profession who not treat ani dog
+list dog name age and weight of dog who been _REGEX _NUMBER stand for yes and _NUMBER stand for no
+what are dog name age and weight of dog that were _REGEX note that _NUMBER stand for yes and _NUMBER stand for no in tabl
+what is averag age of all dog
+comput averag age of all dog
+what is age of oldest dog
+tell age of oldest dog
+much each charg type _REGEX list both charg type and amount
+list each charg type and it amount
+much most expens charg type cost
+what is charg amount of most expens charg type
+list email cell phone and home phone of all profession
+what are email cell phone and home phone of each profession
+what are all possibl breed type and size type combin
+find distinct breed type and size type combin for dog
+list first name of all profession along with descript of treatment done
+what are each profession 's first name and descript of treatment perform
+mani singer are
+what is count of singer
+list name of singer in ascend order of net worth
+what are name of singer order by ascend net worth
+what are birth year and citizenship of singer
+what are birth year and citizenship of singer
+list name of singer whose citizenship is not _REGEX
+what are name of singer who are not french citizen
+show name of singer whose birth year is either _NUMBER or _NUMBER
+what are name of singer whose birth year are either _NUMBER or _NUMBER
+what is name of singer with largest net worth
+what is name of singer who is worth most
+show differ citizenship of singer and number of singer of each citizenship
+for each citizenship mani singer are from that countri
+pleas show most common citizenship of singer
+what is most common singer citizenship
+show differ citizenship and maximum net worth of singer of each citizenship
+for each citizenship what is maximum net worth
+show titl of song and name of singer
+what are song titl and singer name
+show distinct name of singer that song with sale more than _NUMBER
+what are differ name of singer that sale more than _NUMBER
+show name of singer that more than one song
+what are name of singer that more than one song
+show name of singer and total sale of song
+for each singer name what is total sale for song
+list name of singer that not ani song
+what is sname of everi sing that not ani song
+show citizenship share by singer with birth year befor _NUMBER and after _NUMBER
+what are citizenship that are share by singer with a birth year befor _NUMBER and after _NUMBER
+mani avail featur are in total
+what is featur type name of featur aircon
+show properti type descript of properti belong to that code
+what are name of properti that are either hous or apart with more than _NUMBER room

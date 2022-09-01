@@ -1,17 +1,17 @@
-save_data: targets/nl-bash/run/example
+save_data: pretraining/spider/run/example
 
-src_vocab: targets/nl-bash/run/nl.vocab.src
-tgt_vocab: targets/nl-bash/run/cmd.vocab.tgt
+src_vocab: pretraining/spider/run/nl.vocab.src
+tgt_vocab: pretraining/spider/run/code.vocab.tgt
 
 overwrite: False
 
 data:
   corpus_1:
-    path_src: targets/nl-bash/src-train-full.txt
-    path_tgt: targets/nl-bash/tgt-train-full.txt
+    path_src: pretraining/spider/src-train.txt
+    path_tgt: pretraining/spider/tgt-train.txt
   valid:
-    path_src: targets/nl-bash/src-test-full.txt
-    path_tgt: targets/nl-bash/tgt-test-full.txt
+    path_src: pretraining/spider/src-test.txt
+    path_tgt: pretraining/spider/tgt-test.txt
 
 # Record run on wandb
 wandb: true
@@ -24,12 +24,12 @@ gpu_ranks:
   - 1
 
 # Where to save checkpoints
-save_model: targets/nl-bash/run/full-seed1
+# save_model: pretraining/spider/run/nl-python
 save_checkpoint_steps: 100
-keep_checkpoint: 6
+keep_checkpoint: 3
 
 # Reproducibility
-# seed: 9001
+seed: 9001
 
 # Define model
 encoder_type: transformer

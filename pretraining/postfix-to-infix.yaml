@@ -1,17 +1,17 @@
-save_data: targets/nl-bash/run/example
+save_data: pretraining/infix-prefix-postfix/run/example
 
-src_vocab: targets/nl-bash/run/nl.vocab.src
-tgt_vocab: targets/nl-bash/run/cmd.vocab.tgt
+src_vocab: pretraining/infix-prefix-postfix/run/all.vocab
+tgt_vocab: pretraining/infix-prefix-postfix/run/all.vocab
 
 overwrite: False
 
 data:
   corpus_1:
-    path_src: targets/nl-bash/src-train-full.txt
-    path_tgt: targets/nl-bash/tgt-train-full.txt
+    path_src: pretraining/infix-prefix-postfix/postfix-train.txt
+    path_tgt: pretraining/infix-prefix-postfix/infix-train.txt
   valid:
-    path_src: targets/nl-bash/src-test-full.txt
-    path_tgt: targets/nl-bash/tgt-test-full.txt
+    path_src: pretraining/infix-prefix-postfix/postfix-test.txt
+    path_tgt: pretraining/infix-prefix-postfix/infix-test.txt
 
 # Record run on wandb
 wandb: true
@@ -24,12 +24,12 @@ gpu_ranks:
   - 1
 
 # Where to save checkpoints
-save_model: targets/nl-bash/run/full-seed1
+save_model: pretraining/infix-prefix-postfix/run/postfix-to-infix
 save_checkpoint_steps: 100
-keep_checkpoint: 6
+keep_checkpoint: 1
 
 # Reproducibility
-# seed: 9001
+seed: 9001
 
 # Define model
 encoder_type: transformer

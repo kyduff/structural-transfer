@@ -1,0 +1,2300 @@
+sum ( d * 10 ** i for i , d in enumerate ( x [ : : - 1 ] ) ) <NEWLINE>
+r = int ( <STRING_LITERAL> . join ( map ( str , x ) ) ) <NEWLINE>
+datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+[ ( i , sum ( j ) / len ( j ) ) for i , j in list ( d . items ( ) ) ] <NEWLINE>
+zip ( [ 1 , 2 ] , [ 3 , 4 ] ) <NEWLINE>
+[ <STRING_LITERAL> . format ( i ) for i in a ] <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+df . div ( df . sum ( axis = 1 ) , axis = 0 ) <NEWLINE>
+map ( lambda t : ( t [ 1 ] , t [ 0 ] ) , mylist ) <NEWLINE>
+[ ( t [ 1 ] , t [ 0 ] ) for t in mylist ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , strs ) <NEWLINE>
+print ( list ( itertools . combinations ( { 1 , 2 , 3 , 4 } , 3 ) ) ) <NEWLINE>
+df [ [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ] = df . apply ( lambdafunc , axis = 1 ) <NEWLINE>
+soup . find_all ( <STRING_LITERAL> , string = <STRING_LITERAL> ) <NEWLINE>
+my_datetime . strftime ( <STRING_LITERAL> ) <NEWLINE>
+int ( <STRING_LITERAL> . join ( c for c in s if c . isdigit ( ) ) ) <NEWLINE>
+dic [ <STRING_LITERAL> ] . update ( { <STRING_LITERAL> : { <STRING_LITERAL> : 5 } } ) <NEWLINE>
+dict ( map ( int , x . split ( <STRING_LITERAL> ) ) for x in s . split ( <STRING_LITERAL> ) ) <NEWLINE>
+np . where ( ( vals == ( 0 , 1 ) ) . all ( axis = 1 ) ) <NEWLINE>
+dict ( [ [ <STRING_LITERAL> , 2 ] , [ <STRING_LITERAL> , 1 ] ] ) <NEWLINE>
+dict ( zip ( l [ : : 2 ] , l [ 1 : : 2 ] ) ) <NEWLINE>
+GRAVITY = 9.8 <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . compile ( <STRING_LITERAL> ) . findall ( <STRING_LITERAL> ) <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) . time ( ) <NEWLINE>
+requests . get ( <STRING_LITERAL> , verify = False ) <NEWLINE>
+a [ a != 0 ] <NEWLINE>
+new_dict = { k : v for k , v in zip ( keys , values ) } <NEWLINE>
+dict ( ( k , v ) for k , v in zip ( keys , values ) ) <NEWLINE>
+dict ( [ ( k , v ) for k , v in zip ( keys , values ) ] ) <NEWLINE>
+m = re . search ( <STRING_LITERAL> , s ) <NEWLINE>
+s . setsockopt ( SOL_SOCKET , SO_REUSEADDR , 1 ) <NEWLINE>
+list3 = [ ( a + b ) for a , b in zip ( list1 , list2 ) ] <NEWLINE>
+[ ord ( c ) for c in s . decode ( <STRING_LITERAL> ) ] <NEWLINE>
+print ( sorted ( student_tuples , key = lambda t : ( - t [ 2 ] , t [ 0 ] ) ) ) <NEWLINE>
+[ y for x in range ( 3 ) for y in [ x , x ] ] <NEWLINE>
+txt = open ( <STRING_LITERAL> ) . read ( ) <NEWLINE>
+myList [ : ] = [ ( x / myInt ) for x in myList ] <NEWLINE>
+df . replace ( <STRING_LITERAL> , <STRING_LITERAL> , regex = True ) <NEWLINE>
+datetime . datetime . combine ( my_date , datetime . time . min ) <NEWLINE>
+tst2 = str ( tst ) <NEWLINE>
+time . ctime ( os . path . getmtime ( file ) ) <NEWLINE>
+time . ctime ( os . path . getctime ( file ) ) <NEWLINE>
+t = os . path . getmtime ( filename ) <NEWLINE>
+os . path . getmtime ( path ) <NEWLINE>
+print ( ( <STRING_LITERAL> % time . ctime ( os . path . getmtime ( file ) ) ) ) <NEWLINE>
+print ( ( <STRING_LITERAL> % time . ctime ( os . path . getctime ( file ) ) ) ) <NEWLINE>
+return os . path . getctime ( path_to_file ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+return ( x . group ( 0 ) for x in re . finditer ( <STRING_LITERAL> , string ) ) <NEWLINE>
+<STRING_LITERAL> . join ( [ <STRING_LITERAL> ] * len ( x ) ) <NEWLINE>
+print ( re . match ( <STRING_LITERAL> , <STRING_LITERAL> ) . group ( 1 ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] . str . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+result = [ x for x in list_a if x [ 0 ] in list_b ] <NEWLINE>
+print ( [ <STRING_LITERAL> . join ( a ) for a in combinations ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] , 2 ) ] ) <NEWLINE>
+[ x for x in li if <STRING_LITERAL> in x [ 2 ] ] <NEWLINE>
+unsorted_list . sort ( key = lambda x : x [ 3 ] ) <NEWLINE>
+logging . info ( <STRING_LITERAL> ) <NEWLINE>
+fig . add_subplot ( 1 , 1 , 1 ) <NEWLINE>
+sorted ( list ( x . items ( ) ) , key = operator . itemgetter ( 1 ) ) <NEWLINE>
+sorted ( dict1 , key = dict1 . get ) <NEWLINE>
+sorted ( d , key = d . get , reverse = True ) <NEWLINE>
+sorted ( list ( d . items ( ) ) , key = ( lambda x : x [ 1 ] ) ) <NEWLINE>
+np . einsum ( <STRING_LITERAL> , A , B ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( card ) ) <NEWLINE>
+f . write ( <STRING_LITERAL> ) <NEWLINE>
+a = a [ - 1 : ] + a [ : - 1 ] <NEWLINE>
+datetimevariable . strftime ( <STRING_LITERAL> ) <NEWLINE>
+mixed . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+os . path . expanduser ( <STRING_LITERAL> ) <NEWLINE>
+T = [ L [ i ] for i in Idx ] <NEWLINE>
+words = open ( <STRING_LITERAL> ) . read ( ) . split ( ) <NEWLINE>
+[ [ sum ( [ x [ 1 ] for x in i ] ) ] for i in data ] <NEWLINE>
+[ sum ( [ x [ 1 ] for x in i ] ) for i in data ] <NEWLINE>
+Article . objects . annotate ( like_count = Count ( <STRING_LITERAL> ) ) . order_by ( <STRING_LITERAL> ) <NEWLINE>
+today = datetime . datetime . utcnow ( ) . date ( ) <NEWLINE>
+[ ( a * b ) for a , b in zip ( lista , listb ) ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , s ) <NEWLINE>
+re . match ( <STRING_LITERAL> , str ) <NEWLINE>
+json_string = json . dumps ( [ ob . __dict__ for ob in list_name ] ) <NEWLINE>
+listofzeros = [ 0 ] * n <NEWLINE>
+stringnamehere . decode ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+dic . setdefault ( key , [ ] ) . append ( value ) <NEWLINE>
+a [ np . argmin ( a [ : , ( 1 ) ] ) ] <NEWLINE>
+a . update ( b ) <NEWLINE>
+[ { k : v for k , v in d . items ( ) if k != <STRING_LITERAL> } for d in mylist ] <NEWLINE>
+numpy . random . random ( ( 3 , 3 ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] + df [ <STRING_LITERAL> ] <NEWLINE>
+[ value for key , value in list ( programs . items ( ) ) if <STRING_LITERAL> in key . lower ( ) ] <NEWLINE>
+sys . path . append ( <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , s ) <NEWLINE>
+pickle . load ( open ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+ex . groupby ( level = <STRING_LITERAL> ) . agg ( lambda x : x . index . get_level_values ( 1 ) . nunique ( ) ) <NEWLINE>
+pd . concat ( map ( pd . DataFrame , iter ( d . values ( ) ) ) , keys = list ( d . keys ( ) ) ) . stack ( ) . unstack ( 0 ) <NEWLINE>
+sum ( 1 for i , j in zip ( a , b ) if i != j ) <NEWLINE>
+d = { ( a . lower ( ) , b ) : v for ( a , b ) , v in list ( d . items ( ) ) } <NEWLINE>
+list_ . sort ( key = lambda x : [ x [ 0 ] , len ( x [ 1 ] ) , x [ 1 ] ] ) <NEWLINE>
+s . strip ( ) <NEWLINE>
+s = s . lstrip ( ) <NEWLINE>
+s = s . rstrip ( ) <NEWLINE>
+s = s . strip ( <STRING_LITERAL> ) <NEWLINE>
+print ( re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) ) <NEWLINE>
+Task . objects . exclude ( prerequisites__status__in = [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+root . configure ( background = <STRING_LITERAL> ) <NEWLINE>
+numpy . array ( [ ( key , val ) for key , val in result . items ( ) ] , dtype ) <NEWLINE>
+pd . concat ( [ df_1 , df_2 . sort_values ( <STRING_LITERAL> ) ] ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+print ( max ( d , key = lambda x : ( d [ x ] [ <STRING_LITERAL> ] , d [ x ] [ <STRING_LITERAL> ] ) ) ) <NEWLINE>
+Book . objects . filter ( author__id = 1 ) . filter ( author__id = 2 ) <NEWLINE>
+re . compile ( <STRING_LITERAL> , re . IGNORECASE ) . split ( <STRING_LITERAL> ) <NEWLINE>
+[ sum ( map ( int , s ) ) for s in example . split ( ) ] <NEWLINE>
+[ i for i in y if y [ i ] == 1 ] <NEWLINE>
+c . decode ( <STRING_LITERAL> ) <NEWLINE>
+pd . melt ( x , id_vars = [ <STRING_LITERAL> , <STRING_LITERAL> ] , var_name = <STRING_LITERAL> , value_name = <STRING_LITERAL> ) <NEWLINE>
+default_data [ <STRING_LITERAL> ] = 3 <NEWLINE>
+default_data . update ( { <STRING_LITERAL> : 3 , } ) <NEWLINE>
+default_data . update ( { <STRING_LITERAL> : 4 , <STRING_LITERAL> : 5 , } ) <NEWLINE>
+l [ : 3 ] + l [ - 3 : ] <NEWLINE>
+df = df . reset_index ( drop = True ) <NEWLINE>
+[ a [ x ] . append ( b [ x ] ) for x in range ( 3 ) ] <NEWLINE>
+os . path . realpath ( path ) <NEWLINE>
+set ( L [ 0 ] . f . items ( ) ) . issubset ( set ( a3 . f . items ( ) ) ) <NEWLINE>
+zip ( * np . where ( a == 1 ) ) <NEWLINE>
+df . columns = df . columns . get_level_values ( 0 ) <NEWLINE>
+x = scipy . matrix ( [ 1 , 2 , 3 ] ) . transpose ( ) <NEWLINE>
+text = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) <NEWLINE>
+np . array ( [ np . arange ( 3 ) , np . arange ( 2 , - 1 , - 1 ) , np . ones ( ( 3 , ) ) ] ) . min ( axis = 0 ) <NEWLINE>
+df [ <STRING_LITERAL> ] = list ( range ( 1 , len ( df ) + 1 ) ) <NEWLINE>
+os . environ [ <STRING_LITERAL> ] = <STRING_LITERAL> <NEWLINE>
+print ( os . environ [ <STRING_LITERAL> ] ) <NEWLINE>
+os . environ [ <STRING_LITERAL> ] = <STRING_LITERAL> <NEWLINE>
+b . update ( d ) <NEWLINE>
+df [ <STRING_LITERAL> ] <NEWLINE>
+ebar = plt . errorbar ( x , y , yerr = err , ecolor = <STRING_LITERAL> ) <NEWLINE>
+results += [ each for each in os . listdir ( folder ) if each . endswith ( <STRING_LITERAL> ) ] <NEWLINE>
+print ( <STRING_LITERAL> . decode ( <STRING_LITERAL> ) + <STRING_LITERAL> ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) . lower ( ) <NEWLINE>
+<STRING_LITERAL> . format ( num ) <NEWLINE>
+numpy . append ( a , a [ 0 ] ) <NEWLINE>
+df . ix [ : , ( df . loc [ 0 ] == 38.15 ) ] . columns <NEWLINE>
+df2 [ <STRING_LITERAL> ] = df2 . CET . map ( df1 . set_index ( <STRING_LITERAL> ) [ <STRING_LITERAL> ] ) <NEWLINE>
+json_data = json . loads ( json_string ) <NEWLINE>
+math . cos ( math . radians ( 1 ) ) <NEWLINE>
+sum ( isinstance ( x , int ) for x in a ) <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+threading . Thread ( target = SudsMove ) . start ( ) <NEWLINE>
+sum ( i * i for i in l ) <NEWLINE>
+sum ( map ( lambda x : x * x , l ) ) <NEWLINE>
+d = dict ( ( ( key , value ) for ( key , value ) in iterable ) ) <NEWLINE>
+d = { key : value for ( key , value ) in iterable } <NEWLINE>
+d = { k : v for ( k , v ) in iterable } <NEWLINE>
+df . round ( { <STRING_LITERAL> : 2 , <STRING_LITERAL> : 3 } ) <NEWLINE>
+p . setopt ( pycurl . WRITEFUNCTION , lambda x : None ) <NEWLINE>
+print ( random . choice ( words ) ) <NEWLINE>
+max ( d , key = lambda x : d [ x ] [ <STRING_LITERAL> ] ) <NEWLINE>
+[ ( int ( x ) if x else 0 ) for x in data . split ( <STRING_LITERAL> ) ] <NEWLINE>
+<STRING_LITERAL> . join ( x or <STRING_LITERAL> for x in s . split ( <STRING_LITERAL> ) ) <NEWLINE>
+re . compile ( <STRING_LITERAL> ) <NEWLINE>
+re . compile ( <STRING_LITERAL> ) <NEWLINE>
+re . compile ( <STRING_LITERAL> ) <NEWLINE>
+df . columns [ df . max ( ) > 0 ] <NEWLINE>
+yourdatetime . date ( ) == datetime . today ( ) . date ( ) <NEWLINE>
+print ( <STRING_LITERAL> + <STRING_LITERAL> ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+[ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] <NEWLINE>
+<STRING_LITERAL> . join ( mystring . split ( ) ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( 2.345e-67 ) ) <NEWLINE>
+( <STRING_LITERAL> in dict ) <NEWLINE>
+( <STRING_LITERAL> in d ) <NEWLINE>
+( <STRING_LITERAL> in d ) <NEWLINE>
+if ( <STRING_LITERAL> in dict ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+if ( key in d ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+Blog . objects . filter ( pk__in = [ 1 , 4 , 7 ] ) <NEWLINE>
+f = open ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+format ( 12345678.46 , <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+pd . merge ( frame_1 , frame_2 , left_on = <STRING_LITERAL> , right_on = <STRING_LITERAL> ) <NEWLINE>
+np . isnan ( a ) . sum ( ) / np . prod ( a . shape ) <NEWLINE>
+sorted ( iter ( cityPopulation . items ( ) ) , key = lambda k_v : k_v [ 1 ] [ 2 ] , reverse = True ) <NEWLINE>
+sorted ( list ( u . items ( ) ) , key = lambda v : v [ 1 ] ) <NEWLINE>
+sorted ( list ( d . items ( ) ) , key = lambda k_v : k_v [ 1 ] , reverse = True ) <NEWLINE>
+sorted ( list ( d . items ( ) ) , key = lambda k_v : k_v [ 1 ] ) <NEWLINE>
+f = open ( os . path . join ( __location__ , <STRING_LITERAL> ) ) <NEWLINE>
+f = open ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+{ k : ( float ( d2 [ k ] ) / d1 [ k ] ) for k in d2 } <NEWLINE>
+{ k : ( d2 [ k ] / d1 [ k ] ) for k in list ( d1 . keys ( ) ) & d2 } <NEWLINE>
+dict ( ( k , float ( d2 [ k ] ) / d1 [ k ] ) for k in d2 ) <NEWLINE>
+df . to_csv ( filename , date_format = <STRING_LITERAL> ) <NEWLINE>
+my_dict . pop ( <STRING_LITERAL> , None ) <NEWLINE>
+b = np . where ( np . isnan ( a ) , 0 , a ) <NEWLINE>
+subprocess . call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+subprocess . call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+f = urllib . request . urlopen ( url , urllib . parse . unquote ( urllib . parse . urlencode ( params ) ) ) <NEWLINE>
+<STRING_LITERAL> . rstrip ( ) <NEWLINE>
+urllib . parse . quote ( s . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+np . array ( map ( int , <STRING_LITERAL> ) ) <NEWLINE>
+print ( np . array ( list ( mystr ) , dtype = int ) ) <NEWLINE>
+img = cv2 . imread ( <STRING_LITERAL> , 0 ) <NEWLINE>
+lst . sort ( key = lambda x : x [ 2 ] , reverse = True ) <NEWLINE>
+subprocess . call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+len ( my_text ) - len ( my_text . rstrip ( <STRING_LITERAL> ) ) <NEWLINE>
+df [ df . columns [ 1 : ] ] . replace ( <STRING_LITERAL> , <STRING_LITERAL> , regex = True ) . astype ( float ) <NEWLINE>
+df1 . merge ( df2 , how = <STRING_LITERAL> , on = <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( <STRING_LITERAL> . join ( i ) for i in zip ( a2 , a1 ) ) + a [ - 1 ] if len ( a ) % 2 else <STRING_LITERAL> ) <NEWLINE>
+root . attributes ( <STRING_LITERAL> , True ) <NEWLINE>
+root . lift ( ) <NEWLINE>
+hex ( int ( <STRING_LITERAL> . join ( [ str ( int ( b ) ) for b in walls ] ) , 2 ) ) <NEWLINE>
+hex ( sum ( b << i for i , b in enumerate ( reversed ( walls ) ) ) ) <NEWLINE>
+print ( ( <STRING_LITERAL> , name , <STRING_LITERAL> , score ) ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( name , score ) ) <NEWLINE>
+print ( <STRING_LITERAL> % ( name , score ) ) <NEWLINE>
+print ( ( <STRING_LITERAL> , name , <STRING_LITERAL> , score ) ) <NEWLINE>
+url ( <STRING_LITERAL> , TemplateView . as_view ( template_name = <STRING_LITERAL> ) ) <NEWLINE>
+df [ df [ <STRING_LITERAL> ] . isin ( [ 3 , 6 ] ) ] <NEWLINE>
+system ( <STRING_LITERAL> ) <NEWLINE>
+Employees . objects . values_list ( <STRING_LITERAL> , flat = True ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+input ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . encode ( <STRING_LITERAL> ) <NEWLINE>
+db . Doc . update ( { <STRING_LITERAL> : b [ <STRING_LITERAL> ] } , { <STRING_LITERAL> : { <STRING_LITERAL> : myGeolocCountry } } ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+rows = soup . findAll ( <STRING_LITERAL> ) [ 4 : : 5 ] <NEWLINE>
+plt . gca ( ) . invert_xaxis ( ) <NEWLINE>
+plt . gca ( ) . invert_yaxis ( ) <NEWLINE>
+pd . concat ( [ GOOG , AAPL ] , keys = [ <STRING_LITERAL> , <STRING_LITERAL> ] , axis = 1 ) <NEWLINE>
+return HttpResponse ( json . dumps ( response_data ) , content_type = <STRING_LITERAL> ) <NEWLINE>
+myString . decode ( <STRING_LITERAL> ) <NEWLINE>
+hashlib . md5 ( open ( <STRING_LITERAL> , <STRING_LITERAL> ) . read ( ) ) . hexdigest ( ) <NEWLINE>
+[ k for k , v in d . items ( ) if v == desired_value ] <NEWLINE>
+{ k for d in LoD for k in list ( d . keys ( ) ) } <NEWLINE>
+set ( [ i for s in [ list ( d . keys ( ) ) for d in LoD ] for i in s ] ) <NEWLINE>
+[ i for s in [ list ( d . keys ( ) ) for d in LoD ] for i in s ] <NEWLINE>
+keys , values = zip ( * list ( d . items ( ) ) ) <NEWLINE>
+int ( Decimal ( s ) ) <NEWLINE>
+numpy . in1d ( b , a ) . all ( ) <NEWLINE>
+numpy . array ( [ ( x in a ) for x in b ] ) <NEWLINE>
+networkx . draw_networkx_labels ( G , pos , labels ) <NEWLINE>
+y = [ row [ : ] for row in x ] <NEWLINE>
+X = numpy . loadtxt ( <STRING_LITERAL> , delimiter = <STRING_LITERAL> ) <NEWLINE>
+matching = [ s for s in some_list if <STRING_LITERAL> in s ] <NEWLINE>
+df . to_csv ( <STRING_LITERAL> , sep = <STRING_LITERAL> ) <NEWLINE>
+s . rsplit ( <STRING_LITERAL> , 1 ) <NEWLINE>
+all ( isinstance ( x , int ) for x in lst ) <NEWLINE>
+all ( isinstance ( x , int ) for x in lst ) <NEWLINE>
+line . strip ( ) <NEWLINE>
+driver . execute_script ( <STRING_LITERAL> ) <NEWLINE>
+driver . execute_script ( <STRING_LITERAL> ) <NEWLINE>
+datetime . datetime . combine ( dateobject , datetime . time ( ) ) <NEWLINE>
+print ( any ( x in a for x in b ) ) <NEWLINE>
+scipy . misc . imsave ( <STRING_LITERAL> , image_array ) <NEWLINE>
+item = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , item ) <NEWLINE>
+item = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , item ) <NEWLINE>
+item = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , item ) <NEWLINE>
+len ( set ( list1 ) . intersection ( list2 ) ) > 0 <NEWLINE>
+i = int ( s , 16 ) <NEWLINE>
+int ( <STRING_LITERAL> , 16 ) <NEWLINE>
+int ( <STRING_LITERAL> , 16 ) <NEWLINE>
+ast . literal_eval ( <STRING_LITERAL> ) <NEWLINE>
+int ( <STRING_LITERAL> , 16 ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+driver . set_window_size ( 1400 , 1000 ) <NEWLINE>
+unicodedata . normalize ( <STRING_LITERAL> , <STRING_LITERAL> ) . encode ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+pandas . concat ( [ df1 , df2 ] ) . drop_duplicates ( ) . reset_index ( drop = True ) <NEWLINE>
+a = numpy . fromfile ( <STRING_LITERAL> , dtype = numpy . float32 ) <NEWLINE>
+subprocess . call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+print ( <STRING_LITERAL> . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+difflib . SequenceMatcher ( None , file1 . read ( ) , file2 . read ( ) ) <NEWLINE>
+dict ( ( k , int ( v ) ) for k , v in ( e . split ( <STRING_LITERAL> ) for e in s . split ( <STRING_LITERAL> ) ) ) <NEWLINE>
+all ( i in ( 1 , 2 , 3 , 4 , 5 ) for i in ( 1 , 6 ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] . map ( lambda t : t . date ( ) ) . unique ( ) <NEWLINE>
+<STRING_LITERAL> . format ( mystring ) <NEWLINE>
+open ( <STRING_LITERAL> , <STRING_LITERAL> ) . read ( 200 ) <NEWLINE>
+df . sort_values ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , ascending = [ True , False ] , inplace = True ) <NEWLINE>
+df . sort_values ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , ascending = [ True , False ] ) <NEWLINE>
+df1 . sort ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , ascending = [ True , False ] , inplace = True ) <NEWLINE>
+df . sort ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , ascending = [ True , False ] ) <NEWLINE>
+redirect ( <STRING_LITERAL> ) <NEWLINE>
+[ x for x in a if x not in [ 2 , 3 , 7 ] ] <NEWLINE>
+out = <STRING_LITERAL> . join ( c for c in asking if c not in ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+soup . find ( <STRING_LITERAL> , { <STRING_LITERAL> : <STRING_LITERAL> } ) [ <STRING_LITERAL> ] <NEWLINE>
+urllib . parse . unquote ( <STRING_LITERAL> ) <NEWLINE>
+urllib . parse . unquote ( url ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+del lst [ : ] <NEWLINE>
+del lst1 [ : ] <NEWLINE>
+lst [ : ] = [ ] <NEWLINE>
+alist [ : ] = [ ] <NEWLINE>
+s . reset_index ( 0 ) . reset_index ( drop = True ) <NEWLINE>
+elems [ 0 ] . getText ( ) . encode ( <STRING_LITERAL> ) <NEWLINE>
+[ ( y - x ) for x , y in zip ( L , L [ 1 : ] ) ] <NEWLINE>
+print ( re . search ( <STRING_LITERAL> , line ) . group ( 1 ) ) <NEWLINE>
+globals ( ) . update ( importlib . import_module ( <STRING_LITERAL> ) . __dict__ ) <NEWLINE>
+<STRING_LITERAL> . join ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+url . split ( <STRING_LITERAL> ) <NEWLINE>
+od = collections . OrderedDict ( sorted ( d . items ( ) ) ) <NEWLINE>
+OrderedDict ( sorted ( list ( d . items ( ) ) , key = ( lambda t : t [ 0 ] ) ) ) <NEWLINE>
+response = requests . put ( url , data = json . dumps ( data ) , headers = headers ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+[ ( x + y ) for x in l2 for y in l1 ] <NEWLINE>
+dict ( [ x . split ( <STRING_LITERAL> ) for x in s . split ( ) ] ) <NEWLINE>
+my_list . pop ( 2 ) <NEWLINE>
+s = s . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+sum ( x * y for x , y in zip ( a , b ) ) <NEWLINE>
+list ( x * y for x , y in list ( zip ( a , b ) ) ) <NEWLINE>
+sum ( i * j for i , j in zip ( a , b ) ) <NEWLINE>
+sum ( x * y for x , y in list ( zip ( a , b ) ) ) <NEWLINE>
+f . write ( open ( <STRING_LITERAL> , <STRING_LITERAL> ) . read ( ) ) <NEWLINE>
+new_list = [ ( x + 1 ) for x in my_list ] <NEWLINE>
+[ x for x in j if x >= 5 ] <NEWLINE>
+plt . plot ( list ( range ( 10 ) ) , <STRING_LITERAL> ) <NEWLINE>
+plt . plot ( list ( range ( 10 ) ) , linestyle = <STRING_LITERAL> , marker = <STRING_LITERAL> , color = <STRING_LITERAL> ) <NEWLINE>
+[ i . split ( <STRING_LITERAL> , 1 ) [ 0 ] for i in l ] <NEWLINE>
+myList = [ i . split ( <STRING_LITERAL> ) [ 0 ] for i in myList ] <NEWLINE>
+sum ( your_list ) <NEWLINE>
+ForkedPdb ( ) . set_trace ( ) <NEWLINE>
+result = { k : d2 . get ( v ) for k , v in list ( d1 . items ( ) ) } <NEWLINE>
+datetime . datetime . now ( ) + datetime . timedelta ( days = 1 , hours = 3 ) <NEWLINE>
+dict ( ( v , k ) for k , v in my_dict . items ( ) ) <NEWLINE>
+print ( sorted ( L , key = lambda x : int ( x . split ( <STRING_LITERAL> ) [ 2 ] ) ) ) <NEWLINE>
+any ( d [ <STRING_LITERAL> ] == <STRING_LITERAL> for d in label ) <NEWLINE>
+a [ : ] = [ x for x in a if x != [ 1 , 1 ] ] <NEWLINE>
+[ x for x in a if x != [ 1 , 1 ] ] <NEWLINE>
+b = { a [ i ] : a [ i + 1 ] for i in range ( 0 , len ( a ) , 2 ) } <NEWLINE>
+len ( set ( a ) ) == len ( a ) <NEWLINE>
+print ( hashlib . md5 ( open ( full_path , <STRING_LITERAL> ) . read ( ) ) . hexdigest ( ) ) <NEWLINE>
+<STRING_LITERAL> . join ( x . upper ( ) if random . randint ( 0 , 1 ) else x for x in s ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+getattr ( test , a_string ) <NEWLINE>
+Image . open ( <STRING_LITERAL> ) . show ( ) <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+files . sort ( key = file_number ) <NEWLINE>
+sentence . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+pattern = re . compile ( <STRING_LITERAL> ) <NEWLINE> sentence = re . sub ( pattern , <STRING_LITERAL> , sentence ) <NEWLINE>
+sentence . strip ( ) <NEWLINE>
+sentence = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , sentence , flags = re . UNICODE ) <NEWLINE>
+sentence = <STRING_LITERAL> . join ( sentence . split ( ) ) <NEWLINE>
+sum ( my_counter . values ( ) ) <NEWLINE>
+np . sqrt ( ( ( A - B ) ** 2 ) . sum ( - 1 ) ) <NEWLINE>
+levels = [ { } , { } , { } ] <NEWLINE>
+weekly = [ sum ( visitors [ x : x + 7 ] ) for x in range ( 0 , len ( daily ) , 7 ) ] <NEWLINE>
+del d [ key ] <NEWLINE>
+{ i : a [ i ] for i in a if ( i != 0 ) } <NEWLINE>
+lol . pop ( <STRING_LITERAL> ) <NEWLINE>
+del r [ key ] <NEWLINE>
+np . linalg . solve ( np . dot ( a . T , a ) , np . dot ( a . T , b ) ) <NEWLINE>
+pd . concat ( [ df . drop ( <STRING_LITERAL> , axis = 1 ) , pd . DataFrame ( df [ <STRING_LITERAL> ] . tolist ( ) ) ] , axis = 1 ) <NEWLINE>
+for i in range ( 0 , 10 , 2 ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for i in mylist [ : : 2 ] : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+[ { <STRING_LITERAL> : x [ <STRING_LITERAL> ] . lower ( ) } for x in messages ] <NEWLINE>
+<STRING_LITERAL> . join ( my_list ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , a ) <NEWLINE>
+str ( n ) == str ( n ) [ : : - 1 ] <NEWLINE>
+ftp . storbinary ( <STRING_LITERAL> , open ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , stri ) <NEWLINE>
+int ( <STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+pd . merge ( df1 , df2 , left_index = True , right_index = True , how = <STRING_LITERAL> ) <NEWLINE>
+all ( dict . values ( ) ) <NEWLINE>
+df . c_contofficeID . str . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+L [ : : ( - 1 ) ] <NEWLINE>
+reversed ( array ) <NEWLINE>
+L . reverse ( ) <NEWLINE>
+list ( reversed ( array ) ) <NEWLINE>
+[ tup [ 0 ] for tup in A ] <NEWLINE>
+newcontents = contents . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+json . dumps ( [ dict ( list ( row . items ( ) ) ) for row in rs ] ) <NEWLINE>
+config_file = os . path . expanduser ( <STRING_LITERAL> ) <NEWLINE>
+request . params . getall ( <STRING_LITERAL> ) <NEWLINE>
+np . corrcoef ( x ) <NEWLINE>
+print ( max ( 1 , 2 , 3 ) ) <NEWLINE>
+self . request . get ( <STRING_LITERAL> ) <NEWLINE>
+a [ <STRING_LITERAL> ] . apply ( lambda x , y : x + y , args = ( 100 , ) ) <NEWLINE>
+User . objects . order_by ( <STRING_LITERAL> ) [ : 10 ] <NEWLINE>
+time . sleep ( 5 ) <NEWLINE>
+time . sleep ( 60 ) <NEWLINE>
+sleep ( 0.1 ) <NEWLINE>
+time . sleep ( 60 ) <NEWLINE>
+time . sleep ( 0.1 ) <NEWLINE>
+[ x for x in my_list if not any ( c . isdigit ( ) for c in x ) ] <NEWLINE>
+df [ <STRING_LITERAL> ] . apply ( lambda x : x [ len ( x ) / 2 - 1 : len ( x ) / 2 + 1 ] ) <NEWLINE>
+plt . grid ( True ) <NEWLINE>
+sorted ( lst , key = lambda x : ( - 1 * c [ x ] , lst . index ( x ) ) ) <NEWLINE>
+[ max ( len ( str ( x ) ) for x in line ) for line in zip ( * foo ) ] <NEWLINE>
+df . Country . value_counts ( ) . reset_index ( name = <STRING_LITERAL> ) <NEWLINE>
+data . set_index ( <STRING_LITERAL> ) . diff ( ) <NEWLINE>
+a . update ( [ 3 , 4 ] ) <NEWLINE>
+a [ 1 : : 2 ] = - 1 <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) [ <STRING_LITERAL> ] . rank ( ascending = False ) <NEWLINE>
+datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+struct . pack ( <STRING_LITERAL> , 1633837924 ) <NEWLINE>
+list . append ( <STRING_LITERAL> ) <NEWLINE>
+list . insert ( 0 , <STRING_LITERAL> ) <NEWLINE>
+theset = set ( k . lower ( ) for k in thedict ) <NEWLINE>
+<STRING_LITERAL> . format ( s = <STRING_LITERAL> , n = 5 , c = <STRING_LITERAL> ) <NEWLINE>
+isinstance ( s , str ) <NEWLINE>
+isinstance ( s , str ) <NEWLINE>
+dict ( pair for d in L for pair in list ( d . items ( ) ) ) <NEWLINE>
+{ k : v for d in L for k , v in list ( d . items ( ) ) } <NEWLINE>
+df . sort_values ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , ascending = [ True , False ] , inplace = True ) <NEWLINE>
+df . sort ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , ascending = [ True , False ] , inplace = True ) <NEWLINE>
+eval ( <STRING_LITERAL> ) <NEWLINE>
+[ { <STRING_LITERAL> : 1 , <STRING_LITERAL> : 4 , <STRING_LITERAL> : 2 , <STRING_LITERAL> : 4 } , { <STRING_LITERAL> : 1 , <STRING_LITERAL> : 4 , <STRING_LITERAL> : 1 , <STRING_LITERAL> : 5 } ] <NEWLINE>
+list ( itertools . product ( * a ) ) <NEWLINE>
+df . groupby ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) [ [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ] . sum ( ) <NEWLINE>
+done = [ ( el , x ) for el in [ a , b , c , d ] ] <NEWLINE>
+x = x [ numpy . logical_not ( numpy . isnan ( x ) ) ] <NEWLINE>
+os . path . join ( * x . split ( os . path . sep ) [ 2 : ] ) <NEWLINE>
+line = line . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+subprocess . call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+<STRING_LITERAL> . decode ( <STRING_LITERAL> ) <NEWLINE>
+[ k for k , v in User . _fields . items ( ) if v . required ] <NEWLINE>
+df = df . ix [ : , 0 : 2 ] <NEWLINE>
+x = map ( int , x . split ( ) ) <NEWLINE>
+x = [ int ( i ) for i in x . split ( ) ] <NEWLINE>
+driver . find_element_by_css_selector ( <STRING_LITERAL> ) <NEWLINE>
+webbrowser . open ( <STRING_LITERAL> ) <NEWLINE>
+result = result . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+result . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+df . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+datetime . datetime . now ( ) . date ( ) <NEWLINE>
+[ elem . tag for elem in a . iter ( ) ] <NEWLINE>
+[ elem . tag for elem in a . iter ( ) if elem is not a ] <NEWLINE>
+sorted ( lst , key = lambda x : x [ <STRING_LITERAL> ] != <STRING_LITERAL> ) <NEWLINE>
+all ( value == 0 for value in list ( your_dict . values ( ) ) ) <NEWLINE>
+df . pivot_table ( <STRING_LITERAL> , rows = <STRING_LITERAL> , cols = <STRING_LITERAL> ) <NEWLINE>
+try : <NEWLINE> <INDENT> doSomething ( ) <NEWLINE> <DEDENT> except : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+try : <NEWLINE> <INDENT> doSomething ( ) <NEWLINE> <DEDENT> except Exception : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+M . sum ( axis = 0 ) . sum ( axis = 0 ) <NEWLINE>
+time . mktime ( dt . timetuple ( ) ) + dt . microsecond / 1000000.0 <NEWLINE>
+df [ ( x <= df [ <STRING_LITERAL> ] ) & ( df [ <STRING_LITERAL> ] <= y ) ] <NEWLINE>
+sorted ( L , key = itemgetter ( 2 ) ) <NEWLINE>
+l . sort ( key = ( lambda x : x [ 2 ] ) ) <NEWLINE>
+sorted ( l , key = ( lambda x : x [ 2 ] ) ) <NEWLINE>
+sorted_list = sorted ( list_to_sort , key = itemgetter ( 2 , 0 , 1 ) ) <NEWLINE>
+np . argwhere ( np . all ( arr == [ [ 0 , 3 ] , [ 3 , 0 ] ] , axis = ( 1 , 2 ) ) ) <NEWLINE>
+data . loc [ : , ( list ( itertools . product ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , [ <STRING_LITERAL> , <STRING_LITERAL> ] ) ) ) ] <NEWLINE>
+data . loc [ : , ( [ ( <STRING_LITERAL> , <STRING_LITERAL> ) , ( <STRING_LITERAL> , <STRING_LITERAL> ) , ( <STRING_LITERAL> , <STRING_LITERAL> ) , ( <STRING_LITERAL> , <STRING_LITERAL> ) ] ) ] <NEWLINE>
+hashtags = re . findall ( <STRING_LITERAL> , str1 , re . UNICODE ) <NEWLINE>
+os . rename ( src , dst ) <NEWLINE>
+print ( etree . tostring ( some_tag . find ( <STRING_LITERAL> ) ) ) <NEWLINE>
+json . dumps ( { str ( k ) : v for k , v in data . items ( ) } ) <NEWLINE>
+soup = BeautifulSoup ( response . read ( ) . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+os . remove ( filename ) <NEWLINE>
+min ( [ x for x in num_list if x > 2 ] ) <NEWLINE>
+df [ <STRING_LITERAL> ] = <STRING_LITERAL> <NEWLINE>
+sorted ( lst , key = lambda x : ( x < 0 , x ) ) <NEWLINE>
+six_months = ( date . today ( ) + relativedelta ( months = ( + 6 ) ) ) <NEWLINE>
+( date ( 2010 , 12 , 31 ) + relativedelta ( months = ( + 1 ) ) ) <NEWLINE>
+( date ( 2010 , 12 , 31 ) + relativedelta ( months = ( + 2 ) ) ) <NEWLINE>
+print ( ( datetime . date . today ( ) + datetime . timedelta ( ( ( 6 * 365 ) / 12 ) ) ) . isoformat ( ) ) <NEWLINE>
+sorted ( list ( things . keys ( ) ) , key = lambda x : things [ x ] [ <STRING_LITERAL> ] , reverse = True ) <NEWLINE>
+a [ np . arange ( len ( a ) ) != 3 ] <NEWLINE>
+[ x for x in lst if fn ( x ) != 0 ] <NEWLINE>
+df . set_index ( <STRING_LITERAL> ) <NEWLINE>
+arr = [ line . split ( <STRING_LITERAL> ) for line in open ( <STRING_LITERAL> ) ] <NEWLINE>
+[ i for i in range ( 100 ) if i > 10 if i < 20 ] <NEWLINE>
+<STRING_LITERAL> . join ( [ c for c in strs if c . isdigit ( ) ] ) <NEWLINE>
+re . split ( <STRING_LITERAL> , yas . rstrip ( <STRING_LITERAL> ) ) <NEWLINE>
+( a . T * b ) . T <NEWLINE>
+<STRING_LITERAL> . rstrip ( ) <NEWLINE>
+<STRING_LITERAL> . rstrip ( <STRING_LITERAL> ) <NEWLINE>
+s . strip ( ) <NEWLINE>
+s . rstrip ( ) <NEWLINE>
+s . lstrip ( ) <NEWLINE>
+<STRING_LITERAL> . rstrip ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . rstrip ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . rstrip ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . rstrip ( <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , text ) <NEWLINE>
+[ [ X [ i ] [ j ] for j in range ( len ( X [ i ] ) ) ] for i in range ( len ( X ) ) ] <NEWLINE>
+<STRING_LITERAL> . encode ( <STRING_LITERAL> ) <NEWLINE>
+df . groupby ( ( df . a == <STRING_LITERAL> ) . shift ( 1 ) . fillna ( 0 ) . cumsum ( ) ) <NEWLINE>
+urllib . request . urlretrieve ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+numpy . where ( ( x == 0 ) ) [ 0 ] <NEWLINE>
+sys . stdout . flush ( ) <NEWLINE>
+str ( i ) <NEWLINE>
+a . __str__ ( ) <NEWLINE>
+str ( a ) <NEWLINE>
+L . sort ( key = operator . itemgetter ( 1 ) ) <NEWLINE>
+print ( str ( count ) + <STRING_LITERAL> + str ( conv ) ) <NEWLINE>
+df . fillna ( method = <STRING_LITERAL> , inplace = True ) <NEWLINE>
+text . config ( state = DISABLED ) <NEWLINE>
+sum ( map ( ord , string ) ) <NEWLINE>
+list ( itertools . product ( * arrays ) ) <NEWLINE>
+<STRING_LITERAL> . format ( value ) <NEWLINE>
+locale . setlocale ( locale . LC_ALL , <STRING_LITERAL> ) <NEWLINE> locale . format ( <STRING_LITERAL> , 1255000 , grouping = True ) <NEWLINE>
+df [ df . Col1 . isin ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) ] <NEWLINE>
+[ x [ 1 ] for x in L ] <NEWLINE>
+<STRING_LITERAL> . split ( ) <NEWLINE>
+MyModel . objects . extra ( select = { <STRING_LITERAL> : <STRING_LITERAL> } ) . order_by ( <STRING_LITERAL> ) <NEWLINE>
+min ( dicts , key = lambda x : ( abs ( 1.77672955975 - x [ <STRING_LITERAL> ] ) , - x [ <STRING_LITERAL> ] ) ) <NEWLINE>
+m [ ~ m . mask ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , formula ) <NEWLINE>
+matrix = [ ( [ 0 ] * 5 ) for i in range ( 5 ) ] <NEWLINE>
+np . vstack ( np . meshgrid ( x_p , y_p , z_p ) ) . reshape ( 3 , - 1 ) . T <NEWLINE>
+arr [ arr != 0 ] . min ( ) <NEWLINE>
+browser . find_elements_by_xpath ( <STRING_LITERAL> ) . text <NEWLINE>
+browser . find_elements_by_xpath ( <STRING_LITERAL> ) . get_attribute ( <STRING_LITERAL> ) <NEWLINE>
+with open ( <STRING_LITERAL> , <STRING_LITERAL> ) as stream : <NEWLINE> <INDENT> try : <NEWLINE> <INDENT> print ( ( yaml . load ( stream ) ) ) <NEWLINE> <DEDENT> except yaml . YAMLError as exc : <NEWLINE> <INDENT> print ( exc ) <NEWLINE> <DEDENT> <DEDENT>
+with open ( <STRING_LITERAL> ) as stream : <NEWLINE> <INDENT> try : <NEWLINE> <INDENT> print ( ( yaml . load ( stream ) ) ) <NEWLINE> <DEDENT> except yaml . YAMLError as exc : <NEWLINE> <INDENT> print ( exc ) <NEWLINE> <DEDENT> <DEDENT>
+pd . DataFrame ( df . columns [ np . argsort ( df . values ) ] , df . index , np . unique ( df . values ) ) <NEWLINE>
+datetime . datetime . today ( ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+urllib . parse . quote_plus ( <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( sorted ( d , key = lambda k : len ( d [ k ] ) , reverse = True ) ) ) <NEWLINE>
+map ( list , zip ( * [ ( 1 , 2 ) , ( 3 , 4 ) , ( 5 , 6 ) ] ) ) <NEWLINE>
+[ ( x , y ) for x , y in zip ( myList , myList [ 1 : ] ) if y == 9 ] <NEWLINE>
+driver . get ( <STRING_LITERAL> ) <NEWLINE>
+b = a . decode ( <STRING_LITERAL> ) [ : : - 1 ] . encode ( <STRING_LITERAL> ) <NEWLINE>
+dparser . parse ( <STRING_LITERAL> , fuzzy = True ) <NEWLINE>
+dparser . parse ( <STRING_LITERAL> , fuzzy = True ) <NEWLINE>
+dparser . parse ( <STRING_LITERAL> , fuzzy = True ) <NEWLINE>
+dict ( map ( lambda s : s . split ( <STRING_LITERAL> ) , [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) ) <NEWLINE>
+re . search ( <STRING_LITERAL> , the_string ) <NEWLINE>
+DataFrame ( { <STRING_LITERAL> : df1 . groupby ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . size ( ) } ) . reset_index ( ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+[ y for y in a if y not in b ] <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) . head ( 4 ) <NEWLINE>
+zip ( * l ) <NEWLINE>
+dict ( zip ( [ 1 , 2 , 3 , 4 ] , [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) ) <NEWLINE>
+dict ( zip ( [ 1 , 2 , 3 , 4 ] , [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) ) <NEWLINE>
+request . url <NEWLINE>
+somestring . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+simplejson . dumps ( dict ( [ ( <STRING_LITERAL> % k , v ) for k , v in list ( d . items ( ) ) ] ) ) <NEWLINE>
+datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+parser . parse ( <STRING_LITERAL> ) <NEWLINE>
+os . path . split ( os . path . abspath ( existGDBPath ) ) <NEWLINE>
+os . path . dirname ( os . path . abspath ( existGDBPath ) ) <NEWLINE>
+requests . post ( <STRING_LITERAL> , json = { <STRING_LITERAL> : <STRING_LITERAL> } ) <NEWLINE>
+a = [ x for x in a if x [ <STRING_LITERAL> ] not in b ] <NEWLINE>
+{ { request . args . get ( <STRING_LITERAL> ) } } <NEWLINE>
+list ( range ( 11 , 17 ) ) <NEWLINE>
+data_df [ <STRING_LITERAL> ] = data_df [ <STRING_LITERAL> ] . astype ( float ) . astype ( int ) <NEWLINE>
+max ( alkaline_earth_values , key = lambda x : x [ 1 ] ) <NEWLINE>
+your_string . strip ( <STRING_LITERAL> ) <NEWLINE>
+list ( permutations ( list ( range ( 9 ) ) , 2 ) ) <NEWLINE>
+re . compile ( <STRING_LITERAL> , re . MULTILINE ) <NEWLINE>
+re . compile ( <STRING_LITERAL> , re . MULTILINE ) <NEWLINE>
+call ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+a . sort ( key = operator . itemgetter ( 2 , 3 ) ) <NEWLINE>
+final_choices = ( ( another_choice , ) + my_choices ) <NEWLINE>
+final_choices = ( ( another_choice , ) + my_choices ) <NEWLINE>
+os . getcwd ( ) <NEWLINE>
+os . path . realpath ( __file__ ) <NEWLINE>
+os . path . dirname ( path ) <NEWLINE>
+os . path . realpath ( path ) <NEWLINE>
+dir_path = os . path . dirname ( os . path . realpath ( __file__ ) ) <NEWLINE>
+cwd = os . getcwd ( ) <NEWLINE>
+full_path = os . path . realpath ( __file__ ) <NEWLINE>
+arr [ arr [ : , ( 2 ) ] . argsort ( ) ] <NEWLINE>
+numpy . sort ( arr , axis = 0 ) <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+shutil . copy ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( choice ( ascii_uppercase ) for i in range ( 12 ) ) ) <NEWLINE>
+[ <STRING_LITERAL> . join ( seq ) for seq in zip ( lst , lst [ 1 : ] ) ] <NEWLINE>
+data . rename ( columns = { <STRING_LITERAL> : <STRING_LITERAL> } , inplace = True ) <NEWLINE>
+print ( soup . get_text ( ) ) <NEWLINE>
+sorted ( li , key = operator . itemgetter ( 1 ) , reverse = True ) <NEWLINE>
+data [ <STRING_LITERAL> ] . replace ( [ 0 , 1 ] , [ <STRING_LITERAL> , <STRING_LITERAL> ] , inplace = True ) <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . match ( <STRING_LITERAL> , phrase ) . group ( 1 ) <NEWLINE>
+print ( [ a for a , b in re . findall ( <STRING_LITERAL> , s ) ] ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( OrderedDict . fromkeys ( s ) ) ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( set ( s ) ) ) <NEWLINE>
+[ x for x in file . namelist ( ) if x . endswith ( <STRING_LITERAL> ) ] <NEWLINE>
+input_string . count ( <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( [ item [ 0 ] for item in data ] ) ) <NEWLINE>
+fh1 . seek ( 2 ) <NEWLINE>
+print ( zip ( my_list [ 0 : : 2 ] , my_list [ 1 : : 2 ] ) ) <NEWLINE>
+my_new_list = zip ( my_list [ 0 : : 2 ] , my_list [ 1 : : 2 ] ) <NEWLINE>
+sys . setdefaultencoding ( <STRING_LITERAL> ) <NEWLINE>
+datetime . datetime . now ( ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+print ( re . findall ( <STRING_LITERAL> , my_string ) ) <NEWLINE>
+df . groupby ( df . index . map ( lambda t : t . minute ) ) <NEWLINE>
+dict [ <STRING_LITERAL> ] [ <STRING_LITERAL> ] <NEWLINE>
+df2 . dropna ( subset = [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] , how = <STRING_LITERAL> ) <NEWLINE>
+a . insert ( 0 , k ) <NEWLINE>
+a = a [ : n ] + k + a [ n : ] <NEWLINE>
+np . flatnonzero ( x ) . mean ( ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] . dt . date <NEWLINE>
+[ x for x in a if x not in b ] <NEWLINE>
+[ <STRING_LITERAL> . join ( x ) for x in a ] <NEWLINE>
+list ( map ( <STRING_LITERAL> . join , a ) ) <NEWLINE>
+re . split ( <STRING_LITERAL> , s ) <NEWLINE>
+from functools import reduce <NEWLINE> reduce ( lambda x , y : 10 * x + y , [ 1 , 2 , 3 , 4 , 5 ] ) <NEWLINE>
+<STRING_LITERAL> . format ( 24322.34 ) <NEWLINE>
+my_function ( ** data ) <NEWLINE>
+sum ( ( 1 for line in open ( <STRING_LITERAL> ) ) ) <NEWLINE>
+def bufcount ( filename ) : <NEWLINE> <INDENT> f = open ( filename ) <NEWLINE> lines = 0 <NEWLINE> buf_size = ( 1024 * 1024 ) <NEWLINE> read_f = f . read <NEWLINE> buf = read_f ( buf_size ) <NEWLINE> while buf : <NEWLINE> <INDENT> lines += buf . count ( <STRING_LITERAL> ) <NEWLINE> buf = read_f ( buf_size ) <NEWLINE> <DEDENT> return lines <NEWLINE> <DEDENT>
+print ( round ( 1123.456789 , - 1 ) ) <NEWLINE>
+[ x for y , x in sorted ( zip ( Y , X ) ) ] <NEWLINE>
+[ x for y , x in sorted ( zip ( Y , X ) ) ] <NEWLINE>
+datetime . date ( 2010 , 6 , 16 ) . isocalendar ( ) [ 1 ] <NEWLINE>
+df . iloc [ : , ( np . r_ [ 1 : 10 , ( 15 ) , ( 17 ) , 50 : 100 ] ) ] <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) . agg ( { <STRING_LITERAL> : [ np . mean , np . sum ] } ) <NEWLINE>
+s . lower ( ) <NEWLINE>
+s . decode ( <STRING_LITERAL> ) . lower ( ) <NEWLINE>
+urlfetch . fetch ( url , deadline = 10 * 60 ) <NEWLINE>
+print ( my_string [ 0 : 100 ] ) <NEWLINE>
+legend ( numpoints = 1 ) <NEWLINE>
+dict ( ( x , set ( y ) & set ( d1 . get ( x , ( ) ) ) ) for x , y in d2 . items ( ) ) <NEWLINE>
+numpy . loadtxt ( open ( <STRING_LITERAL> , <STRING_LITERAL> ) , delimiter = <STRING_LITERAL> , skiprows = 1 ) <NEWLINE>
+Sample . objects . filter ( date__range = [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+Sample . objects . filter ( date__year = <STRING_LITERAL> , date__month = <STRING_LITERAL> ) <NEWLINE>
+d [ <STRING_LITERAL> ] = { <STRING_LITERAL> : 5 , <STRING_LITERAL> : 6 } <NEWLINE>
+numpy . apply_along_axis ( numpy . linalg . norm , 1 , a ) <NEWLINE>
+dict ( ( k , v ) for d in dicts for k , v in list ( d . items ( ) ) ) <NEWLINE>
+print ( <STRING_LITERAL> . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+sum ( [ True , True , False , False , False , True ] ) <NEWLINE>
+fig . set_size_inches ( w , h , forward = True ) <NEWLINE>
+<STRING_LITERAL> % { <STRING_LITERAL> : <STRING_LITERAL> } <NEWLINE>
+map ( int , example_string . split ( <STRING_LITERAL> ) ) <NEWLINE>
+[ int ( s ) for s in example_string . split ( <STRING_LITERAL> ) ] <NEWLINE>
+x = [ i [ 0 ] for i in x ] <NEWLINE>
+y = map ( operator . itemgetter ( 0 ) , x ) <NEWLINE>
+y = [ i [ 0 ] for i in x ] <NEWLINE>
+results = [ item [ <STRING_LITERAL> ] for item in test_data ] <NEWLINE>
+datetime . datetime . now ( ) . isoformat ( ) <NEWLINE>
+datetime . datetime . utcnow ( ) . isoformat ( ) <NEWLINE>
+df . apply ( <STRING_LITERAL> . join , axis = 0 ) <NEWLINE>
+pd . DataFrame ( df . values - df2 . values , columns = df . columns ) <NEWLINE>
+print ( open ( <STRING_LITERAL> , <STRING_LITERAL> ) . read ( ) ) <NEWLINE>
+print ( line . decode ( <STRING_LITERAL> ) . split ( ) ) <NEWLINE>
+file = io . open ( <STRING_LITERAL> , <STRING_LITERAL> , encoding = <STRING_LITERAL> ) <NEWLINE>
+s1 = pd . merge ( df1 , df2 , how = <STRING_LITERAL> , on = [ <STRING_LITERAL> ] ) <NEWLINE>
+foo . decode ( <STRING_LITERAL> ) . encode ( <STRING_LITERAL> ) <NEWLINE>
+a . shape <NEWLINE>
+N . shape ( a ) <NEWLINE>
+N . shape ( a ) <NEWLINE>
+a . shape <NEWLINE>
+[ i for i , v in enumerate ( L ) if v [ 0 ] == 53 ] <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , <STRING_LITERAL> ) [ 0 ] <NEWLINE>
+arr [ [ 0 , 1 , 1 ] , [ 1 , 0 , 2 ] ] <NEWLINE>
+list ( powerset ( <STRING_LITERAL> ) ) <NEWLINE>
+s in [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] <NEWLINE>
+urllib . parse . quote ( <STRING_LITERAL> ) <NEWLINE>
+plt . savefig ( <STRING_LITERAL> ) <NEWLINE>
+len ( myArray ) <NEWLINE>
+sys . path . insert ( 0 , <STRING_LITERAL> ) <NEWLINE>
+cursor . execute ( <STRING_LITERAL> ) <NEWLINE>
+re . match ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . match ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+int ( <STRING_LITERAL> , 16 ) <NEWLINE>
+int ( <STRING_LITERAL> , 16 ) <NEWLINE>
+int ( <STRING_LITERAL> , 16 ) <NEWLINE>
+int ( s , 16 ) <NEWLINE>
+int ( hexString , 16 ) <NEWLINE>
+print ( <STRING_LITERAL> + str ( value ) + <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( value ) ) <NEWLINE>
+{ { tags | join ( <STRING_LITERAL> ) } } <NEWLINE>
+help ( <STRING_LITERAL> ) <NEWLINE>
+[ [ [ x [ 0 ] ] for x in listD [ i ] ] for i in range ( len ( listD ) ) ] <NEWLINE>
+sorted ( s , key = str . upper ) <NEWLINE>
+sorted ( sorted ( s ) , key = str . upper ) <NEWLINE>
+sorted ( s , key = str . lower ) <NEWLINE>
+pd . merge ( df1 , df2 , on = [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] , how = <STRING_LITERAL> ) <NEWLINE>
+dict ( ( v , k ) for k , v in map . items ( ) ) <NEWLINE>
+s . decode ( <STRING_LITERAL> ) <NEWLINE>
+[ int ( i ) for i in str_list ] <NEWLINE>
+map ( int , [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+list ( map ( int , [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) ) <NEWLINE>
+soup . find_all ( <STRING_LITERAL> , href = re . compile ( <STRING_LITERAL> ) ) <NEWLINE>
+soup . find_all ( <STRING_LITERAL> , href = re . compile ( <STRING_LITERAL> ) ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+cursor . execute ( <STRING_LITERAL> , ( value , ) ) <NEWLINE>
+if url . endswith ( <STRING_LITERAL> ) : <NEWLINE> <INDENT> url = url [ : ( - 4 ) ] <NEWLINE> <DEDENT>
+url = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , url ) <NEWLINE>
+print ( url . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+if ( not text . endswith ( suffix ) ) : <NEWLINE> <INDENT> return text <NEWLINE> <DEDENT> return text [ : ( len ( text ) - len ( suffix ) ) ] <NEWLINE>
+print ( <STRING_LITERAL> . join ( [ str ( i [ 0 ] ) for i in mytuple ] ) ) <NEWLINE>
+max ( min ( my_value , max_value ) , min_value ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , text , re . UNICODE ) <NEWLINE>
+result = db . engine . execute ( <STRING_LITERAL> ) <NEWLINE>
+sys . exit ( 0 ) <NEWLINE>
+<STRING_LITERAL> . join ( c for c in my_string if c . isdigit ( ) ) <NEWLINE>
+re . split ( <STRING_LITERAL> , str1 ) <NEWLINE>
+getattr ( getattr ( myobject , <STRING_LITERAL> , None ) , <STRING_LITERAL> , None ) <NEWLINE>
+{ i : ( i * 2 ) for i in range ( 10 ) } <NEWLINE>
+dict ( ( i , i * 2 ) for i in range ( 10 ) ) <NEWLINE>
+plt . cla ( ) <NEWLINE>
+total = sum ( float ( item ) for item in s . split ( <STRING_LITERAL> ) ) <NEWLINE>
+bin ( ord ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( my_string . split ( <STRING_LITERAL> , 1 ) [ 1 ] ) <NEWLINE>
+print ( data [ <STRING_LITERAL> ] [ 0 ] [ <STRING_LITERAL> ] ) <NEWLINE>
+word = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , word ) <NEWLINE>
+json . loads ( <STRING_LITERAL> ) [ <STRING_LITERAL> ] <NEWLINE>
+data = json . loads ( array ) <NEWLINE>
+data = json . loads ( array ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+any ( e in lestring for e in lelist ) <NEWLINE>
+parsed_html = BeautifulSoup ( html ) <NEWLINE> print ( parsed_html . body . find ( <STRING_LITERAL> , attrs = { <STRING_LITERAL> : <STRING_LITERAL> , } ) . text ) <NEWLINE>
+page = urllib . request . urlopen ( <STRING_LITERAL> ) <NEWLINE> soup = BeautifulSoup ( page ) <NEWLINE>
+plt . figure ( figsize = ( 3 , 4 ) ) <NEWLINE>
+s . translate ( None , string . punctuation ) <NEWLINE>
+base64 . urlsafe_b64decode ( uenc . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+len ( dict_test ) + sum ( len ( v ) for v in dict_test . values ( ) ) <NEWLINE>
+hex ( d ) . split ( <STRING_LITERAL> ) [ 1 ] <NEWLINE>
+list ( str ( 123 ) ) <NEWLINE>
+[ int ( x ) for x in str ( num ) ] <NEWLINE>
+br . select_form ( nr = 0 ) <NEWLINE>
+json . load ( codecs . open ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+json . loads ( open ( <STRING_LITERAL> ) . read ( ) . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+server = smtplib . SMTP ( <STRING_LITERAL> , 587 ) <NEWLINE>
+int ( <STRING_LITERAL> . format ( n ) [ : : - 1 ] , 2 ) <NEWLINE>
+df . set_index ( [ <STRING_LITERAL> ] , append = True ) <NEWLINE>
+for ( key , value ) in d . items ( ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for ( key , value ) in list ( d . items ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for ( letter , number ) in list ( d . items ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for ( k , v ) in list ( d . items ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+list ( d . items ( ) ) <NEWLINE>
+list ( d . items ( ) ) <NEWLINE>
+for ( k , v ) in list ( d . items ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for ( letter , number ) in list ( d . items ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for ( letter , number ) in list ( d . items ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+session . query ( Task ) . filter ( Task . time_spent > timedelta ( hours = 3 ) ) . all ( ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+max ( list ( MyCount . keys ( ) ) , key = int ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+my_function . __name__ <NEWLINE>
+np . all ( a == a [ ( 0 ) , : ] , axis = 0 ) <NEWLINE>
+sorted ( a , key = lambda x : ( sum ( x [ 1 : 3 ] ) , x [ 0 ] ) ) <NEWLINE>
+sorted ( a , key = lambda x : ( sum ( x [ 1 : 3 ] ) , x [ 0 ] ) , reverse = True ) <NEWLINE>
+sorted ( lst , key = lambda x : ( sum ( x [ 1 : ] ) , x [ 0 ] ) ) <NEWLINE>
+sorted ( lst , key = lambda x : ( sum ( x [ 1 : ] ) , x [ 0 ] ) , reverse = True ) <NEWLINE>
+response . headers [ <STRING_LITERAL> ] = <STRING_LITERAL> <NEWLINE>
+del request . session [ <STRING_LITERAL> ] <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) . date ( ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) <NEWLINE>
+myList = [ i for i in range ( 10 ) ] <NEWLINE>
+[ m [ 0 ] for m in re . compile ( <STRING_LITERAL> ) . findall ( <STRING_LITERAL> ) ] <NEWLINE>
+[ i [ 0 ] for i in re . findall ( <STRING_LITERAL> , s ) ] <NEWLINE>
+fig . subplots_adjust ( wspace = 0 , hspace = 0 ) <NEWLINE>
+x [ : : - 1 ] <NEWLINE>
+csvwriter . writerow ( row ) <NEWLINE>
+{ { ( item . date | date ) : <STRING_LITERAL> } } <NEWLINE>
+re . split ( <STRING_LITERAL> , text ) <NEWLINE>
+re . compile ( <STRING_LITERAL> ) <NEWLINE>
+variable = [ ] <NEWLINE>
+intarray = array ( <STRING_LITERAL> ) <NEWLINE>
+[ sublist [ : : - 1 ] for sublist in to_reverse [ : : - 1 ] ] <NEWLINE>
+<STRING_LITERAL> . join ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+logging . disable ( logging . CRITICAL ) <NEWLINE>
+cursor . execute ( <STRING_LITERAL> , ( url , ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] . dt . strftime ( <STRING_LITERAL> ) <NEWLINE>
+s . split ( <STRING_LITERAL> ) [ 0 ] <NEWLINE>
+df . query ( <STRING_LITERAL> ) <NEWLINE>
+df . loc [ ( df . index < start_remove ) | ( df . index > end_remove ) ] <NEWLINE>
+df . isnull ( ) . sum ( ) <NEWLINE>
+df . reset_index ( inplace = True ) <NEWLINE>
+[ x [ <STRING_LITERAL> ] for x in list_of_dicts ] <NEWLINE>
+np . array ( [ [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] ] ) . tolist ( ) <NEWLINE>
+ast . literal_eval ( <STRING_LITERAL> ) <NEWLINE>
+dataList . sort ( key = lambda x : x [ 1 ] ) <NEWLINE>
+list ( map ( list , set ( map ( lambda i : tuple ( i ) , testdata ) ) ) ) <NEWLINE>
+[ list ( i ) for i in set ( tuple ( i ) for i in testdata ) ] <NEWLINE>
+return user . groups . filter ( name = <STRING_LITERAL> ) . exists ( ) <NEWLINE>
+return user . groups . filter ( name__in = [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . exists ( ) <NEWLINE>
+logging . getLogger ( ) . setLevel ( logging . DEBUG ) <NEWLINE>
+<STRING_LITERAL> . join ( str ( i ) for i in ( 34.2424 , - 64.2344 , 76.3534 , 45.2344 ) ) <NEWLINE>
+<STRING_LITERAL> . join ( [ s [ x : x + 2 ] [ : : - 1 ] for x in range ( 0 , len ( s ) , 2 ) ] ) <NEWLINE>
+plt . savefig ( <STRING_LITERAL> , dpi = 1000 ) <NEWLINE>
+my_list = [ [ x for x in sublist if x not in to_del ] for sublist in my_list ] <NEWLINE>
+[ item for item in a if 1 in item ] <NEWLINE>
+[ item for item in a if item [ 0 ] == 1 ] <NEWLINE>
+{ p . id : { <STRING_LITERAL> : p . id , <STRING_LITERAL> : ind } for ind , p in enumerate ( p_list ) } <NEWLINE>
+exec ( compile ( open ( <STRING_LITERAL> ) . read ( ) , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+rows = session . query ( Congress ) . count ( ) <NEWLINE>
+dfs = pd . read_excel ( file_name , sheetname = None ) <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , binascii . unhexlify ( <STRING_LITERAL> ) ) <NEWLINE>
+a [ tuple ( b ) ] <NEWLINE>
+map ( list , permutations ( [ 2 , 3 , 4 ] ) ) <NEWLINE>
+sorted ( unsorted_list , key = presorted_list . index ) <NEWLINE>
+d = pd . DataFrame ( 0 , index = np . arange ( len ( data ) ) , columns = feature_list ) <NEWLINE>
+x . find ( <STRING_LITERAL> ) <NEWLINE>
+x . find ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . index ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . index ( <STRING_LITERAL> ) <NEWLINE>
+str . find ( <STRING_LITERAL> ) <NEWLINE>
+str . find ( <STRING_LITERAL> ) <NEWLINE>
+str . find ( <STRING_LITERAL> , 11 ) <NEWLINE>
+str . find ( <STRING_LITERAL> , 15 ) <NEWLINE>
+str . find ( <STRING_LITERAL> , 16 ) <NEWLINE>
+str . find ( <STRING_LITERAL> , 11 , 14 ) <NEWLINE>
+sorted ( d , key = lambda x : datetime . datetime . strptime ( x , <STRING_LITERAL> ) ) <NEWLINE>
+re . split ( <STRING_LITERAL> , text ) <NEWLINE>
+<STRING_LITERAL> [ : 4 ] <NEWLINE>
+s . rfind ( <STRING_LITERAL> ) <NEWLINE>
+s [ : s . rfind ( <STRING_LITERAL> ) ] <NEWLINE>
+driver . find_element_by_xpath ( <STRING_LITERAL> + state + <STRING_LITERAL> ) . click ( ) <NEWLINE>
+with open ( <STRING_LITERAL> , <STRING_LITERAL> ) as myfile : <NEWLINE> <INDENT> myfile . write ( <STRING_LITERAL> ) <NEWLINE> <DEDENT>
+with open ( <STRING_LITERAL> , <STRING_LITERAL> ) as f : <NEWLINE> <INDENT> f . write ( <STRING_LITERAL> ) <NEWLINE> <DEDENT>
+with open ( <STRING_LITERAL> , <STRING_LITERAL> ) as f : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+open ( <STRING_LITERAL> , <STRING_LITERAL> ) . write ( <STRING_LITERAL> ) <NEWLINE>
+print ( [ i for i in re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) if i ] ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , ipath ) <NEWLINE>
+s . split ( <STRING_LITERAL> ) <NEWLINE>
+subprocess . Popen ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+dict ( ( d [ <STRING_LITERAL> ] , d ) for d in listofdict ) <NEWLINE>
+datetime . datetime . now ( ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+time . strftime ( <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> , re . IGNORECASE ) <NEWLINE>
+[ i for i , e in enumerate ( a ) if e != 0 ] <NEWLINE>
+map ( int , re . findall ( <STRING_LITERAL> , string1 ) ) <NEWLINE>
+os . path . dirname ( sys . executable ) <NEWLINE>
+ax . xaxis . set_label_position ( <STRING_LITERAL> ) <NEWLINE>
+ax . xaxis . tick_top ( ) <NEWLINE>
+ax . xaxis . set_ticks_position ( <STRING_LITERAL> ) <NEWLINE>
+datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+img = Image . open ( <STRING_LITERAL> ) <NEWLINE> img . show ( ) <NEWLINE>
+img = Image . open ( <STRING_LITERAL> ) <NEWLINE> Img . show <NEWLINE>
+sys . exit ( 0 ) <NEWLINE>
+sys . exit ( <STRING_LITERAL> ) <NEWLINE>
+sys . exit ( ) <NEWLINE>
+[ max ( abs ( x ) for x in arr [ i : i + 4 ] ) for i in range ( 0 , len ( arr ) , 4 ) ] <NEWLINE>
+os . chdir ( <STRING_LITERAL> ) <NEWLINE>
+os . chdir ( path ) <NEWLINE>
+no_integers = [ x for x in mylist if not isinstance ( x , int ) ] <NEWLINE>
+tree . xpath ( <STRING_LITERAL> ) [ 0 ] . tag <NEWLINE>
+<STRING_LITERAL> . join ( [ ( str ( k ) + <STRING_LITERAL> + str ( v ) ) for k , v in list ( a . items ( ) ) ] ) <NEWLINE>
+print ( set ( re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) ) ) <NEWLINE>
+print ( re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+ast . literal_eval ( <STRING_LITERAL> ) <NEWLINE>
+print ( t . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( str . encode ( <STRING_LITERAL> ) . decode ( <STRING_LITERAL> ) . encode ( <STRING_LITERAL> ) . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+zip ( list_a , list_b ) <NEWLINE>
+list ( zip ( a , b ) ) <NEWLINE>
+df . set_index ( <STRING_LITERAL> ) . to_dict ( ) <NEWLINE>
+df . set_index ( <STRING_LITERAL> ) [ <STRING_LITERAL> ] . to_dict ( ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , filename ) <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . isalpha ( ) <NEWLINE>
+[ ( x + y ) for x , y in zip ( first , second ) ] <NEWLINE>
+sorted ( list ( a_dict . items ( ) ) , key = lambda item : item [ 1 ] [ 1 ] ) <NEWLINE>
+sorted ( list ( range ( len ( a ) ) ) , key = lambda i : a [ i ] ) [ - 2 : ] <NEWLINE>
+zip ( * sorted ( enumerate ( a ) , key = operator . itemgetter ( 1 ) ) ) [ 0 ] [ - 2 : ] <NEWLINE>
+sorted ( list ( range ( len ( a ) ) ) , key = lambda i : a [ i ] , reverse = True ) [ : 2 ] <NEWLINE>
+list ( x . keys ( ) ) . index ( <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( score ) ) <NEWLINE>
+[ k for k , g in itertools . groupby ( [ 1 , 2 , 2 , 3 , 2 , 2 , 4 ] ) ] <NEWLINE>
+<STRING_LITERAL> . split ( <STRING_LITERAL> ) <NEWLINE>
+[ int ( x ) for x in <STRING_LITERAL> . split ( <STRING_LITERAL> ) ] <NEWLINE>
+dict ( [ ( <STRING_LITERAL> , 1 ) , ( <STRING_LITERAL> , 2 ) , ( <STRING_LITERAL> , 3 ) ] ) <NEWLINE>
+np . savetxt ( <STRING_LITERAL> , x ) <NEWLINE>
+direct_output = subprocess . check_output ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+df [ df . columns - [ <STRING_LITERAL> ] ] <NEWLINE>
+( ( 25 < a ) & ( a < 100 ) ) . sum ( ) <NEWLINE>
+date . today ( ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+{ { car . date_of_manufacture | datetime } } <NEWLINE>
+{ { car . date_of_manufacture . strftime ( <STRING_LITERAL> ) } } <NEWLINE>
+[ item for sublist in l for item in sublist ] <NEWLINE>
+list ( itertools . chain ( * list2d ) ) <NEWLINE>
+list ( itertools . chain . from_iterable ( list2d ) ) <NEWLINE>
+ord ( <STRING_LITERAL> ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+a , b , c = [ 1 , 2 , 3 ] <NEWLINE>
+[ list ( v ) for k , v in itertools . groupby ( mylist , key = lambda x : x [ : 5 ] ) ] <NEWLINE>
+line = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , line ) <NEWLINE>
+print ( line . rstrip ( <STRING_LITERAL> ) ) <NEWLINE>
+df . index . values . tolist ( ) <NEWLINE>
+if ( not a ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+if ( not seq ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+if ( len ( li ) == 0 ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+[ i for i , v in enumerate ( a ) if v > 4 ] <NEWLINE>
+sorted ( yourdata , reverse = True ) <NEWLINE>
+sorted ( yourdata , key = lambda d : d . get ( <STRING_LITERAL> , { } ) . get ( <STRING_LITERAL> ) , reverse = True ) <NEWLINE>
+yourdata . sort ( key = lambda e : e [ <STRING_LITERAL> ] [ <STRING_LITERAL> ] , reverse = True ) <NEWLINE>
+df . round ( ) <NEWLINE>
+gca ( ) . get_lines ( ) [ n ] . get_xydata ( ) <NEWLINE>
+A [ : , - 2 : ] <NEWLINE>
+request . GET . get ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+pprint ( dict ( list ( o . items ( ) ) ) ) <NEWLINE>
+url ( <STRING_LITERAL> , include ( <STRING_LITERAL> ) ) , <NEWLINE>
+url ( <STRING_LITERAL> , include ( <STRING_LITERAL> ) ) , <NEWLINE>
+max_item = max ( a_list , key = operator . itemgetter ( 1 ) ) <NEWLINE>
+max ( a_list , key = operator . itemgetter ( 1 ) ) <NEWLINE>
+s . resample ( <STRING_LITERAL> , how = <STRING_LITERAL> ) <NEWLINE>
+[ a [ i ] for i in ( 1 , 2 , 5 ) ] <NEWLINE>
+[ line for line in open ( <STRING_LITERAL> ) if <STRING_LITERAL> in line ] <NEWLINE>
+datetime . datetime . strptime ( s , <STRING_LITERAL> ) <NEWLINE>
+pandas . read_csv ( filename , sep = <STRING_LITERAL> , lineterminator = <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> , 1 ) <NEWLINE>
+archive . write ( pdffile , os . path . basename ( pdffile ) ) <NEWLINE>
+dict ( x [ 1 : ] for x in reversed ( myListOfTuples ) ) <NEWLINE>
+[ ( x1 - x2 ) for x1 , x2 in zip ( List1 , List2 ) ] <NEWLINE>
+string [ 0 ] . isdigit ( ) <NEWLINE>
+strg . startswith ( ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+print ( os . path . dirname ( os . path . realpath ( __file__ ) ) ) <NEWLINE>
+re . split ( <STRING_LITERAL> , text ) <NEWLINE>
+plt . scatter ( * zip ( * li ) ) <NEWLINE>
+tuple ( zip ( * t ) ) <NEWLINE>
+df . groupby ( np . arange ( len ( df . columns ) ) // 3 , axis = 1 ) . mean ( ) <NEWLINE>
+<STRING_LITERAL> . join ( chr ( i ) for i in L ) <NEWLINE>
+sum ( x == chosen_value for x in list ( d . values ( ) ) ) <NEWLINE>
+sum ( 1 for x in list ( d . values ( ) ) if some_condition ( x ) ) <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , struct . pack ( <STRING_LITERAL> , 0.00582811585976 ) ) <NEWLINE>
+timestamp = ( dt - datetime ( 1970 , 1 , 1 ) ) . total_seconds ( ) <NEWLINE>
+df . sort ( <STRING_LITERAL> ) <NEWLINE>
+a = sorted ( a , key = lambda x : x . modified , reverse = True ) <NEWLINE>
+print ( bool ( a ) ) <NEWLINE>
+df = df . rename ( index = { last : <STRING_LITERAL> } ) <NEWLINE>
+km . fit ( x . reshape ( - 1 , 1 ) ) <NEWLINE>
+sorted ( words , key = lambda x : <STRING_LITERAL> + x if x . startswith ( <STRING_LITERAL> ) else <STRING_LITERAL> + x ) <NEWLINE>
+webbrowser . open ( <STRING_LITERAL> ) <NEWLINE>
+dict ( ( k , v ) for k , v in parent_dict . items ( ) if 2 < k < 4 ) <NEWLINE>
+dict ( ( k , v ) for k , v in parent_dict . items ( ) if k > 2 and k < 4 ) <NEWLINE>
+[ list ( x ) for x in zip ( * sorted ( zip ( list1 , list2 ) , key = lambda pair : pair [ 0 ] ) ) ] <NEWLINE>
+sum ( ( ( i > 5 ) for i in j ) ) <NEWLINE>
+len ( [ 1 for i in j if ( i > 5 ) ] ) <NEWLINE>
+j = np . array ( j ) <NEWLINE> sum ( ( j > i ) ) <NEWLINE>
+[ ( x + tuple ( y ) ) for x , y in zip ( zip ( a , b ) , c ) ] <NEWLINE>
+os . chmod ( path , stat . S_IRUSR | stat . S_IRGRP | stat . S_IROTH ) <NEWLINE>
+parser . add_argument ( <STRING_LITERAL> , nargs = <STRING_LITERAL> ) <NEWLINE>
+z = [ ( i == j ) for i , j in zip ( x , y ) ] <NEWLINE>
+[ ( x [ i ] == y [ i ] ) for i in range ( len ( x ) ) ] <NEWLINE>
+df2 = pd . DataFrame ( index = df1 . index ) <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , pS [ 0 : 2 ] ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( <STRING_LITERAL> . join ( map ( str , row ) ) for row in t ) ) <NEWLINE>
+driver . find_element_by_name ( <STRING_LITERAL> ) . is_selected ( ) <NEWLINE>
+driver . find_element_by_id ( <STRING_LITERAL> ) . is_selected ( ) <NEWLINE>
+[ ( a if a else 2 ) for a in [ 0 , 1 , 0 , 3 ] ] <NEWLINE>
+<STRING_LITERAL> . encode ( ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . decode ( <STRING_LITERAL> ) <NEWLINE>
+chr ( int ( <STRING_LITERAL> , 16 ) ) . encode ( <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> % value ) <NEWLINE>
+cleaned = [ x for x in your_list if x ] <NEWLINE>
+slice ( * [ ( int ( i . strip ( ) ) if i else None ) for i in string_slice . split ( <STRING_LITERAL> ) ] ) <NEWLINE>
+soup . find_all ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+print ( func . __name__ ) <NEWLINE>
+<STRING_LITERAL> . join ( <STRING_LITERAL> . format ( key , val ) for key , val in sorted ( adict . items ( ) ) ) <NEWLINE>
+<STRING_LITERAL> . join ( <STRING_LITERAL> . format ( key , val ) for key , val in list ( adict . items ( ) ) ) <NEWLINE>
+new_list = old_list [ : ] <NEWLINE>
+new_list = list ( old_list ) <NEWLINE>
+new_list = copy . copy ( old_list ) <NEWLINE>
+new_list = copy . deepcopy ( old_list ) <NEWLINE>
+[ i for i in old_list ] <NEWLINE>
+plt . legend ( frameon = False ) <NEWLINE>
+<STRING_LITERAL> . encode ( <STRING_LITERAL> , <STRING_LITERAL> ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+globals ( ) [ <STRING_LITERAL> ] ( ) <NEWLINE>
+urllib . request . urlopen ( <STRING_LITERAL> ) . getcode ( ) <NEWLINE>
+conn = httplib . HTTPConnection ( <STRING_LITERAL> ) <NEWLINE> conn . request ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE> r1 = conn . getresponse ( ) <NEWLINE> print ( r1 . status , r1 . reason ) <NEWLINE>
+r = requests . head ( url ) <NEWLINE> return ( r . status_code == 200 ) <NEWLINE>
+print ( urllib . request . urlopen ( <STRING_LITERAL> ) . getcode ( ) ) <NEWLINE>
+driver . find_element_by_css_selector ( <STRING_LITERAL> ) . click ( ) <NEWLINE>
+df . to_pickle ( file_name ) <NEWLINE>
+df . groupby ( by = df . columns , axis = 1 ) . mean ( ) <NEWLINE>
+bar . sort ( key = lambda x : ( x . attrb1 , x . attrb2 ) , reverse = True ) <NEWLINE>
+alpha = img . split ( ) [ - 1 ] <NEWLINE>
+soup . findAll ( <STRING_LITERAL> , style = <STRING_LITERAL> ) <NEWLINE>
+cursor . execute ( sql , list ( myDict . values ( ) ) ) <NEWLINE>
+df . to_csv ( <STRING_LITERAL> , index = False , sep = <STRING_LITERAL> ) <NEWLINE>
+globals ( ) . update ( vars ( args ) ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , mystring ) <NEWLINE>
+print ( <STRING_LITERAL> % ( var1 , var2 , var3 , var4 ) ) <NEWLINE>
+d = dict ( ( k , v ) for k , v in d . items ( ) if v > 0 ) <NEWLINE>
+d = { k : v for k , v in list ( d . items ( ) ) if v > 0 } <NEWLINE>
+pd . to_datetime ( pd . Series ( date_stngs ) ) <NEWLINE>
+df . iloc [ 2 , 0 ] <NEWLINE>
+matplotlib . rcParams . update ( { <STRING_LITERAL> : 22 } ) <NEWLINE>
+pd . DataFrame ( list ( d . items ( ) ) , columns = [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+pd . DataFrame ( df . values * df2 . values , columns = df . columns , index = df . index ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+zip ( it , it , it ) <NEWLINE>
+df [ <STRING_LITERAL> ] . str . lower ( ) <NEWLINE>
+jsobj [ <STRING_LITERAL> ] [ <STRING_LITERAL> ] [ <STRING_LITERAL> ] . append ( { <STRING_LITERAL> : var6 , <STRING_LITERAL> : var7 , <STRING_LITERAL> : var8 } ) <NEWLINE>
+<STRING_LITERAL> . join ( lst ) <NEWLINE>
+sum ( v for v in list ( d . values ( ) ) if v > 0 ) <NEWLINE>
+app . run ( debug = True ) <NEWLINE>
+df . drop ( df . index [ [ 1 , 3 ] ] , inplace = True ) <NEWLINE>
+df . apply ( lambda x : x . fillna ( x . mean ( ) ) , axis = 0 ) <NEWLINE>
+[ o . my_attr for o in my_list ] <NEWLINE>
+time . strftime ( <STRING_LITERAL> , time . gmtime ( os . path . getmtime ( file ) ) ) <NEWLINE>
+all ( item in list ( superset . items ( ) ) for item in list ( subset . items ( ) ) ) <NEWLINE>
+[ str ( wi ) for wi in wordids ] <NEWLINE>
+df2 = df . reset_index ( ) <NEWLINE>
+dt . strftime ( <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( TotalAmount ) ) <NEWLINE>
+df . groupby ( np . arange ( len ( df . columns ) ) // 2 + 1 , axis = 1 ) . sum ( ) . add_prefix ( <STRING_LITERAL> ) <NEWLINE>
+randomList = [ random . random ( ) for _ in range ( 10 ) ] <NEWLINE>
+print ( soup . find ( <STRING_LITERAL> , href = re . compile ( <STRING_LITERAL> ) ) ) <NEWLINE>
+sys . stdout . flush ( ) <NEWLINE>
+country , capital = random . choice ( list ( d . items ( ) ) ) <NEWLINE>
+list ( <STRING_LITERAL> ) <NEWLINE>
+[ w for w in open ( <STRING_LITERAL> ) if not re . search ( <STRING_LITERAL> , w ) ] <NEWLINE>
+pat = re . compile ( <STRING_LITERAL> ) <NEWLINE>
+exec ( compile ( open ( <STRING_LITERAL> ) . read ( ) , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+session . query ( Tag ) . distinct ( Tag . name ) . group_by ( Tag . name ) . count ( ) <NEWLINE>
+df = df . dropna ( axis = 1 , how = <STRING_LITERAL> ) <NEWLINE>
+all ( x . count ( 1 ) == 3 for x in L ) <NEWLINE>
+[ x [ 0 ] for x in l1 if any ( x [ 0 ] == y [ 0 ] for y in l2 ) ] <NEWLINE>
+tex . delete ( <STRING_LITERAL> , END ) <NEWLINE>
+datetime . datetime . fromtimestamp ( myNumber ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+system ( <STRING_LITERAL> ) <NEWLINE>
+your_list . sort ( key = operator . attrgetter ( <STRING_LITERAL> ) ) <NEWLINE>
+your_list . sort ( key = lambda x : x . anniversary_score ) <NEWLINE>
+print ( type ( tf . Session ( ) . run ( tf . constant ( [ 1 , 2 , 3 ] ) ) ) ) <NEWLINE>
+list ( itertools . chain ( * a ) ) <NEWLINE>
+count . setdefault ( <STRING_LITERAL> , 0 ) <NEWLINE>
+df . groupby ( [ <STRING_LITERAL> ] ) . mean ( ) <NEWLINE>
+min ( myList , key = lambda x : abs ( x - myNumber ) ) <NEWLINE>
+any ( x in string for x in search ) <NEWLINE>
+print ( pattern . search ( url ) . group ( 1 ) ) <NEWLINE>
+( s . factorize ( ) [ 0 ] + 1 ) . astype ( <STRING_LITERAL> ) <NEWLINE>
+C = [ ( a - b ) for a , b in zip ( A , B ) ] <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+map ( int , [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+Book . objects . filter ( pk = pk ) . update ( ** d ) <NEWLINE>
+Book . objects . create ( ** d ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( your_number ) ) <NEWLINE>
+random . randint ( 100000000000 , 999999999999 ) <NEWLINE>
+int ( <STRING_LITERAL> . join ( str ( random . randint ( 0 , 9 ) ) for _ in range ( 12 ) ) ) <NEWLINE>
+<STRING_LITERAL> . join ( str ( random . randint ( 0 , 9 ) ) for _ in range ( 12 ) ) <NEWLINE>
+<STRING_LITERAL> % random . randint ( 0 , 999999999999 ) <NEWLINE>
+numpy . delete ( a , index ) <NEWLINE>
+sorted ( trial_list , key = lambda x : trial_dict [ x ] ) <NEWLINE>
+sys . stdin . read ( 1 ) <NEWLINE>
+print ( re . findall ( pattern , x ) ) <NEWLINE>
+k = soup . find ( text = re . compile ( <STRING_LITERAL> ) ) . parent . text <NEWLINE>
+df . apply ( lambda x : x . tolist ( ) , axis = 1 ) <NEWLINE>
+B = np . reshape ( A , ( - 1 , 2 ) ) <NEWLINE>
+app . run ( host = <STRING_LITERAL> , port = 9000 , debug = False ) <NEWLINE>
+print ( <STRING_LITERAL> . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+[ x [ 0 ] for x in G ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , string ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , string ) <NEWLINE>
+{ k : v for k , v in list ( hand . items ( ) ) if v } <NEWLINE>
+dict ( ( k , v ) for k , v in hand . items ( ) if v ) <NEWLINE>
+sorted ( L , key = operator . itemgetter ( <STRING_LITERAL> ) ) <NEWLINE>
+s . sort ( key = operator . attrgetter ( <STRING_LITERAL> ) ) <NEWLINE>
+somelist . sort ( key = lambda x : x . resultType ) <NEWLINE>
+df1 . merge ( df2 , on = <STRING_LITERAL> ) . merge ( df3 , on = <STRING_LITERAL> ) <NEWLINE>
+decimal . Decimal ( random . randrange ( 10000 ) ) / 100 <NEWLINE>
+onlyfiles = [ f for f in listdir ( mypath ) if isfile ( join ( mypath , f ) ) ] <NEWLINE>
+f = [ ] <NEWLINE> for ( dirpath , dirnames , filenames ) in walk ( mypath ) : <NEWLINE> <INDENT> f . extend ( filenames ) <NEWLINE> break <NEWLINE> <DEDENT>
+print ( glob . glob ( <STRING_LITERAL> ) ) <NEWLINE>
+os . listdir ( <STRING_LITERAL> ) <NEWLINE>
+cur . executemany ( <STRING_LITERAL> , tup ) <NEWLINE>
+print ( [ key for key in d if d [ key ] == 1 ] ) <NEWLINE>
+print ( [ key for key , value in d . items ( ) if value == 1 ] ) <NEWLINE>
+print ( [ key for key , value in list ( d . items ( ) ) if value == 1 ] ) <NEWLINE>
+strs = [ <STRING_LITERAL> for x in range ( size ) ] <NEWLINE>
+with open ( input_filename , <STRING_LITERAL> ) as f : <NEWLINE> <INDENT> html_text = markdown ( f . read ( ) , output_format = <STRING_LITERAL> ) <NEWLINE> <DEDENT> pdfkit . from_string ( html_text , output_filename ) <NEWLINE>
+[ dict ( t ) for t in set ( [ tuple ( d . items ( ) ) for d in l ] ) ] <NEWLINE>
+TIME_ZONE = <STRING_LITERAL> <NEWLINE>
+dates_dict . setdefault ( key , [ ] ) . append ( date ) <NEWLINE>
+Article . objects . values ( <STRING_LITERAL> ) . annotate ( article_count = Count ( <STRING_LITERAL> ) ) <NEWLINE>
+canvas . delete ( <STRING_LITERAL> ) <NEWLINE>
+s = pd . Series ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+a . sort ( key = lambda x : b . index ( x [ 0 ] ) ) <NEWLINE>
+plt . savefig ( <STRING_LITERAL> ) <NEWLINE>
+plt . savefig ( <STRING_LITERAL> , dpi = 300 ) <NEWLINE>
+p1 . communicate ( ) [ 0 ] <NEWLINE>
+soup . body . findAll ( text = <STRING_LITERAL> ) <NEWLINE>
+soup . body . findAll ( text = <STRING_LITERAL> ) <NEWLINE>
+sorted ( list ( d . items ( ) ) , key = lambda name_num : ( name_num [ 0 ] . rsplit ( None , 1 ) [ 0 ] , name_num [ 1 ] ) ) <NEWLINE>
+set ( [ 1 , 2 , 3 ] ) ^ set ( [ 3 , 4 , 5 ] ) <NEWLINE>
+request . POST . getlist ( <STRING_LITERAL> ) <NEWLINE>
+list ( dict ( ( x [ <STRING_LITERAL> ] , x ) for x in L ) . values ( ) ) <NEWLINE>
+df . groupby ( df . columns , axis = 1 ) . sum ( ) <NEWLINE>
+dict ( zip ( list ( range ( 1 , 5 ) ) , list ( range ( 7 , 11 ) ) ) ) <NEWLINE>
+numpy . where ( mask ) <NEWLINE>
+if ( string1 . lower ( ) == string2 . lower ( ) ) : <NEWLINE> <INDENT> print ( <STRING_LITERAL> ) <NEWLINE> <DEDENT> else : <NEWLINE> <INDENT> print ( <STRING_LITERAL> ) <NEWLINE> <DEDENT>
+if ( string1 . lower ( ) == string2 . lower ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+( string1 . lower ( ) == string2 . lower ( ) ) <NEWLINE>
+( first . lower ( ) == second . lower ( ) ) <NEWLINE>
+( first . upper ( ) == second . upper ( ) ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+del my_list [ 2 : 6 ] <NEWLINE>
+int ( s . encode ( <STRING_LITERAL> ) , 16 ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , seq ) <NEWLINE>
+sorted ( s , key = float ) <NEWLINE>
+hex ( 65 ) <NEWLINE>
+a . append ( b ) . reset_index ( drop = True ) <NEWLINE>
+pd . concat ( [ a , b ] , ignore_index = True ) <NEWLINE>
+[ ( i , j ) for i in range ( 1 , 3 ) for j in range ( 1 , 5 ) ] <NEWLINE>
+sorted ( iter ( mydict . items ( ) ) , key = itemgetter ( 1 ) , reverse = True ) <NEWLINE>
+pd . date_range ( <STRING_LITERAL> , periods = 12 , freq = <STRING_LITERAL> ) <NEWLINE>
+requests . get ( <STRING_LITERAL> , verify = False ) <NEWLINE>
+df . ix [ : - 1 ] <NEWLINE>
+if ( <STRING_LITERAL> not in somestring ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+if ( needle in haystack ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+string . find ( <STRING_LITERAL> ) <NEWLINE>
+if ( s . find ( <STRING_LITERAL> ) == ( - 1 ) ) : <NEWLINE> <INDENT> print ( <STRING_LITERAL> ) <NEWLINE> <DEDENT> else : <NEWLINE> <INDENT> print ( <STRING_LITERAL> ) <NEWLINE> <DEDENT>
+pd . concat ( [ df . head ( 1 ) , df . tail ( 1 ) ] ) <NEWLINE>
+MyModel . objects . extra ( where = [ <STRING_LITERAL> ] ) <NEWLINE>
+MyModel . objects . filter ( text__regex = <STRING_LITERAL> ) <NEWLINE>
+sum ( df . apply ( lambda x : sum ( x . isnull ( ) . values ) , axis = 1 ) > 0 ) <NEWLINE>
+canvas . create_text ( x , y , font = ( <STRING_LITERAL> , 12 ) , text = k ) <NEWLINE>
+[ y [ <STRING_LITERAL> ] for x in foos for y in x [ <STRING_LITERAL> ] ] <NEWLINE>
+df = pd . read_csv ( <STRING_LITERAL> , quotechar = <STRING_LITERAL> ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] . str . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+[ i for i in range ( len ( a ) ) if a [ i ] > 2 ] <NEWLINE>
+( <STRING_LITERAL> in locals ( ) ) <NEWLINE>
+( <STRING_LITERAL> in globals ( ) ) <NEWLINE>
+hasattr ( obj , <STRING_LITERAL> ) <NEWLINE>
+if ( <STRING_LITERAL> in locals ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+if ( <STRING_LITERAL> in globals ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+lambda x , y : x + y <NEWLINE>
+sum ( 1 for i in it ) <NEWLINE>
+[ ( x , lst2 [ i ] ) for i , x in enumerate ( lst ) ] <NEWLINE>
+[ ( i , j ) for i , j in zip ( lst , lst2 ) ] <NEWLINE>
+[ ( lst [ i ] , lst2 [ i ] ) for i in range ( len ( lst ) ) ] <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , rgbstr . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+( 3 not in [ 2 , 3 , 4 ] ) <NEWLINE>
+( ( 2 , 3 ) not in [ ( 2 , 3 ) , ( 5 , 6 ) , ( 9 , 1 ) ] ) <NEWLINE>
+( ( 2 , 3 ) not in [ ( 2 , 7 ) , ( 7 , 3 ) , <STRING_LITERAL> ] ) <NEWLINE>
+( 3 not in [ 4 , 5 , 6 ] ) <NEWLINE>
+[ value for pair in zip ( a , b [ : : - 1 ] ) for value in pair ] <NEWLINE>
+b = np . delete ( a , - 1 , 1 ) <NEWLINE>
+dbb . commit ( ) <NEWLINE>
+pd . merge ( a , b , on = [ <STRING_LITERAL> , <STRING_LITERAL> ] , how = <STRING_LITERAL> ) <NEWLINE>
+setStyleSheet ( <STRING_LITERAL> ) <NEWLINE>
+sum ( l ) / float ( len ( l ) ) <NEWLINE>
+[ ( k , v ) for k , v in D . items ( ) if <STRING_LITERAL> in k ] <NEWLINE>
+k = hashlib . md5 ( <STRING_LITERAL> ) . hexdigest ( ) <NEWLINE>
+birthdays . sort ( key = lambda d : ( d . month , d . day ) ) <NEWLINE>
+[ [ td . findNext ( text = True ) for td in tr . findAll ( <STRING_LITERAL> ) ] for tr in rows ] <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+list ( df . index ) <NEWLINE>
+df . index <NEWLINE>
+<STRING_LITERAL> . join ( list ( OrderedDict . fromkeys ( <STRING_LITERAL> ) . keys ( ) ) ) <NEWLINE>
+list ( set ( <STRING_LITERAL> ) ) <NEWLINE>
+df . loc [ ( df . loc [ : , ( df . dtypes != object ) ] != 0 ) . any ( 1 ) ] <NEWLINE>
+all ( word in d for word in [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+subprocess . check_output ( [ <STRING_LITERAL> , text ] , stderr = subprocess . STDOUT ) <NEWLINE>
+df . fillna ( method = <STRING_LITERAL> , inplace = True ) <NEWLINE>
+print ( np . linspace ( 1 , 3 , num = 4 , endpoint = False ) ) <NEWLINE>
+print ( np . linspace ( 1 , 3 , num = 5 ) ) <NEWLINE>
+kdll . CreateSymbolicLinkW ( <STRING_LITERAL> , <STRING_LITERAL> , 1 ) <NEWLINE>
+slice = [ arr [ i ] [ 0 : 2 ] for i in range ( 0 , 2 ) ] <NEWLINE>
+upload_url = blobstore . create_upload_url ( <STRING_LITERAL> , gs_bucket_name = <STRING_LITERAL> ) <NEWLINE>
+os . chdir ( os . path . dirname ( __file__ ) ) <NEWLINE>
+func ( * args ) <NEWLINE>
+df [ <STRING_LITERAL> ] . str . split ( <STRING_LITERAL> , 1 , expand = True ) <NEWLINE>
+df [ <STRING_LITERAL> ] , df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] . str . split ( <STRING_LITERAL> , 1 ) . str <NEWLINE>
+print ( sorted ( xs , key = len ) ) <NEWLINE>
+xs . sort ( lambda x , y : cmp ( len ( x ) , len ( y ) ) ) <NEWLINE>
+xs . sort ( key = lambda s : len ( s ) ) <NEWLINE>
+ts . plot ( marker = <STRING_LITERAL> ) <NEWLINE>
+lst = list ( itertools . product ( [ 0 , 1 ] , repeat = n ) ) <NEWLINE>
+lst = map ( list , itertools . product ( [ 0 , 1 ] , repeat = n ) ) <NEWLINE>
+bin = [ 0 , 1 ] <NEWLINE> [ ( x , y , z ) for x in bin for y in bin for z in bin ] <NEWLINE>
+lst = list ( itertools . product ( [ 0 , 1 ] , repeat = 3 ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] = <STRING_LITERAL> + df [ <STRING_LITERAL> ] . astype ( str ) <NEWLINE>
+dict ( ( name , eval ( name ) ) for name in [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+plt . colorbar ( im , ax = ax ) <NEWLINE>
+[ a for c in Cards for b in c for a in b ] <NEWLINE>
+sorted ( d , key = d . get ) <NEWLINE>
+print ( len ( [ x for x in lst if x is not None ] ) ) <NEWLINE>
+{ { json . key1 } } <NEWLINE>
+mynewlist = list ( myset ) <NEWLINE>
+set ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+figure ( figsize = ( 11.69 , 8.27 ) ) <NEWLINE>
+url . rsplit ( <STRING_LITERAL> , 1 ) <NEWLINE>
+url . rsplit ( <STRING_LITERAL> , 1 ) [ - 1 ] <NEWLINE>
+x_file = open ( os . path . join ( direct , <STRING_LITERAL> ) , <STRING_LITERAL> ) <NEWLINE>
+list ( <STRING_LITERAL> ) <NEWLINE>
+np . concatenate ( input_list ) . ravel ( ) . tolist ( ) <NEWLINE>
+print ( [ y for x in list ( dict . items ( ) ) for y in x ] ) <NEWLINE>
+[ y for x in list ( dict . items ( ) ) for y in x ] <NEWLINE>
+MyModel . objects . order_by ( <STRING_LITERAL> ) . first ( ) <NEWLINE>
+os . chdir ( <STRING_LITERAL> ) <NEWLINE>
+os . chdir ( <STRING_LITERAL> ) <NEWLINE>
+os . chdir ( <STRING_LITERAL> ) <NEWLINE>
+dict ( ( key , sum ( d [ key ] for d in dictList ) ) for key in dictList [ 0 ] ) <NEWLINE>
+df . sort ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , ascending = [ True , True ] ) <NEWLINE>
+floats = [ float ( x ) for x in s . split ( ) ] <NEWLINE>
+floats = map ( float , s . split ( ) ) <NEWLINE>
+plt . xticks ( [ 1 , 2 , 3 , 4 , 5 ] ) <NEWLINE>
+for line in fileinput . input ( ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for line in sys . stdin : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+<STRING_LITERAL> in list ( d . values ( ) ) <NEWLINE>
+<STRING_LITERAL> in iter ( d . values ( ) ) <NEWLINE>
+super ( Instructor , self ) . __init__ ( name , year ) <NEWLINE>
+dict ( zip ( x , y ) ) <NEWLINE>
+sorted ( a , key = lambda i : list ( i . values ( ) ) [ 0 ] , reverse = True ) <NEWLINE>
+sorted ( a , key = dict . values , reverse = True ) <NEWLINE>
+df . groupby ( level = 0 ) . agg ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+a . setdefault ( <STRING_LITERAL> , [ ] ) . append ( <STRING_LITERAL> ) <NEWLINE>
+sum ( item [ <STRING_LITERAL> ] for item in example_list ) <NEWLINE>
+sum ( [ item [ <STRING_LITERAL> ] for item in example_list ] ) <NEWLINE>
+sum ( item [ <STRING_LITERAL> ] for item in myLIst ) <NEWLINE>
+f . write ( <STRING_LITERAL> ) <NEWLINE>
+file . write ( <STRING_LITERAL> ) <NEWLINE>
+df . reset_index ( ) . groupby ( <STRING_LITERAL> ) [ <STRING_LITERAL> ] . apply ( np . array ) <NEWLINE>
+fn = os . path . join ( os . path . dirname ( __file__ ) , <STRING_LITERAL> ) <NEWLINE>
+e = next ( iter ( s ) ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+self . treeview . connect ( <STRING_LITERAL> , self . treeview_changed ) <NEWLINE>
+3 in [ 1 , 2 , 3 ] <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+s = s . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+print ( proc . communicate ( ) [ 0 ] ) <NEWLINE>
+pd . concat ( [ pd . DataFrame ( l ) for l in my_list ] , axis = 1 ) . T <NEWLINE>
+df . loc [ : , ( ( df != 0 ) . any ( axis = 0 ) ) ] <NEWLINE>
+sorted ( a , key = lambda x : x [ 1 ] ) <NEWLINE>
+[ x . strip ( ) for x in s . split ( <STRING_LITERAL> ) ] <NEWLINE>
+items = [ item for item in container if item . attribute == value ] <NEWLINE>
+open ( <STRING_LITERAL> , <STRING_LITERAL> ) . write ( <STRING_LITERAL> . join ( <STRING_LITERAL> % x for x in mylist ) ) <NEWLINE>
+pattern = re . compile ( <STRING_LITERAL> , re . IGNORECASE ) <NEWLINE>
+str = open ( <STRING_LITERAL> , <STRING_LITERAL> ) . read ( ) <NEWLINE>
+df . groupby ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) [ <STRING_LITERAL> ] . unique ( ) <NEWLINE>
+with open ( fname ) as f : <NEWLINE> <INDENT> content = f . readlines ( ) <NEWLINE> <DEDENT>
+with open ( <STRING_LITERAL> ) as f : <NEWLINE> <INDENT> lines = f . readlines ( ) <NEWLINE> <DEDENT>
+lines = [ line . rstrip ( <STRING_LITERAL> ) for line in open ( <STRING_LITERAL> ) ] <NEWLINE>
+with open ( <STRING_LITERAL> , <STRING_LITERAL> ) as ins : <NEWLINE> <INDENT> array = [ ] <NEWLINE> for line in ins : <NEWLINE> <INDENT> array . append ( line ) <NEWLINE> <DEDENT> <DEDENT>
+df [ <STRING_LITERAL> ] = pd . to_datetime ( df [ <STRING_LITERAL> ] ) <NEWLINE>
+[ k for d in list ( foo . values ( ) ) for k in d ] <NEWLINE>
+print ( <STRING_LITERAL> . format ( input ( <STRING_LITERAL> ) ) ) <NEWLINE>
+df = pd . read_csv ( <STRING_LITERAL> , sep = <STRING_LITERAL> , names = [ <STRING_LITERAL> ] ) <NEWLINE>
+platform . system ( ) <NEWLINE>
+a = sorted ( a , key = lambda x : float ( x ) ) <NEWLINE>
+re . search ( <STRING_LITERAL> , s ) <NEWLINE>
+db . collection . find ( { } , { <STRING_LITERAL> : False } ) <NEWLINE>
+[ row [ 1 ] for row in A ] <NEWLINE>
+[ row [ 0 ] for row in a ] <NEWLINE>
+sorted ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] , key = int ) <NEWLINE>
+os . path . commonprefix ( [ <STRING_LITERAL> , os . path . realpath ( filename ) ] ) == <STRING_LITERAL> <NEWLINE>
+any ( substring in string for substring in substring_list ) <NEWLINE>
+df = pandas . DataFrame ( data , columns = [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+sorted ( the_list , key = lambda k : int ( k . split ( <STRING_LITERAL> ) [ 1 ] ) ) <NEWLINE>
+sorted ( the_list , key = lambda x : int ( x . split ( <STRING_LITERAL> ) [ 1 ] ) ) <NEWLINE>
+[ list ( g ) for _ , g in itertools . groupby ( test , lambda x : x . split ( <STRING_LITERAL> ) [ 0 ] ) ] <NEWLINE>
+driver . get ( <STRING_LITERAL> ) <NEWLINE>
+( datetime . datetime . utcnow ( ) - datetime . timedelta ( hours = 11 ) ) . year <NEWLINE>
+Counter ( [ 1 , 2 , 2 , 2 , 3 ] ) - Counter ( [ 1 , 2 ] ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , mystring ) <NEWLINE>
+data . encode ( <STRING_LITERAL> ) <NEWLINE>
+User . objects . filter ( userprofile__level__gte = 0 ) <NEWLINE>
+soup . findAll ( id = re . compile ( <STRING_LITERAL> ) ) <NEWLINE>
+soup . select ( <STRING_LITERAL> ) <NEWLINE>
+cleaned_list = [ x for x in some_list if x is not thing ] <NEWLINE>
+var = input ( <STRING_LITERAL> ) <NEWLINE>
+foo . append ( 4 ) <NEWLINE>
+foo . append ( [ 8 , 7 ] ) <NEWLINE>
+x . insert ( 2 , 77 ) <NEWLINE>
+plt . savefig ( <STRING_LITERAL> , bbox_inches = <STRING_LITERAL> ) <NEWLINE>
+( listone + listtwo ) <NEWLINE>
+for item in itertools . chain ( listone , listtwo ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+males = df [ ( df [ Gender ] == <STRING_LITERAL> ) & ( df [ Year ] == 2014 ) ] <NEWLINE>
+print ( <STRING_LITERAL> ) <NEWLINE>
+df . replace ( <STRING_LITERAL> , np . nan ) <NEWLINE>
+df = df . drop ( <STRING_LITERAL> , 1 ) <NEWLINE>
+df . drop ( df . columns [ [ 0 , 1 , 3 ] ] , axis = 1 ) <NEWLINE>
+df . drop ( <STRING_LITERAL> , axis = 1 , inplace = True ) <NEWLINE>
+parser = argparse . ArgumentParser ( allow_abbrev = False ) <NEWLINE>
+feature3 = [ d . get ( <STRING_LITERAL> ) for d in df . dic ] <NEWLINE>
+df . loc [ gb . groups [ <STRING_LITERAL> ] , ( <STRING_LITERAL> , <STRING_LITERAL> ) ] <NEWLINE>
+print ( <STRING_LITERAL> % ( 1 , 2 , 3 ) ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( 1 , 2 , 3 ) ) <NEWLINE>
+[ v for k , v in list ( my_dict . items ( ) ) if <STRING_LITERAL> in k ] <NEWLINE>
+df . drop ( ( <STRING_LITERAL> , <STRING_LITERAL> ) , axis = 1 ) <NEWLINE>
+df . drop ( <STRING_LITERAL> , level = 1 , axis = 1 ) <NEWLINE>
+{ _key : _value ( _key ) for _key in _container } <NEWLINE>
+browser . find_element_by_class_name ( <STRING_LITERAL> ) . click ( ) <NEWLINE>
+dict ( ( k , d . get ( k , <STRING_LITERAL> ) + d1 . get ( k , <STRING_LITERAL> ) ) for k in keys ) <NEWLINE>
+hash ( pformat ( a ) ) == hash ( pformat ( b ) ) <NEWLINE>
+list ( map ( tuple , [ [ <STRING_LITERAL> , <STRING_LITERAL> ] , [ <STRING_LITERAL> , <STRING_LITERAL> ] , [ <STRING_LITERAL> , <STRING_LITERAL> ] ] ) ) <NEWLINE>
+df . groupby ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] , as_index = False ) [ <STRING_LITERAL> ] . sum ( ) <NEWLINE>
+s . upper ( ) <NEWLINE>
+dict ( item . split ( <STRING_LITERAL> ) for item in s . split ( <STRING_LITERAL> ) ) <NEWLINE>
+br . addheaders = [ ( <STRING_LITERAL> , <STRING_LITERAL> ) ] <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] . str [ 0 ] <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] . str . get ( 0 ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] . str . strip ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . join ( [ <STRING_LITERAL> . format ( k , v ) for k , v in d . items ( ) ] ) <NEWLINE>
+sum ( sum ( x ) for x in lists ) <NEWLINE>
+any ( np . equal ( a , [ 1 , 2 ] ) . all ( 1 ) ) <NEWLINE>
+len ( set ( mylist ) ) == 1 <NEWLINE>
+[ map ( int , x . split ( <STRING_LITERAL> ) ) for x in s . rstrip ( ) . split ( <STRING_LITERAL> ) ] <NEWLINE>
+t = sorted ( list ( a . items ( ) ) , key = lambda x : x [ 1 ] ) <NEWLINE>
+if ( <STRING_LITERAL> in open ( <STRING_LITERAL> ) . read ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+f = open ( <STRING_LITERAL> ) <NEWLINE> s = mmap . mmap ( f . fileno ( ) , 0 , access = mmap . ACCESS_READ ) <NEWLINE> if ( s . find ( <STRING_LITERAL> ) != ( - 1 ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+datafile = file ( <STRING_LITERAL> ) <NEWLINE> found = False <NEWLINE> for line in datafile : <NEWLINE> <INDENT> if ( blabla in line ) : <NEWLINE> <INDENT> return True <NEWLINE> <DEDENT> <DEDENT> return False <NEWLINE>
+string2 . replace ( <STRING_LITERAL> , string1 ) [ len ( string1 ) : - len ( string1 ) ] <NEWLINE>
+list ( itertools . combinations ( [ 1 , 2 , 3 , 4 , 5 , 6 ] , 2 ) ) <NEWLINE>
+<STRING_LITERAL> . format ( x . decode ( <STRING_LITERAL> ) ) . encode ( <STRING_LITERAL> ) <NEWLINE>
+isinstance ( x , int ) <NEWLINE>
+( type ( x ) == int ) <NEWLINE>
+winsound . PlaySound ( <STRING_LITERAL> , winsound . SND_FILENAME ) <NEWLINE>
+[ next ( it ) for _ in range ( n ) ] <NEWLINE>
+list ( itertools . islice ( it , 0 , n , 1 ) ) <NEWLINE>
+set ( a ) . intersection ( b ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( map ( str , data ) ) ) <NEWLINE>
+re . match ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+importlib . import_module ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+importlib . import_module ( <STRING_LITERAL> ) <NEWLINE>
+a = np . array ( a ) <NEWLINE>
+soup . find_all ( <STRING_LITERAL> , class_ = re . compile ( <STRING_LITERAL> ) ) <NEWLINE>
+[ [ ] for _ in range ( n ) ] <NEWLINE>
+dict ( ( k , globals ( ) [ k ] ) for k in ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+MyModel . objects . order_by ( <STRING_LITERAL> ) [ : 2 ] <NEWLINE>
+<STRING_LITERAL> . format ( ** { <STRING_LITERAL> : { <STRING_LITERAL> : <STRING_LITERAL> } } ) <NEWLINE>
+list_dict = { t [ 0 ] : t for t in tuple_list } <NEWLINE>
+randint ( 0 , 9 ) <NEWLINE>
+random . randint ( a , b ) <NEWLINE>
+print ( ( random . randint ( 0 , 9 ) ) ) <NEWLINE>
+<STRING_LITERAL> . join ( reversed ( [ a [ i : i + 2 ] for i in range ( 0 , len ( a ) , 2 ) ] ) ) <NEWLINE>
+pd . pivot_table ( df , index = df . index . date , columns = df . index . time , values = <STRING_LITERAL> ) <NEWLINE>
+any ( item [ 2 ] == 0 for item in items ) <NEWLINE>
+[ x for x in items if x [ 2 ] == 0 ] <NEWLINE>
+sorted ( list ( dic . items ( ) ) , key = lambda x : x [ 1 ] [ <STRING_LITERAL> ] , reverse = True ) <NEWLINE>
+plt . yscale ( <STRING_LITERAL> , nonposy = <STRING_LITERAL> ) <NEWLINE>
+os . listdir ( <STRING_LITERAL> ) <NEWLINE>
+os . listdir ( <STRING_LITERAL> ) <NEWLINE>
+pd . concat ( [ distancesDF , datesDF . dates ] , axis = 1 ) <NEWLINE>
+[ x [ 0 ] for x in a ] <NEWLINE>
+[ i [ 0 ] for i in a ] <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , textblock ) <NEWLINE>
+gzip . open ( <STRING_LITERAL> , <STRING_LITERAL> , encoding = <STRING_LITERAL> ) <NEWLINE>
+set ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . issubset ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+all ( x in [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] for x in [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+line . translate ( None , <STRING_LITERAL> ) <NEWLINE>
+line = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , line ) <NEWLINE>
+string . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+a = a . replace ( char , <STRING_LITERAL> ) <NEWLINE>
+a = a . replace ( char , <STRING_LITERAL> ) <NEWLINE>
+line = line . translate ( string . maketrans ( <STRING_LITERAL> , <STRING_LITERAL> ) , <STRING_LITERAL> ) <NEWLINE>
+pd . concat ( [ df , pd . get_dummies ( df , <STRING_LITERAL> , <STRING_LITERAL> ) . astype ( int ) ] , axis = 1 ) [ order ] <NEWLINE>
+[ 3 , 4 , 1 , 2 ] <NEWLINE>
+globals ( ) [ <STRING_LITERAL> ] = <STRING_LITERAL> <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) <NEWLINE>
+print ( <STRING_LITERAL> . upper ( ) ) <NEWLINE>
+[ l . split ( <STRING_LITERAL> ) [ - 1 ] for l in list_dirs ] <NEWLINE>
+dict ( zip ( keys , values ) ) <NEWLINE>
+formatter = logging . Formatter ( <STRING_LITERAL> ) <NEWLINE>
+new_string = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , original_string ) <NEWLINE>
+subprocess . call ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . join ( foo . split ( ) ) <NEWLINE>
+list ( <STRING_LITERAL> . format ( 8 ) ) <NEWLINE>
+[ int ( x ) for x in list ( <STRING_LITERAL> . format ( 8 ) ) ] <NEWLINE>
+[ int ( x ) for x in bin ( 8 ) [ 2 : ] ] <NEWLINE>
+dict ( zip ( my_list , map ( my_dictionary . get , my_list ) ) ) <NEWLINE>
+numpy . dstack ( numpy . meshgrid ( x , y ) ) . reshape ( - 1 , 2 ) <NEWLINE>
+driver . implicitly_wait ( 60 ) <NEWLINE>
+driver . switch_to_frame ( <STRING_LITERAL> ) <NEWLINE>
+time . strftime ( <STRING_LITERAL> ) <NEWLINE>
+sorted ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , x ) <NEWLINE>
+df1 . groupby ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . size ( ) . reset_index ( ) <NEWLINE>
+sorted ( list ( dictionary . items ( ) ) , key = operator . itemgetter ( 1 ) ) <NEWLINE>
+sorted ( iter ( d . items ( ) ) , key = lambda x : x [ 1 ] ) <NEWLINE>
+sorted ( list ( dictionary . items ( ) ) , key = lambda x : x [ 1 ] ) <NEWLINE>
+np . split ( a , [ - 1 ] ) <NEWLINE>
+df . pivot ( index = <STRING_LITERAL> , columns = <STRING_LITERAL> ) <NEWLINE>
+df [ ( df [ <STRING_LITERAL> ] > 1 ) | ( df [ <STRING_LITERAL> ] < - 1 ) ] <NEWLINE>
+[ list ( a ) for a in zip ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] , [ 7 , 8 , 9 ] ) ] <NEWLINE>
+print ( df . loc [ df [ <STRING_LITERAL> ] == <STRING_LITERAL> ] ) <NEWLINE>
+df . loc [ df [ <STRING_LITERAL> ] != some_value ] <NEWLINE>
+df . loc [ ~ df [ <STRING_LITERAL> ] . isin ( some_values ) ] <NEWLINE>
+df . loc [ df [ <STRING_LITERAL> ] == some_value ] <NEWLINE>
+print ( df . loc [ df [ <STRING_LITERAL> ] . isin ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) ] ) <NEWLINE>
+<STRING_LITERAL> . join ( map ( lambda x : x * 7 , <STRING_LITERAL> ) ) <NEWLINE>
+os . rmdir ( ) <NEWLINE>
+shutil . rmtree ( path , ignore_errors = False , onerror = None ) <NEWLINE>
+os . removedirs ( name ) <NEWLINE>
+df . loc [ len ( df ) ] = [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] <NEWLINE>
+glob . glob ( <STRING_LITERAL> ) <NEWLINE>
+glob . glob ( <STRING_LITERAL> ) <NEWLINE>
+glob . glob ( <STRING_LITERAL> ) <NEWLINE>
+eval ( <STRING_LITERAL> ) <NEWLINE>
+new_list = [ x [ : ] for x in old_list ] <NEWLINE>
+<STRING_LITERAL> . format ( float ( a [ 0 ] / a [ 1 ] ) ) <NEWLINE>
+df . to_sparse ( 0 ) <NEWLINE>
+print ( [ obj . attr for obj in my_list_of_objs ] ) <NEWLINE>
+sum ( 1 if d [ <STRING_LITERAL> ] else 0 for d in s ) <NEWLINE>
+sum ( d [ <STRING_LITERAL> ] for d in s ) <NEWLINE>
+imp . find_module ( <STRING_LITERAL> ) [ 1 ] <NEWLINE>
+( bool ( a ) != bool ( b ) ) <NEWLINE>
+( ( a and ( not b ) ) or ( ( not a ) and b ) ) <NEWLINE>
+( bool ( a ) ^ bool ( b ) ) <NEWLINE>
+xor ( bool ( a ) , bool ( b ) ) <NEWLINE>
+return ( bool ( str1 ) ^ bool ( str2 ) ) <NEWLINE>
+my_list . sort ( key = operator . itemgetter ( <STRING_LITERAL> ) ) <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+[ t . strip ( ) for s in string . split ( <STRING_LITERAL> ) for t in s . split ( <STRING_LITERAL> ) ] <NEWLINE>
+f = lambda x , y : x + y <NEWLINE>
+instancelist = [ MyClass ( ) for i in range ( 29 ) ] <NEWLINE>
+{ f [ i + 1 ] : [ f [ i ] , f [ i + 2 ] ] for i in range ( 0 , len ( f ) , 3 ) } <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , s ) [ 0 ] <NEWLINE>
+pd . concat ( [ students , pd . DataFrame ( marks ) ] , axis = 1 ) <NEWLINE>
+alist . sort ( key = lambda x : x . foo ) <NEWLINE>
+soup . select ( <STRING_LITERAL> ) <NEWLINE>
+linsolve ( Matrix ( ( [ 1 , 1 , 1 , 1 ] , [ 1 , 1 , 2 , 3 ] ) ) , ( x , y , z ) ) <NEWLINE>
+{ k : bigdict [ k ] for k in list ( bigdict . keys ( ) ) & { <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> } } <NEWLINE>
+dict ( ( k , bigdict [ k ] ) for k in ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+{ k : bigdict . get ( k , None ) for k in ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) } <NEWLINE>
+{ k : bigdict [ k ] for k in ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) } <NEWLINE>
+driver . page_source <NEWLINE>
+data [ : , ( [ 1 , 9 ] ) ] <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , mystring ) <NEWLINE>
+str_list = [ tuple ( <STRING_LITERAL> . format ( flt ) for flt in sublist ) for sublist in lst ] <NEWLINE>
+str_list = [ [ <STRING_LITERAL> . format ( flt ) for flt in sublist ] for sublist in lst ] <NEWLINE>
+t = tuple ( x [ 0 ] for x in s ) <NEWLINE>
+datetime . datetime . now ( ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+ord ( <STRING_LITERAL> ) <NEWLINE>
+ord ( <STRING_LITERAL> ) <NEWLINE>
+ord ( ) <NEWLINE>
+json . load ( u ) <NEWLINE>
+yourdf . drop ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , axis = 1 , inplace = True ) <NEWLINE>
+[ s . strip ( ) for s in input ( ) . split ( <STRING_LITERAL> ) ] <NEWLINE>
+[ int ( d ) for d in str ( bin ( x ) ) [ 2 : ] ] <NEWLINE>
+max ( len ( word ) for word in i ) <NEWLINE>
+len ( max ( i , key = len ) ) <NEWLINE>
+os . system ( my_cmd ) <NEWLINE>
+mylist . sort ( key = lambda x : x . lower ( ) ) <NEWLINE>
+mylist . sort ( key = str . lower ) <NEWLINE>
+mylist . sort ( ) <NEWLINE>
+list . sort ( ) <NEWLINE>
+df . set_index ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , inplace = True ) <NEWLINE>
+getattr ( your_obj , x ) <NEWLINE>
+s . split ( <STRING_LITERAL> , 1 ) [ 1 ] <NEWLINE>
+workbook = xlsxwriter . Workbook ( <STRING_LITERAL> ) <NEWLINE>
+workbook = xlsxwriter . Workbook ( <STRING_LITERAL> ) <NEWLINE>
+pyplot . legend ( loc = 2 , fontsize = <STRING_LITERAL> ) <NEWLINE>
+plot . legend ( loc = 2 , prop = { <STRING_LITERAL> : 6 } ) <NEWLINE>
+[ l [ i : i + n ] for i in range ( 0 , len ( l ) , n ) ] <NEWLINE>
+[ l [ i : i + n ] for i in range ( 0 , len ( l ) , n ) ] <NEWLINE>
+df [ <STRING_LITERAL> ] . str . contains ( <STRING_LITERAL> ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+print ( re . findall ( <STRING_LITERAL> , <STRING_LITERAL> . join ( re . findall ( <STRING_LITERAL> , text ) ) ) ) <NEWLINE>
+monthly_mean . reset_index ( ) . plot ( x = <STRING_LITERAL> , y = <STRING_LITERAL> ) <NEWLINE>
+subprocess . check_output ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+[ x . encode ( <STRING_LITERAL> ) for x in EmployeeList ] <NEWLINE>
+pandas . concat ( [ df [ <STRING_LITERAL> ] . dropna ( ) , df [ <STRING_LITERAL> ] . dropna ( ) ] ) . reindex_like ( df ) <NEWLINE>
+list ( range ( 9 ) ) <NEWLINE>
+<STRING_LITERAL> . join ( chr ( i ) for i in myintegers ) <NEWLINE>
+super ( Executive , self ) . __init__ ( * args ) <NEWLINE>
+[ item for item in my_sequence if item != <STRING_LITERAL> ] <NEWLINE>
+random . choice ( foo ) <NEWLINE>
+set ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . issubset ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+set ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . issubset ( set ( l ) ) <NEWLINE>
+p = Popen ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , stdout = PIPE , stdin = PIPE , stderr = STDOUT ) <NEWLINE> grep_stdout = p . communicate ( input = <STRING_LITERAL> ) [ 0 ] <NEWLINE>
+p = subprocess . Popen ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , stdout = subprocess . PIPE , stdin = subprocess . PIPE ) <NEWLINE> p . stdin . write ( <STRING_LITERAL> ) <NEWLINE> p . communicate ( ) [ 0 ] <NEWLINE> p . stdin . close ( ) <NEWLINE>
+[ list ( t ) for t in zip ( * list_of_tuples ) ] <NEWLINE>
+zip ( * list_of_tuples ) <NEWLINE>
+pd . merge ( y , x , on = <STRING_LITERAL> ) [ [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ] <NEWLINE>
+[ item . strip ( ) for item in my_string . split ( <STRING_LITERAL> ) ] <NEWLINE>
+print ( ( obj . __dict__ ) ) <NEWLINE>
+dir ( ) <NEWLINE>
+dir ( ) <NEWLINE>
+window . set_position ( Gtk . WindowPosition . CENTER ) <NEWLINE>
+plt . rc ( <STRING_LITERAL> , ** { <STRING_LITERAL> : <STRING_LITERAL> } ) <NEWLINE>
+df . isnull ( ) . values . any ( ) <NEWLINE>
+some_func ( * params ) <NEWLINE>
+urllib . parse . unquote ( h . path . encode ( <STRING_LITERAL> ) ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+( trace_df [ <STRING_LITERAL> ] > 0 ) . mean ( ) <NEWLINE>
+emaillist = <STRING_LITERAL> . join ( item [ 0 ] for item in queryresult ) <NEWLINE>
+[ item [ 0 ] for item in queryresult ] <NEWLINE>
+emaillist = <STRING_LITERAL> . join ( [ item [ 0 ] for item in queryresult ] ) <NEWLINE>
+print ( ( <STRING_LITERAL> , window2 . focus_get ( ) . __class__ ) ) <NEWLINE>
+a = [ 0 ] * 10000 <NEWLINE>
+print ( <STRING_LITERAL> . join ( sorted ( set ( words ) , key = words . index ) ) ) <NEWLINE>
+random . sample ( range ( 1 , 50 ) , 6 ) <NEWLINE>
+random . sample ( range ( 1 , 50 ) , 6 ) <NEWLINE>
+{ k . lower ( ) : v . lower ( ) for k , v in list ( { <STRING_LITERAL> : <STRING_LITERAL> } . items ( ) ) } <NEWLINE>
+dict ( ( k . lower ( ) , v ) for k , v in { <STRING_LITERAL> : <STRING_LITERAL> } . items ( ) ) <NEWLINE>
+dict ( ( k . lower ( ) , v . lower ( ) ) for k , v in { <STRING_LITERAL> : <STRING_LITERAL> } . items ( ) ) <NEWLINE>
+[ sorted ( item ) for item in data ] <NEWLINE>
+names = list ( map ( lambda x : x [ 0 ] , cursor . description ) ) <NEWLINE>
+os . path . abspath ( __file__ ) <NEWLINE>
+sorted ( matrix , key = itemgetter ( 1 ) ) <NEWLINE>
+[ index for index , letter in enumerate ( word ) if letter == <STRING_LITERAL> ] <NEWLINE>
+print ( str ( x ) . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+os . path . isfile ( fname ) <NEWLINE>
+my_file = Path ( <STRING_LITERAL> ) <NEWLINE> if my_file . is_file ( ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+os . path . exists ( file_path ) <NEWLINE>
+print ( os . path . isfile ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( os . path . isfile ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( os . path . exists ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( os . path . isfile ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( os . path . exists ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( os . path . exists ( <STRING_LITERAL> ) ) <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . split ( ) <NEWLINE>
+list ( i for i in range ( 3 ) ) <NEWLINE>
+writer . writeheader ( ) <NEWLINE>
+[ ( a , b , c ) for a , ( b , c ) in l ] <NEWLINE>
+<STRING_LITERAL> . format ( 3652458 ) <NEWLINE>
+[ ( v , k ) for k , v in list ( d . items ( ) ) ] <NEWLINE>
+[ ( v , k ) for k , v in d . items ( ) ] <NEWLINE>
+[ ( v , k ) for k , v in a . items ( ) ] <NEWLINE>
+[ ( k , v ) for k , v in a . items ( ) ] <NEWLINE>
+[ int ( x , 16 ) for x in [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ] <NEWLINE>
+[ int ( x , 16 ) for x in L ] <NEWLINE>
+var1 , var2 = input ( <STRING_LITERAL> ) . split ( ) <NEWLINE>
+Test . objects . filter ( actions__contains = [ { <STRING_LITERAL> : <STRING_LITERAL> } ] ) <NEWLINE>
+itertools . product ( list ( range ( 2 ) ) , repeat = 4 ) <NEWLINE>
+( datetime . now ( ) - timedelta ( 1 ) ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+np . dot ( [ 1 , 0 , 0 , 1 , 0 , 0 ] , [ [ 0 , 1 ] , [ 1 , 1 ] , [ 1 , 0 ] , [ 1 , 0 ] , [ 1 , 1 ] , [ 0 , 1 ] ] ) <NEWLINE>
+df [ <STRING_LITERAL> ] = pd . to_datetime ( df [ <STRING_LITERAL> ] , format = <STRING_LITERAL> ) <NEWLINE>
+sys . path . insert ( 0 , <STRING_LITERAL> ) <NEWLINE> import file <NEWLINE>
+x . reset_index ( ) . merge ( y , how = <STRING_LITERAL> , on = <STRING_LITERAL> , sort = False ) . sort ( <STRING_LITERAL> ) <NEWLINE>
+json . loads ( request . POST . get ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+list ( zip ( * ( ( iter ( [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ] ) , ) * 3 ) ) ) <NEWLINE>
+list ( grouper ( 2 , [ 1 , 2 , 3 , 4 , 5 , 6 , 7 ] ) ) <NEWLINE>
+keys . sort ( key = lambda x : map ( int , x . split ( <STRING_LITERAL> ) ) ) <NEWLINE>
+keys . sort ( key = lambda x : [ int ( y ) for y in x . split ( <STRING_LITERAL> ) ] ) <NEWLINE>
+img . transpose ( 2 , 0 , 1 ) . reshape ( 3 , - 1 ) <NEWLINE>
+df [ <STRING_LITERAL> ] . replace ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , <STRING_LITERAL> ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] . replace ( [ <STRING_LITERAL> , <STRING_LITERAL> ] , <STRING_LITERAL> ) <NEWLINE>
+df . sub ( df . mean ( axis = 1 ) , axis = 0 ) <NEWLINE>
+<STRING_LITERAL> . join ( [ i for i in s if i . isalpha ( ) ] ) <NEWLINE>
+l = ( int ( x ) for x in s . split ( ) ) <NEWLINE>
+<STRING_LITERAL> . split ( ) <NEWLINE>
+[ i for i , elem in enumerate ( bool_list , 1 ) if elem ] <NEWLINE>
+data . groupby ( data [ <STRING_LITERAL> ] . map ( lambda x : x . year ) ) <NEWLINE>
+np . in1d ( b , a ) . nonzero ( ) [ 0 ] <NEWLINE>
+time . strftime ( <STRING_LITERAL> ) <NEWLINE>
+ax . set_xticklabels ( ax . xaxis . get_majorticklabels ( ) , rotation = 45 ) <NEWLINE>
+<STRING_LITERAL> . join ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+x [ ( np . arange ( x . shape [ 0 ] ) != 1 ) , : , : ] <NEWLINE>
+print ( item [ <STRING_LITERAL> ] ) <NEWLINE>
+result = sys . stdin . read ( ) <NEWLINE>
+<STRING_LITERAL> . join ( soup . findAll ( text = True ) ) <NEWLINE>
+data [ data [ <STRING_LITERAL> ] == True ] <NEWLINE>
+<STRING_LITERAL> . join ( set ( foo ) ) <NEWLINE>
+sorted ( Profile . objects . all ( ) , key = lambda p : p . reputation ) <NEWLINE>
+df . values . flatten ( ) <NEWLINE>
+users . sort ( key = lambda x : order . index ( x [ <STRING_LITERAL> ] ) ) <NEWLINE>
+users . sort ( key = lambda x : order . index ( x [ <STRING_LITERAL> ] ) ) <NEWLINE>
+r = requests . get ( <STRING_LITERAL> , headers = { <STRING_LITERAL> : <STRING_LITERAL> } ) <NEWLINE>
+print ( <STRING_LITERAL> . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> , re . DOTALL ) <NEWLINE>
+a . shape [ 1 ] <NEWLINE>
+d . apply ( lambda row : min ( [ row [ <STRING_LITERAL> ] , row [ <STRING_LITERAL> ] ] ) - row [ <STRING_LITERAL> ] , axis = 1 ) <NEWLINE>
+<STRING_LITERAL> . count ( <STRING_LITERAL> ) <NEWLINE>
+[ d [ <STRING_LITERAL> ] for d in l if <STRING_LITERAL> in d ] <NEWLINE>
+[ d [ <STRING_LITERAL> ] for d in l ] <NEWLINE>
+[ d [ <STRING_LITERAL> ] for d in l ] <NEWLINE>
+l1 . sort ( key = lambda x : int ( x [ 0 ] ) ) <NEWLINE>
+sorted ( [ [ 1 , <STRING_LITERAL> ] , [ 1 , <STRING_LITERAL> ] ] ) <NEWLINE>
+<STRING_LITERAL> . translate ( maketrans ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+<STRING_LITERAL> . join ( [ ( <STRING_LITERAL> % ( key , value ) ) for key , value in list ( d . items ( ) ) ] ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+[ dict ( d , count = n ) for d , n in zip ( l1 , l2 ) ] <NEWLINE>
+[ sum ( x ) for x in zip ( * l ) ] <NEWLINE>
+map ( sum , zip ( * l ) ) <NEWLINE>
+np . count_nonzero ( ~ np . isnan ( data ) ) <NEWLINE>
+map ( list , zip ( * main_list ) ) <NEWLINE>
+request . POST . get ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . endswith ( ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , s ) <NEWLINE>
+data . apply ( lambda x : sorted ( x , 3 ) ) <NEWLINE>
+os . chdir ( <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , string ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+datetime . datetime . strptime ( str_date , <STRING_LITERAL> ) . date ( ) . isoformat ( ) <NEWLINE>
+A [ [ 0 , 1 ] , [ 0 , 1 ] ] <NEWLINE>
+a [ np . arange ( 3 ) , ( 0 , 1 , 0 ) ] <NEWLINE>
+[ k for k , v in dictA . items ( ) if v . count ( <STRING_LITERAL> ) > 1 ] <NEWLINE>
+[ [ 2 , 3 , 4 ] , [ 2 , 3 , 4 ] , [ 2 , 3 , 4 ] ] <NEWLINE>
+print ( arr [ 1 , 1 ] ) <NEWLINE>
+quadmesh . set_clim ( vmin = 0 , vmax = 15 ) <NEWLINE>
+my_data = genfromtxt ( <STRING_LITERAL> , delimiter = <STRING_LITERAL> ) <NEWLINE>
+df = pd . read_csv ( <STRING_LITERAL> , sep = <STRING_LITERAL> , header = None ) <NEWLINE>
+np . genfromtxt ( <STRING_LITERAL> , delimiter = <STRING_LITERAL> ) <NEWLINE>
+np . genfromtxt ( <STRING_LITERAL> , delimiter = <STRING_LITERAL> , dtype = None ) <NEWLINE>
+my_string . splitlines ( ) [ 0 ] <NEWLINE>
+df . values . tolist ( ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) <NEWLINE>
+dict ( ( k , v * dict2 [ k ] ) for k , v in list ( dict1 . items ( ) ) if k in dict2 ) <NEWLINE>
+return <STRING_LITERAL> . join ( random . choice ( string . lowercase ) for i in range ( length ) ) <NEWLINE>
+sum ( len ( x ) for x in list ( food_colors . values ( ) ) ) <NEWLINE>
+sum ( len ( v ) for v in food_colors . values ( ) ) <NEWLINE>
+all ( a_list ) <NEWLINE>
+<STRING_LITERAL> . join ( c for c in text if c not in <STRING_LITERAL> ) <NEWLINE>
+[ ( x / y ) for x , y in zip ( a , b ) ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) . apply ( lambda x : np . mean ( np . log2 ( x [ <STRING_LITERAL> ] ) ) ) <NEWLINE>
+[ key for key , value in list ( my_dict . items ( ) ) if set ( value ) . intersection ( lst ) ] <NEWLINE>
+[ key for item in lst for key , value in list ( my_dict . items ( ) ) if item in value ] <NEWLINE>
+c = [ [ ( i + j ) for i , j in zip ( e , b ) ] for e in a ] <NEWLINE>
+os . path . commonprefix ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+print ( os . path . relpath ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+grouped . filter ( lambda x : len ( x ) > 1 ) <NEWLINE>
+sorted ( list ( myDict . items ( ) ) , key = lambda e : e [ 1 ] [ 2 ] ) <NEWLINE>
+<STRING_LITERAL> . format ( name = <STRING_LITERAL> ) <NEWLINE>
+df . reindex ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+any ( isinstance ( el , list ) for el in input_list ) <NEWLINE>
+len ( items ) <NEWLINE>
+len ( [ 1 , 2 , 3 ] ) <NEWLINE>
+items . __len__ ( ) <NEWLINE>
+len ( ) <NEWLINE>
+len ( s ) <NEWLINE>
+df . sort ( axis = 1 , ascending = False ) <NEWLINE>
+df . groupby ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . size ( ) . groupby ( level = 1 ) . max ( ) <NEWLINE>
+<STRING_LITERAL> in [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] <NEWLINE>
+mydict . pop ( <STRING_LITERAL> , None ) <NEWLINE>
+del mydict [ key ] <NEWLINE>
+try : <NEWLINE> <INDENT> del mydict [ key ] <NEWLINE> <DEDENT> except KeyError : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT> try : <NEWLINE> <INDENT> del mydict [ key ] <NEWLINE> <DEDENT> except KeyError : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+parser . add_argument ( <STRING_LITERAL> , nargs = <STRING_LITERAL> ) <NEWLINE>
+pyplot . plot ( x , y , color = <STRING_LITERAL> ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) <NEWLINE>
+a [ np . in1d ( a , b ) ] <NEWLINE>
+<STRING_LITERAL> . split ( <STRING_LITERAL> , 1 ) <NEWLINE>
+print ( <STRING_LITERAL> % <STRING_LITERAL> . join ( <STRING_LITERAL> % val for val in list ) ) <NEWLINE>
+print ( <STRING_LITERAL> + <STRING_LITERAL> . join ( <STRING_LITERAL> % v for v in l ) + <STRING_LITERAL> ) <NEWLINE>
+print ( [ ( <STRING_LITERAL> % val ) for val in l ] ) <NEWLINE>
+os . chdir ( <STRING_LITERAL> ) <NEWLINE>
+print ( text . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , struct . pack ( <STRING_LITERAL> , int ( s2 , 0 ) ) ) [ 0 ] <NEWLINE>
+float ( int ( <STRING_LITERAL> , 0 ) ) <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , b8 ) [ 0 ] <NEWLINE>
+df . colour . value_counts ( ) . plot ( kind = <STRING_LITERAL> ) <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) . size ( ) . plot ( kind = <STRING_LITERAL> ) <NEWLINE>
+line . strip ( ) . split ( <STRING_LITERAL> ) <NEWLINE>
+df . groupby ( lambda idx : 0 ) . agg ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+sorted ( list ( tag_weight . items ( ) ) , key = lambda x : int ( x [ 1 ] ) , reverse = True ) <NEWLINE>
+int ( math . ceil ( x ) ) - 1 <NEWLINE>
+if ( not myString ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+if ( not some_string ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+if ( not my_string ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+if some_string : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+it = iter ( sorted ( d . items ( ) ) ) <NEWLINE>
+for ( key , value ) in sorted ( d . items ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+return sorted ( dict . items ( ) ) <NEWLINE>
+return iter ( sorted ( dict . items ( ) ) ) <NEWLINE>
+for ( k , v ) in sorted ( foo . items ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for k in sorted ( foo . keys ( ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+last = len ( s ) - s [ : : - 1 ] . index ( x ) - 1 <NEWLINE>
+str1 = <STRING_LITERAL> . join ( list1 ) <NEWLINE>
+<STRING_LITERAL> . join ( ( str ( x ) for x in L ) ) <NEWLINE>
+str1 = <STRING_LITERAL> . join ( ( str ( e ) for e in list1 ) ) <NEWLINE>
+makeitastring = <STRING_LITERAL> . join ( map ( str , L ) ) <NEWLINE>
+[ x for x in L if x is not None ] <NEWLINE>
+random . choice ( [ 1 , 2 , 3 ] ) <NEWLINE>
+x = [ [ None for _ in range ( 5 ) ] for _ in range ( 6 ) ] <NEWLINE>
+A [ ( np . random . choice ( A . shape [ 0 ] , 2 , replace = False ) ) , : ] <NEWLINE>
+A [ ( np . random . randint ( A . shape [ 0 ] , size = 2 ) ) , : ] <NEWLINE>
+df . groupby ( df . index ) . sum ( ) <NEWLINE>
+root . findall ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . join ( random . choice ( string . lowercase ) for x in range ( X ) ) <NEWLINE>
+sys . path . append ( <STRING_LITERAL> ) <NEWLINE>
+int ( round ( x ) ) <NEWLINE>
+h = int ( round ( h ) ) <NEWLINE>
+round ( 32.268907563 , 3 ) <NEWLINE>
+round ( value , significantDigit ) <NEWLINE>
+round ( 1.0005 , 3 ) <NEWLINE>
+round ( 2.0005 , 3 ) <NEWLINE>
+round ( 3.0005 , 3 ) <NEWLINE>
+round ( 4.0005 , 3 ) <NEWLINE>
+round ( 8.005 , 2 ) <NEWLINE>
+round ( 7.005 , 2 ) <NEWLINE>
+round ( 6.005 , 2 ) <NEWLINE>
+round ( 1.005 , 2 ) <NEWLINE>
+df [ <STRING_LITERAL> ] . fillna ( df [ <STRING_LITERAL> ] ) <NEWLINE>
+logging . info ( <STRING_LITERAL> , date ) <NEWLINE>
+logging . info ( <STRING_LITERAL> . format ( date ) ) <NEWLINE>
+{ k : int ( v ) for k , v in d . items ( ) } <NEWLINE>
+map ( sum , zip ( * lists ) ) <NEWLINE>
+s . decode ( <STRING_LITERAL> ) <NEWLINE>
+binascii . a2b_hex ( s ) <NEWLINE>
+connection . send ( <STRING_LITERAL> ) <NEWLINE>
+connection . send ( <STRING_LITERAL> ) <NEWLINE>
+df [ <STRING_LITERAL> ] [ <STRING_LITERAL> ] = 10 <NEWLINE>
+np . sqrt ( np . square ( df ) . sum ( axis = 1 ) ) <NEWLINE>
+sorted ( set ( my_list ) ) <NEWLINE>
+max ( enumerate ( a ) , key = lambda x : x [ 1 ] ) [ 0 ] <NEWLINE>
+[ d [ <STRING_LITERAL> ] for d in thisismylist ] <NEWLINE>
+[ ( d [ <STRING_LITERAL> ] , d [ <STRING_LITERAL> ] ) for d in thisismylist ] <NEWLINE>
+model . objects . all ( ) . order_by ( <STRING_LITERAL> ) [ 0 ] <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , text ) <NEWLINE>
+parser . add_argument ( <STRING_LITERAL> , nargs = 2 , action = <STRING_LITERAL> ) <NEWLINE>
+random . sample ( list ( range ( 1 , 16 ) ) , 3 ) <NEWLINE>
+strings . sort ( key = lambda str : re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , str ) ) <NEWLINE>
+strings . sort ( key = lambda str : re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , str ) ) <NEWLINE>
+listy = [ [ ] for i in range ( 3 ) ] <NEWLINE>
+A = np . array ( sorted ( A , key = tuple ) ) <NEWLINE>
+[ ( x + y ) for x in <STRING_LITERAL> for y in <STRING_LITERAL> ] <NEWLINE>
+<STRING_LITERAL> . strip ( ) <NEWLINE>
+myString . strip ( ) <NEWLINE>
+<STRING_LITERAL> . strip ( ) <NEWLINE>
+<STRING_LITERAL> . strip ( ) <NEWLINE>
+<STRING_LITERAL> . strip ( ) <NEWLINE>
+<STRING_LITERAL> . strip ( ) <NEWLINE>
+str . strip ( ) <NEWLINE>
+myString . strip ( <STRING_LITERAL> ) <NEWLINE>
+myString . lstrip ( <STRING_LITERAL> ) <NEWLINE>
+myString . rstrip ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . strip ( <STRING_LITERAL> ) <NEWLINE>
+sorted ( unsorted , key = lambda element : ( element [ 1 ] , element [ 2 ] ) ) <NEWLINE>
+print ( content . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+np . ma . array ( np . tile ( arr , 2 ) . reshape ( 2 , 3 ) , mask = ~ cond ) . argmax ( axis = 1 ) <NEWLINE>
+pd . to_datetime ( df . ID . str [ 1 : - 3 ] ) <NEWLINE>
+df = pd . read_csv ( <STRING_LITERAL> , dtype = { <STRING_LITERAL> : np . float64 } , na_values = [ <STRING_LITERAL> ] ) <NEWLINE>
+df = pd . read_csv ( <STRING_LITERAL> , na_values = [ <STRING_LITERAL> ] ) <NEWLINE>
+list ( itertools . product ( * a ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+codecs . open ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) . read ( ) <NEWLINE>
+[ f ( x ) for x in list ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , s ) <NEWLINE>
+[ item for item in a if sum ( item ) > 10 ] <NEWLINE>
+cents_int = int ( round ( float ( dollars . strip ( <STRING_LITERAL> ) ) * 100 ) ) <NEWLINE>
+<STRING_LITERAL> . join ( dropwhile ( lambda x : x in bad_chars , example_line [ : : - 1 ] ) ) [ : : - 1 ] <NEWLINE>
+l = [ ] <NEWLINE>
+l = list ( ) <NEWLINE>
+list ( ) <NEWLINE>
+[ ] <NEWLINE>
+sys . exit ( 0 ) <NEWLINE>
+s [ : 4 ] + <STRING_LITERAL> + s [ 4 : ] <NEWLINE>
+[ [ ] for i in range ( 3 ) ] <NEWLINE>
+a = [ [ ] for i in range ( 3 ) ] <NEWLINE>
+requests . get ( url , headers = { <STRING_LITERAL> : my_referer } ) <NEWLINE>
+pylab . ylim ( [ 0 , 1000 ] ) <NEWLINE>
+pd . get_dummies ( s . apply ( pd . Series ) . stack ( ) ) . sum ( level = 0 ) <NEWLINE>
+y = str ( int ( x , 16 ) ) <NEWLINE>
+a . isdigit ( ) <NEWLINE>
+isdigit ( ) <NEWLINE>
+b . isdigit ( ) <NEWLINE>
+pd . read_csv ( StringIO ( s ) , sep = <STRING_LITERAL> , comment = <STRING_LITERAL> ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] . apply ( lambda x : int ( str ( x ) [ - 4 : ] ) ) <NEWLINE>
+sum ( list_of_nums ) <NEWLINE>
+max ( lst , key = lambda x : x [ <STRING_LITERAL> ] ) <NEWLINE>
+soup . findAll ( attrs = { <STRING_LITERAL> : <STRING_LITERAL> } ) <NEWLINE>
+str ( { <STRING_LITERAL> : 1 , <STRING_LITERAL> : <STRING_LITERAL> } ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> + <STRING_LITERAL> . join ( <STRING_LITERAL> . format ( * x ) for x in list ( dct . items ( ) ) ) + <STRING_LITERAL> <NEWLINE>
+<STRING_LITERAL> . join ( parts [ 1 : ] ) <NEWLINE>
+<STRING_LITERAL> . join ( c . rsplit ( <STRING_LITERAL> , 1 ) ) <NEWLINE>
+a [ np . all ( a != 0 , axis = 1 ) ] <NEWLINE>
+<STRING_LITERAL> . join ( re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+results_union = set ( ) . union ( * results_list ) <NEWLINE>
+return list ( set ( itertools . chain ( * result_list ) ) ) <NEWLINE>
+np . any ( np . in1d ( a1 , a2 ) ) <NEWLINE>
+return <STRING_LITERAL> . join ( ch for ch in s if unicodedata . category ( ch ) [ 0 ] != <STRING_LITERAL> ) <NEWLINE>
+all ( i < j for i , j in zip ( a , b ) ) <NEWLINE>
+driver . find_element_by_css_selector ( <STRING_LITERAL> ) . click ( ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+print ( select ( [ my_table , func . current_date ( ) ] ) . execute ( ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+split_list = [ the_list [ i : i + n ] for i in range ( 0 , len ( the_list ) , n ) ] <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+pandas . set_option ( <STRING_LITERAL> , 7 ) <NEWLINE>
+pandas . set_option ( <STRING_LITERAL> , None ) <NEWLINE>
+df . ix [ df . A == 0 , <STRING_LITERAL> ] = np . nan <NEWLINE>
+driver . find_element_by_xpath ( <STRING_LITERAL> ) <NEWLINE>
+mylist . sort ( key = operator . itemgetter ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+mylist . sort ( key = lambda d : ( d [ <STRING_LITERAL> ] , d [ <STRING_LITERAL> ] ) ) <NEWLINE>
+{ x [ 1 ] : x for x in lol } <NEWLINE>
+sorted ( d , key = lambda k : d [ k ] [ 1 ] ) <NEWLINE>
+int ( round ( 123 , - 2 ) ) <NEWLINE>
+fd = os . open ( <STRING_LITERAL> , os . O_WRONLY | os . O_CREAT | os . O_EXCL ) <NEWLINE>
+new_list = [ x . split ( ) [ - 1 ] for x in Original_List ] <NEWLINE>
+<STRING_LITERAL> [ : : ( - 1 ) ] <NEWLINE>
+s [ : : ( - 1 ) ] <NEWLINE>
+<STRING_LITERAL> . join ( reversed ( <STRING_LITERAL> ) ) <NEWLINE>
+<STRING_LITERAL> . join ( reversed ( string ) ) <NEWLINE>
+<STRING_LITERAL> [ : : ( - 1 ) ] <NEWLINE>
+a_string [ : : ( - 1 ) ] <NEWLINE>
+def reversed_string ( a_string ) : <NEWLINE> <INDENT> return a_string [ : : ( - 1 ) ] <NEWLINE> <DEDENT>
+<STRING_LITERAL> . join ( reversed ( s ) ) <NEWLINE>
+<STRING_LITERAL> . join ( str ( i ) for i in range ( 100 ) if i % 4 in ( 1 , 2 ) ) <NEWLINE>
+dict ( [ ( e [ 0 ] , int ( e [ 1 ] ) ) for e in lst ] ) <NEWLINE>
+sorted ( list_of_tuples , key = lambda tup : tup [ : : - 1 ] ) <NEWLINE>
+sorted ( list_of_tuples , key = lambda tup : tup [ 1 ] ) <NEWLINE>
+numpy . concatenate ( [ a , b ] ) <NEWLINE>
+for item in thelist : <NEWLINE> <INDENT> thefile . write ( ( <STRING_LITERAL> % item ) ) <NEWLINE> <DEDENT>
+for item in thelist : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+pickle . dump ( itemlist , outfile ) <NEWLINE>
+outfile . write ( <STRING_LITERAL> . join ( itemlist ) ) <NEWLINE>
+session . query ( User ) . filter_by ( id = 123 ) . update ( { <STRING_LITERAL> : <STRING_LITERAL> } ) <NEWLINE>
+r = requests . post ( <STRING_LITERAL> , cookies = cookie ) <NEWLINE>
+sys . path . insert ( 0 , <STRING_LITERAL> ) <NEWLINE>
+datetime . datetime . now ( ) <NEWLINE>
+datetime . datetime . now ( ) . time ( ) <NEWLINE>
+strftime ( <STRING_LITERAL> , gmtime ( ) ) <NEWLINE>
+str ( datetime . now ( ) ) <NEWLINE>
+datetime . datetime . time ( datetime . datetime . now ( ) ) <NEWLINE>
+ord ( <STRING_LITERAL> ) <NEWLINE>
+df . groupby ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . cumcount ( ) + 1 <NEWLINE>
+datetime . utcnow ( ) <NEWLINE>
+a [ - 1 : ] + a [ : - 1 ] <NEWLINE>
+df . set_index ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) . unstack ( level = - 1 ) <NEWLINE>
+df . pivot_table ( values = <STRING_LITERAL> , index = [ <STRING_LITERAL> , <STRING_LITERAL> ] , columns = <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> + <STRING_LITERAL> + <STRING_LITERAL> + <STRING_LITERAL> ) <NEWLINE>
+range ( 10 , 0 , - 1 ) <NEWLINE>
+name [ 0 ] . firstChild . nodeValue <NEWLINE>
+thread . start_new_thread ( myfunction , ( <STRING_LITERAL> , 1 ) ) <NEWLINE>
+thread . start_new_thread ( myfunction , ( <STRING_LITERAL> , 1 ) ) <NEWLINE>
+a . index ( max ( a ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , para ) <NEWLINE>
+[ i . split ( ) for i in re . findall ( <STRING_LITERAL> , a ) ] <NEWLINE>
+[ d for d in a if d [ <STRING_LITERAL> ] == <STRING_LITERAL> ] <NEWLINE>
+[ d for d in a if d [ <STRING_LITERAL> ] == <STRING_LITERAL> ] <NEWLINE>
+list ( d . values ( ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+os . chmod ( <STRING_LITERAL> , 484 ) <NEWLINE>
+df . to_csv ( <STRING_LITERAL> , index = False ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , words ) . strip ( ) <NEWLINE>
+dogtail . rawinput . click ( 100 , 100 ) <NEWLINE>
+datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . search ( <STRING_LITERAL> , String ) . start ( ) <NEWLINE>
+re . search ( <STRING_LITERAL> , String ) . start ( ) <NEWLINE>
+tuple ( map ( int , input ( ) . split ( <STRING_LITERAL> ) ) ) <NEWLINE>
+tuple ( int ( x . strip ( ) ) for x in input ( ) . split ( <STRING_LITERAL> ) ) <NEWLINE>
+str . decode ( <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . encode ( <STRING_LITERAL> ) <NEWLINE>
+str . decode ( <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+np . zeros ( ( 3 , 3 ) ) . ravel ( ) <NEWLINE>
+import platform <NEWLINE> platform . system ( ) <NEWLINE>
+import platform <NEWLINE> platform . release ( ) <NEWLINE>
+print ( os . name ) <NEWLINE>
+<STRING_LITERAL> . format ( <STRING_LITERAL> ) <NEWLINE>
+min ( list , key = lambda x : float ( <STRING_LITERAL> ) if math . isnan ( x [ 1 ] ) else x [ 1 ] ) <NEWLINE>
+a = [ ( sum ( x ) / len ( x ) ) for x in zip ( * a ) ] <NEWLINE>
+logging . info ( <STRING_LITERAL> , extra = { <STRING_LITERAL> : <STRING_LITERAL> } ) <NEWLINE>
+df . applymap ( lambda x : isinstance ( x , ( int , float ) ) ) <NEWLINE>
+sorted ( l , key = lambda x : int ( re . search ( <STRING_LITERAL> , x ) . group ( 0 ) ) ) <NEWLINE>
+self . root . destroy ( ) <NEWLINE>
+df . iloc [ : , ( [ 2 , 5 , 6 , 7 , 8 ] ) ] . mean ( axis = 1 ) <NEWLINE>
+df [ df . index . map ( lambda x : x [ 1 ] . endswith ( <STRING_LITERAL> ) ) ] <NEWLINE>
+db . session . delete ( page ) <NEWLINE>
+<STRING_LITERAL> . join ( chr ( ord ( c ) ) for c in <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . join ( chr ( ord ( c ) ) for c in <STRING_LITERAL> ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+for ( dirname , dirnames , filenames ) in os . walk ( <STRING_LITERAL> ) : <NEWLINE> <INDENT> for subdirname in dirnames : <NEWLINE> <INDENT> print ( os . path . join ( dirname , subdirname ) ) <NEWLINE> <DEDENT> for filename in filenames : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT> <DEDENT>
+os . listdir ( path ) <NEWLINE>
+os . rename ( dir , dir + <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . join ( a + b for a , b in zip ( s [ : : 2 ] , s [ 1 : : 2 ] ) ) <NEWLINE>
+print ( <STRING_LITERAL> % 3.1415 ) <NEWLINE>
+data [ 0 ] [ <STRING_LITERAL> ] = var <NEWLINE>
+print ( a_module . __file__ ) <NEWLINE>
+print ( os . getcwd ( ) ) <NEWLINE>
+path = os . path . abspath ( amodule . __file__ ) <NEWLINE>
+self . myList . extend ( [ 0 ] * ( 4 - len ( self . myList ) ) ) <NEWLINE>
+df [ ~ df . index . duplicated ( ) ] <NEWLINE>
+foo ( * i ) <NEWLINE>
+[ ( <STRING_LITERAL> % i ) for i in range ( 16 ) ] <NEWLINE>
+sorted ( iter ( mydict . items ( ) ) , key = lambda tup : sum ( tup [ 1 ] ) , reverse = True ) [ : 3 ] <NEWLINE>
+heapq . nlargest ( 3 , iter ( mydict . items ( ) ) , key = lambda tup : sum ( tup [ 1 ] ) ) <NEWLINE>
+[ <STRING_LITERAL> , <STRING_LITERAL> ] . index ( <STRING_LITERAL> ) <NEWLINE>
+plt . setp ( legend . get_title ( ) , fontsize = <STRING_LITERAL> ) <NEWLINE>
+[ x [ 1 ] for x in elements ] <NEWLINE>
+np . diag ( np . rot90 ( array ) ) <NEWLINE>
+list ( chain . from_iterable ( a ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , line . strip ( ) ) <NEWLINE>
+print ( ( <STRING_LITERAL> % a ) ) <NEWLINE>
+print ( ( <STRING_LITERAL> . format ( a ) ) ) <NEWLINE>
+print ( ( <STRING_LITERAL> . format ( round ( a , 2 ) ) ) ) <NEWLINE>
+print ( ( <STRING_LITERAL> % round ( a , 2 ) ) ) <NEWLINE>
+( <STRING_LITERAL> % 13.9499999 ) <NEWLINE>
+( <STRING_LITERAL> % 3.14159 ) <NEWLINE>
+float ( <STRING_LITERAL> . format ( 13.95 ) ) <NEWLINE>
+<STRING_LITERAL> . format ( 13.95 ) <NEWLINE>
+DataFrame . from_csv ( <STRING_LITERAL> , sep = <STRING_LITERAL> ) <NEWLINE>
+dateutil . parser . parse ( <STRING_LITERAL> ) <NEWLINE>
+cur . mogrify ( <STRING_LITERAL> , ( ( 1 , 2 , 3 ) , ) ) <NEWLINE>
+sum ( [ sum ( x ) for x in [ [ 1 , 2 , 3 , 4 ] , [ 2 , 4 , 5 , 6 ] ] ] ) <NEWLINE>
+next ( iter ( dict . values ( ) ) ) <NEWLINE>
+next ( iter ( list ( dict . values ( ) ) ) ) <NEWLINE>
+df . groupby ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . sum ( ) . unstack ( level = 0 ) <NEWLINE>
+sorted ( mylist , key = lambda x : order . index ( x [ 1 ] ) ) <NEWLINE>
+sorted ( persons , key = lambda x : x [ <STRING_LITERAL> ] [ <STRING_LITERAL> ] [ <STRING_LITERAL> ] ) <NEWLINE>
+urlparse . urldefrag ( <STRING_LITERAL> ) <NEWLINE>
+urllib . request . urlretrieve ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+list ( set ( frozenset ( item ) for item in L ) ) <NEWLINE>
+[ set ( item ) for item in set ( frozenset ( item ) for item in L ) ] <NEWLINE>
+p . terminate ( ) <NEWLINE>
+del mylist [ : ] <NEWLINE>
+ctypes . windll . user32 . MessageBoxW ( 0 , <STRING_LITERAL> , <STRING_LITERAL> , 0 ) <NEWLINE>
+str_list = list ( [ _f for _f in str_list if _f ] ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , yourstring ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+A [ np . all ( np . any ( A - B [ : , ( None ) ] , axis = 2 ) , axis = 0 ) ] <NEWLINE>
+a . to_csv ( <STRING_LITERAL> , cols = [ <STRING_LITERAL> ] ) <NEWLINE>
+exec ( compile ( open ( <STRING_LITERAL> ) . read ( ) , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+subprocess . call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+sorted ( zipped , key = lambda x : x [ 1 ] ) <NEWLINE>
+sorted ( list ( y . items ( ) ) , key = lambda x : ( x [ 1 ] , x [ 0 ] ) , reverse = True ) <NEWLINE>
+soup . find_all ( <STRING_LITERAL> , class_ = <STRING_LITERAL> ) <NEWLINE>
+[ element for i , element in enumerate ( centroids ) if i not in index ] <NEWLINE>
+list ( set ( listA ) & set ( listB ) ) <NEWLINE>
+testfile = urllib . request . URLopener ( ) <NEWLINE> testfile . retrieve ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+urllib . request . urlretrieve ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+file_name = wget . download ( file_url ) <NEWLINE>
+ax . set_yticklabels ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+list ( itertools . product ( list ( range ( - x , y ) ) , repeat = dim ) ) <NEWLINE>
+print ( s . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+<STRING_LITERAL> % <STRING_LITERAL> . join ( my_args ) <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> , 1 ) <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> , 1 ) <NEWLINE>
+pd . DataFrame ( d ) <NEWLINE>
+<STRING_LITERAL> . split ( ) <NEWLINE>
+<STRING_LITERAL> . split ( ) <NEWLINE>
+woduplicates = list ( set ( lseperatedOrblist ) ) <NEWLINE>
+sum ( [ ( i * j ) for i , j in list ( itertools . combinations ( l , 2 ) ) ] ) <NEWLINE>
+re . compile ( <STRING_LITERAL> . format ( user ) ) <NEWLINE>
+[ float ( i ) for i in lst ] <NEWLINE>
+from functools import reduce <NEWLINE> reduce ( lambda x , y : x * y , [ 1 , 2 , 3 , 4 , 5 , 6 ] ) <NEWLINE>
+writer . writerow ( A ) <NEWLINE>
+writer . writerows ( A ) <NEWLINE>
+<STRING_LITERAL> . format ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+example = [ x . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) for x in example ] <NEWLINE>
+[ i . partition ( <STRING_LITERAL> ) [ - 1 ] for i in l if <STRING_LITERAL> in i ] <NEWLINE>
+re . search ( <STRING_LITERAL> , testStr , re . DOTALL ) <NEWLINE>
+next = driver . find_element_by_css_selector ( <STRING_LITERAL> ) <NEWLINE>
+os . stat ( <STRING_LITERAL> ) . st_size <NEWLINE>
+imtag = re . match ( <STRING_LITERAL> , line ) . group ( 0 ) <NEWLINE>
+os . rename ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+bin ( 173 ) <NEWLINE>
+int ( <STRING_LITERAL> , 2 ) <NEWLINE>
+int ( <STRING_LITERAL> , 2 ) <NEWLINE>
+int ( <STRING_LITERAL> , 2 ) <NEWLINE>
+bin ( 21 ) <NEWLINE>
+int ( <STRING_LITERAL> , 2 ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+s = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+s . split ( <STRING_LITERAL> , 1 ) [ 1 ] <NEWLINE>
+print ( s . split ( <STRING_LITERAL> ) ) <NEWLINE>
+mystring . split ( <STRING_LITERAL> ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+webbrowser . open_new ( url ) <NEWLINE>
+webbrowser . open ( <STRING_LITERAL> ) <NEWLINE>
+self . pushButton . setStyleSheet ( <STRING_LITERAL> ) <NEWLINE>
+[ x ( y ) for x , y in zip ( functions , values ) ] <NEWLINE>
+wx . TextCtrl ( self , - 1 , size = ( 300 , - 1 ) ) <NEWLINE>
+imshow ( imageArray , cmap = <STRING_LITERAL> ) <NEWLINE>
+df . fillna ( 0 ) <NEWLINE>
+df . toPandas ( ) . to_csv ( <STRING_LITERAL> ) <NEWLINE>
+df . write . csv ( <STRING_LITERAL> ) <NEWLINE>
+sum ( x [ 1 ] for x in structure ) <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) [ <STRING_LITERAL> ] . agg ( lambda x : x . nlargest ( 3 ) . sum ( ) ) <NEWLINE>
+datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+os . path . dirname ( os . path . abspath ( __file__ ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text . read ( ) , 0 , re . S ) <NEWLINE>
+<STRING_LITERAL> . join ( ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+os . path . dirname ( os . path . abspath ( __file__ ) ) <NEWLINE>
+<STRING_LITERAL> . format ( value , digits ) <NEWLINE>
+self . request . url <NEWLINE>
+random_choice = random . choice ( choices ) <NEWLINE>
+length = sum ( len ( s ) for s in strings ) <NEWLINE>
+s = sorted ( s , key = lambda x : ( x [ 1 ] , x [ 2 ] ) ) <NEWLINE>
+s . sort ( key = operator . itemgetter ( 1 , 2 ) ) <NEWLINE>
+con . commit ( ) <NEWLINE>
+[ k for k in lst if <STRING_LITERAL> in k ] <NEWLINE>
+output = <STRING_LITERAL> . join ( item [ 0 ] . upper ( ) for item in input . split ( ) ) <NEWLINE>
+CustomPK . _meta . pk . name <NEWLINE>
+len ( s . split ( ) ) <NEWLINE>
+np . einsum ( <STRING_LITERAL> , a , b ) <NEWLINE>
+sys . version <NEWLINE>
+sys . version_info <NEWLINE>
+print ( <STRING_LITERAL> . format ( 1000000000.0 ) ) <NEWLINE>
+x = [ [ ] for i in range ( 3 ) ] <NEWLINE>
+{ { my_variable | forceescape | linebreaks } } <NEWLINE>
+zip ( * [ ( 1 , 4 ) , ( 2 , 5 ) , ( 3 , 6 ) ] ) <NEWLINE>
+[ list ( group ) for key , group in itertools . groupby ( data , operator . itemgetter ( 1 ) ) ] <NEWLINE>
+list ( <STRING_LITERAL> ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] / df [ <STRING_LITERAL> ] <NEWLINE>
+os . walk ( directory ) <NEWLINE>
+[ x [ 0 ] for x in os . walk ( directory ) ] <NEWLINE>
+{ i : <STRING_LITERAL> for i , j in list ( d . items ( ) ) if j != <STRING_LITERAL> } <NEWLINE>
+dict ( ( k , <STRING_LITERAL> ) for k , v in d . items ( ) if v is None ) <NEWLINE>
+dict ( ( k , <STRING_LITERAL> ) for k , v in d . items ( ) if v != <STRING_LITERAL> ) <NEWLINE>
+df . groupby ( key_columns ) . size ( ) <NEWLINE>
+result = [ sum ( b ) for b in a ] <NEWLINE>
+any ( d [ <STRING_LITERAL> ] == <STRING_LITERAL> for d in data ) <NEWLINE>
+nodes = [ [ Node ( ) for j in range ( cols ) ] for i in range ( rows ) ] <NEWLINE>
+print ( os . path . splitext ( <STRING_LITERAL> ) [ 0 ] + <STRING_LITERAL> ) <NEWLINE>
+pygame . display . set_mode ( ( 0 , 0 ) , pygame . FULLSCREEN ) <NEWLINE>
+ax . set_title ( <STRING_LITERAL> % ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+print ( os . path . getmtime ( <STRING_LITERAL> ) ) <NEWLINE>
+today . strftime ( <STRING_LITERAL> ) <NEWLINE>
+today . strftime ( <STRING_LITERAL> ) <NEWLINE>
+[ j for i in x for j in i ] <NEWLINE>
+print ( list ( itertools . chain . from_iterable ( a ) ) ) <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+a . remove ( <STRING_LITERAL> ) <NEWLINE>
+a . remove ( c ) <NEWLINE>
+a . remove ( 6 ) <NEWLINE>
+a . remove ( 6 ) <NEWLINE>
+if ( c in a ) : <NEWLINE> <INDENT> a . remove ( c ) <NEWLINE> <DEDENT>
+try : <NEWLINE> <INDENT> a . remove ( c ) <NEWLINE> <DEDENT> except ValueError : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+np . einsum ( <STRING_LITERAL> , X , X ) <NEWLINE>
+some_list [ ( - 1 ) ] <NEWLINE>
+some_list [ ( - 2 ) ] <NEWLINE>
+some_list [ ( - n ) ] <NEWLINE>
+alist [ ( - 1 ) ] <NEWLINE>
+astr [ ( - 1 ) ] <NEWLINE>
+print ( [ u for v in [ [ i , i ] for i in range ( 5 ) ] for u in v ] ) <NEWLINE>
+[ 0 , 0 , 1 , 1 , 2 , 2 , 3 , 3 , 4 , 4 ] <NEWLINE>
+[ ( i // 2 ) for i in range ( 10 ) ] <NEWLINE>
+s [ s . find ( <STRING_LITERAL> ) + 1 : s . rfind ( <STRING_LITERAL> ) ] <NEWLINE>
+{ ( x ** 2 ) for x in range ( 100 ) } <NEWLINE>
+zip ( * [ [ 1 , 2 ] , [ 3 , 4 ] , [ 5 , 6 ] ] ) <NEWLINE>
+zip ( * [ [ 1 , 2 ] , [ 3 , 4 ] , [ 5 , 6 ] ] ) <NEWLINE>
+requests . get ( <STRING_LITERAL> , auth = ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+x [ 2 : ] <NEWLINE>
+x [ : 2 ] <NEWLINE>
+x [ : ( - 2 ) ] <NEWLINE>
+x [ ( - 2 ) : ] <NEWLINE>
+x [ 2 : ( - 2 ) ] <NEWLINE>
+some_string [ : : ( - 1 ) ] <NEWLINE>
+<STRING_LITERAL> [ : : 2 ] <NEWLINE>
+s = s [ beginning : ( beginning + LENGTH ) ] <NEWLINE>
+sys . exit ( ) <NEWLINE>
+quit ( ) <NEWLINE>
+sys . exit ( <STRING_LITERAL> ) <NEWLINE>
+data [ <STRING_LITERAL> ] . encode ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+psutil . cpu_percent ( ) <NEWLINE> psutil . virtual_memory ( ) <NEWLINE>
+pid = os . getpid ( ) <NEWLINE> py = psutil . Process ( pid ) <NEWLINE> memoryUse = ( py . memory_info ( ) [ 0 ] / ( 2.0 ** 30 ) ) <NEWLINE>
+print ( ( psutil . cpu_percent ( ) ) ) <NEWLINE> print ( ( psutil . virtual_memory ( ) ) ) <NEWLINE>
+pd . read_csv ( <STRING_LITERAL> , names = list ( <STRING_LITERAL> ) ) <NEWLINE>
+df . stack ( ) . groupby ( level = 0 ) . first ( ) <NEWLINE>
+<STRING_LITERAL> . format ( 10 , 20 ) <NEWLINE>
+<STRING_LITERAL> . format ( 10 , 20 , foo = <STRING_LITERAL> , ham = <STRING_LITERAL> ) <NEWLINE>
+changed_list = [ ( int ( f ) if f . isdigit ( ) else f ) for f in original_list ] <NEWLINE>
+dict ( zip ( keys , zip ( * data ) ) ) <NEWLINE>
+apple . decode ( <STRING_LITERAL> ) . encode ( <STRING_LITERAL> ) <NEWLINE>
+df . to_csv ( <STRING_LITERAL> , header = False ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+max ( ld , key = lambda d : d [ <STRING_LITERAL> ] ) <NEWLINE>
+<STRING_LITERAL> . format ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+user = models . ForeignKey ( <STRING_LITERAL> , unique = True ) <NEWLINE>
+re . compile ( <STRING_LITERAL> ) <NEWLINE>
+b = np . concatenate ( ( a , a ) , axis = 0 ) <NEWLINE>
+sorted ( l , key = lambda x : x . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+ax . set_yscale ( <STRING_LITERAL> ) <NEWLINE>
+os . environ [ <STRING_LITERAL> ] <NEWLINE>
+os . environ [ <STRING_LITERAL> ] <NEWLINE>
+print ( os . environ ) <NEWLINE>
+os . environ <NEWLINE>
+print ( os . environ . get ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( os . getenv ( <STRING_LITERAL> , default_value ) ) <NEWLINE>
+print ( os . environ . get ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+print ( dict ( [ s . split ( <STRING_LITERAL> ) for s in my_list ] ) ) <NEWLINE>
+min ( enumerate ( a ) , key = lambda x : abs ( x [ 1 ] - 11.5 ) ) <NEWLINE>
+e = root . xpath ( <STRING_LITERAL> ) <NEWLINE>
+e = root . xpath ( <STRING_LITERAL> ) <NEWLINE>
+e = root . xpath ( <STRING_LITERAL> ) <NEWLINE>
+c = [ b [ i ] for i in index ] <NEWLINE>
+np . dot ( a [ : , ( None ) ] , b [ ( None ) , : ] ) <NEWLINE>
+np . outer ( a , b ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , arg1 , arg2 ] ) <NEWLINE>
+df [ [ <STRING_LITERAL> ] ] . fillna ( df . groupby ( <STRING_LITERAL> ) . transform ( <STRING_LITERAL> ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , str ) <NEWLINE>
+i , j = np . where ( a == value ) <NEWLINE>
+print ( collections . Counter ( s ) . most_common ( 1 ) [ 0 ] ) <NEWLINE>
+float ( re . findall ( <STRING_LITERAL> + par + <STRING_LITERAL> , dir ) [ 0 ] ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+print ( [ item for item in dir ( adfix ) if not item . startswith ( <STRING_LITERAL> ) ] ) <NEWLINE>
+[ x [ 0 ] for x in rows ] <NEWLINE>
+res_list = [ x [ 0 ] for x in rows ] <NEWLINE>
+pd . concat ( [ x ] * 5 , ignore_index = True ) <NEWLINE>
+pd . concat ( [ x ] * 5 ) <NEWLINE>
+sorted_list_of_keyvalues = sorted ( list ( ips_data . items ( ) ) , key = item [ 1 ] [ <STRING_LITERAL> ] ) <NEWLINE>
+pd . read_json ( elevations ) <NEWLINE>
+numpy . random . choice ( numpy . arange ( 1 , 7 ) , p = [ 0.1 , 0.05 , 0.05 , 0.2 , 0.4 , 0.2 ] ) <NEWLINE>
+df . loc [ df [ <STRING_LITERAL> ] . idxmax ( ) ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) [ 0 ] [ : - 1 ] <NEWLINE>
+np . fromstring ( <STRING_LITERAL> , dtype = <STRING_LITERAL> ) <NEWLINE>
+np . fromstring ( <STRING_LITERAL> , dtype = <STRING_LITERAL> ) <NEWLINE>
+cursor . execute ( <STRING_LITERAL> , ( var1 , var2 , var3 ) ) <NEWLINE>
+cursor . execute ( <STRING_LITERAL> , ( var1 , var2 , var3 ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] . str [ 1 : - 1 ] . str . split ( <STRING_LITERAL> , expand = True ) . astype ( float ) <NEWLINE>
+df [ <STRING_LITERAL> ] . str [ 1 : - 1 ] . str . split ( <STRING_LITERAL> ) . apply ( pd . Series ) . astype ( float ) <NEWLINE>
+df [ <STRING_LITERAL> ] . apply ( pd . Series ) <NEWLINE>
+p . wait ( ) <NEWLINE>
+s . encode ( <STRING_LITERAL> ) <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+copyfile ( src , dst ) <NEWLINE>
+shutil . copy2 ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+shutil . copy2 ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( str ( x ) for x in list_of_ints ) ) <NEWLINE>
+df [ [ <STRING_LITERAL> , <STRING_LITERAL> ] ] . multiply ( df [ <STRING_LITERAL> ] , axis = <STRING_LITERAL> ) <NEWLINE>
+hex ( ord ( <STRING_LITERAL> ) ) <NEWLINE>
+sum ( j ** i for i , j in enumerate ( l , 1 ) ) <NEWLINE>
+<STRING_LITERAL> . join ( s . split ( ) ) <NEWLINE>
+s = s . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+frame . resample ( <STRING_LITERAL> ) . agg ( { <STRING_LITERAL> : np . sum , <STRING_LITERAL> : np . mean } ) <NEWLINE>
+df = pd . DataFrame . from_dict ( { k : v for k , v in list ( nvalues . items ( ) ) if k != <STRING_LITERAL> } ) <NEWLINE>
+first_name = request . args . get ( <STRING_LITERAL> ) <NEWLINE>
+first_name = request . form . get ( <STRING_LITERAL> ) <NEWLINE>
+[ s [ : 5 ] for s in buckets ] <NEWLINE>
+the_list . sort ( key = lambda item : ( - len ( item ) , item ) ) <NEWLINE>
+df = df . set_index ( [ <STRING_LITERAL> ] ) <NEWLINE>
+list ( accumulate ( list ( range ( 10 ) ) ) ) <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+df2 = df . ix [ : , ( ~ df . columns . str . endswith ( <STRING_LITERAL> ) ) ] <NEWLINE>
+new_list = my_list [ - 10 : ] <NEWLINE>
+my_list [ - 10 : ] <NEWLINE>
+np . array ( x . _data ) . reshape ( x . size [ : : - 1 ] ) . T <NEWLINE>
+df . groupby ( level = 0 , as_index = False ) . nth ( 0 ) <NEWLINE>
+numpy . concatenate ( LIST , axis = 0 ) <NEWLINE>
+<STRING_LITERAL> . encode ( <STRING_LITERAL> ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . encode ( <STRING_LITERAL> ) <NEWLINE>
+[ j for i in zip ( a , b ) for j in i ] <NEWLINE>
+[ j for i in zip ( a , b ) for j in i ] <NEWLINE>
+print ( [ s . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) for s in lst ] ) <NEWLINE>
+<STRING_LITERAL> . join ( <STRING_LITERAL> ) <NEWLINE>
+Content . objects . all ( ) . order_by ( <STRING_LITERAL> ) [ : 100 ] <NEWLINE>
+A [ np . arange ( A . shape [ 0 ] ) [ : , ( None ) ] , B ] <NEWLINE>
+df . pivot_table ( index = <STRING_LITERAL> , columns = <STRING_LITERAL> , aggfunc = <STRING_LITERAL> , fill_value = 0 ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+[ re . split ( <STRING_LITERAL> , s ) for s in l ] <NEWLINE>
+[ dict ( zip ( k , x ) ) for x in v ] <NEWLINE>
+sorted ( lst , reverse = True ) <NEWLINE>
+order_array . sort ( order = [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+df . sort ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+return my_list == list ( range ( my_list [ 0 ] , my_list [ - 1 ] + 1 ) ) <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) . agg ( lambda x : x . tolist ( ) ) <NEWLINE>
+<STRING_LITERAL> . encode ( <STRING_LITERAL> ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+float ( a ) <NEWLINE>
+try : <NEWLINE> <INDENT> return int ( s ) <NEWLINE> <DEDENT> except ValueError : <NEWLINE> <INDENT> return float ( s ) <NEWLINE> <DEDENT>
+if hasattr ( a , <STRING_LITERAL> ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+if hasattr ( a , <STRING_LITERAL> ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+getattr ( a , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+np . delete ( a , list ( range ( 0 , a . shape [ 1 ] , 8 ) ) , axis = 1 ) <NEWLINE>
+datetime . datetime . fromtimestamp ( ms / 1000.0 ) <NEWLINE>
+np . einsum ( <STRING_LITERAL> , vf , vf ) <NEWLINE>
+r = requests . get ( url ) <NEWLINE>
+r = requests . get ( url , params = payload ) <NEWLINE>
+r = requests . post ( url , data = payload ) <NEWLINE>
+post_response = requests . post ( url = <STRING_LITERAL> , json = post_data ) <NEWLINE>
+{ { ( mylist | slice ) : <STRING_LITERAL> } } <NEWLINE>
+df1 = pd . read_hdf ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+max ( test_string . rfind ( i ) for i in <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> + <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( <STRING_LITERAL> . zfill ( 2 ) ) ) <NEWLINE>
+sorted ( set ( itertools . chain . from_iterable ( sequences ) ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] . values . tolist ( ) <NEWLINE>
+df [ <STRING_LITERAL> ] . tolist ( ) <NEWLINE>
+replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+print ( all ( word [ 0 ] . isupper ( ) for word in words ) ) <NEWLINE>
+myDict = { key : val for key , val in list ( myDict . items ( ) ) if val != 42 } <NEWLINE>
+{ key : val for key , val in list ( myDict . items ( ) ) if val != 42 } <NEWLINE>
+return len ( s . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+os . kill ( process . pid , signal . SIGKILL ) <NEWLINE>
+df [ pd . isnull ( df ) . any ( axis = 1 ) ] <NEWLINE>
+url . split ( <STRING_LITERAL> ) [ - 1 ] . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) + <STRING_LITERAL> <NEWLINE>
+parser . ParseFile ( open ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+sys . exit ( ) <NEWLINE>
+setattr ( self , attr , group ) <NEWLINE>
+urllib . parse . unquote ( urllib . parse . unquote ( some_string ) ) <NEWLINE>
+urllib . parse . unquote ( urllib . parse . unquote ( <STRING_LITERAL> ) ) <NEWLINE>
+app . config [ <STRING_LITERAL> ] = <STRING_LITERAL> <NEWLINE>
+output = open ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+del a [ ( - 1 ) ] <NEWLINE>
+a . pop ( 1 ) <NEWLINE>
+a . pop ( ) <NEWLINE>
+a . pop ( index ) <NEWLINE>
+del a [ index ] <NEWLINE>
+ax . set_xlabel ( <STRING_LITERAL> ) <NEWLINE>
+ax . set_xlabel ( <STRING_LITERAL> ) <NEWLINE>
+[ <STRING_LITERAL> . join ( l ) for l in list_of_lists ] <NEWLINE>
+pd . concat ( g for _ , g in df . groupby ( <STRING_LITERAL> ) if len ( g ) > 1 ) <NEWLINE>
+x = numpy . delete ( x , 2 , axis = 1 ) <NEWLINE>
+x = numpy . delete ( x , 0 , axis = 0 ) <NEWLINE>
+pd . concat ( ( df1 , df2 ) , axis = 1 ) . mean ( axis = 1 ) <NEWLINE>
+np . mean ( np . array ( [ old_set , new_set ] ) , axis = 0 ) <NEWLINE>
+scatter ( x , y , s = 500 , color = <STRING_LITERAL> , marker = <STRING_LITERAL> ) <NEWLINE>
+result = [ item for word in words for item in word . split ( <STRING_LITERAL> ) ] <NEWLINE>
+datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+sum ( item [ <STRING_LITERAL> ] for item in list ( tadas . values ( ) ) ) <NEWLINE>
+a = open ( <STRING_LITERAL> , <STRING_LITERAL> ) . read ( ) . encode ( <STRING_LITERAL> ) <NEWLINE>
+a . rstrip ( ) . split ( <STRING_LITERAL> ) <NEWLINE>
+a . split ( <STRING_LITERAL> ) [ : - 1 ] <NEWLINE>
+return HttpResponse ( status = 204 ) <NEWLINE>
+( 7 in a ) <NEWLINE>
+( <STRING_LITERAL> in a ) <NEWLINE>
+sorted ( results , key = itemgetter ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( browser . current_url ) <NEWLINE>
+re . split ( <STRING_LITERAL> , str ) <NEWLINE>
+<STRING_LITERAL> . decode ( <STRING_LITERAL> ) <NEWLINE>
+time . mktime ( datetime . datetime . strptime ( s , <STRING_LITERAL> ) . timetuple ( ) ) <NEWLINE>
+int ( datetime . datetime . strptime ( <STRING_LITERAL> , <STRING_LITERAL> ) . strftime ( <STRING_LITERAL> ) ) <NEWLINE>
+request . headers [ <STRING_LITERAL> ] <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) [ <STRING_LITERAL> ] . filter ( lambda x : x . sum ( ) == 0 ) <NEWLINE>
+df . loc [ df . groupby ( <STRING_LITERAL> ) [ <STRING_LITERAL> ] . transform ( sum ) == 0 ] <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) [ <STRING_LITERAL> ] . transform ( sum ) == 0 <NEWLINE>
+df . set_index ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+print ( re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , a ) ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+unicodedata . normalize ( <STRING_LITERAL> , title ) . encode ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+a . encode ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+files = [ f for f in os . listdir ( <STRING_LITERAL> ) if re . match ( <STRING_LITERAL> , f ) ] <NEWLINE>
+np . zeros ( ( 6 , 9 , 20 ) ) + np . array ( [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ] ) [ ( None ) , : , ( None ) ] <NEWLINE>
+np . zeros ( ( 6 , 9 , 20 ) ) + np . array ( [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ] ) . reshape ( ( 1 , 9 , 1 ) ) <NEWLINE>
+print ( max ( x , key = sum ) ) <NEWLINE>
+sum ( len ( y ) for y in x if len ( y ) > 1 ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+numpy . dot ( numpy . dot ( a , m ) , a ) <NEWLINE>
+Entry . objects . filter ( name = <STRING_LITERAL> , title = <STRING_LITERAL> ) . exists ( ) <NEWLINE>
+sorted ( l , key = lambda x : ( - int ( x [ 1 ] ) , x [ 0 ] ) ) <NEWLINE>
+request . META [ <STRING_LITERAL> ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , <STRING_LITERAL> , var ] ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( str ( p ) for p in myList ) ) <NEWLINE>
+mydic . update ( { i : o [ <STRING_LITERAL> ] } ) <NEWLINE>
+list ( stru . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+u = s . decode ( <STRING_LITERAL> ) <NEWLINE>
+Entry . objects . filter ( ~ Q ( id = 3 ) ) <NEWLINE>
+getattr ( __builtins__ , <STRING_LITERAL> ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+open ( <STRING_LITERAL> , <STRING_LITERAL> ) . close ( ) <NEWLINE>
+df . to_dict ( <STRING_LITERAL> ) <NEWLINE>
+df . to_dict ( <STRING_LITERAL> ) <NEWLINE>
+df . groupby ( pd . TimeGrouper ( freq = <STRING_LITERAL> ) ) <NEWLINE>
+[ ( c / t ) for c , t in zip ( conversions , trials ) ] <NEWLINE>
+sorted ( data , key = data . get ) <NEWLINE>
+sorted ( data . values ( ) ) <NEWLINE>
+sorted ( list ( data . items ( ) ) , key = lambda x : x [ 1 ] ) <NEWLINE>
+now = datetime . datetime . now ( ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> , 1 ) . find ( <STRING_LITERAL> ) <NEWLINE>
+set ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) . issubset ( sites ) <NEWLINE>
+stuff . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+np . savez ( tmp , * [ getarray [ 0 ] , getarray [ 1 ] , getarray [ 8 ] ] ) <NEWLINE>
+t = datetime . datetime . now ( ) <NEWLINE> ( t - datetime . timedelta ( hours = 1 , minutes = 10 ) ) <NEWLINE>
+( t - datetime . timedelta ( hours = 1 , minutes = 10 ) ) <NEWLINE>
+dt = datetime . datetime . combine ( datetime . date . today ( ) , t ) <NEWLINE>
+dt -= datetime . timedelta ( hours = 5 ) <NEWLINE>
+print ( data . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( [ str ( ord ( a ) ) for a in data ] ) ) <NEWLINE>
+[ x for x in l if x [ 1 ] == 1 ] <NEWLINE>
+a . fromlist ( [ int ( val ) for val in stdin . read ( ) . split ( ) ] ) <NEWLINE>
+print ( re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , line ) ) <NEWLINE>
+doc . xpath ( <STRING_LITERAL> ) <NEWLINE>
+zip ( * a ) <NEWLINE>
+[ map ( int , sublist ) for sublist in lst ] <NEWLINE>
+[ [ int ( x ) for x in sublist ] for sublist in lst ] <NEWLINE>
+np . where ( np . in1d ( A , B ) ) [ 0 ] <NEWLINE>
+[ { <STRING_LITERAL> : a , <STRING_LITERAL> : b } for a , b in zip ( d [ <STRING_LITERAL> ] , d [ <STRING_LITERAL> ] ) ] <NEWLINE>
+calendar . monthrange ( 2002 , 1 ) <NEWLINE>
+calendar . monthrange ( 2008 , 2 ) <NEWLINE>
+calendar . monthrange ( 2100 , 2 ) <NEWLINE>
+calendar . monthrange ( year , month ) [ 1 ] <NEWLINE>
+monthrange ( 2012 , 2 ) <NEWLINE>
+( datetime . date ( 2000 , 2 , 1 ) - datetime . timedelta ( days = 1 ) ) <NEWLINE>
+from subprocess import call <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+stream = os . popen ( <STRING_LITERAL> ) <NEWLINE>
+print ( subprocess . Popen ( <STRING_LITERAL> , shell = True , stdout = subprocess . PIPE ) . stdout . read ( ) ) <NEWLINE>
+print ( os . popen ( <STRING_LITERAL> ) . read ( ) ) <NEWLINE>
+return_code = subprocess . call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+p = subprocess . Popen ( <STRING_LITERAL> , shell = True , stdout = subprocess . PIPE , stderr = subprocess . STDOUT ) <NEWLINE> for line in p . stdout . readlines ( ) : <NEWLINE> <INDENT> print ( line , end = <STRING_LITERAL> ) <NEWLINE> <DEDENT> retval = p . wait ( ) <NEWLINE>
+call ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+print ( urllib . parse . unquote ( url ) . decode ( <STRING_LITERAL> ) ) <NEWLINE>
+url = urllib . parse . unquote ( url ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . join ( filter ( str . isdigit , <STRING_LITERAL> ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] . str . split ( <STRING_LITERAL> ) . str [ 0 ] . astype ( int ) <NEWLINE>
+my_list . sort ( key = lambda x : x [ 1 ] ) <NEWLINE>
+[ m . start ( ) for m in re . finditer ( <STRING_LITERAL> , <STRING_LITERAL> ) ] <NEWLINE>
+[ m . start ( ) for m in re . finditer ( <STRING_LITERAL> , <STRING_LITERAL> ) ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , s ) <NEWLINE>
+rdata . set_index ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+for ( root , subFolders , files ) in os . walk ( rootdir ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+list . sort ( key = lambda item : item [ <STRING_LITERAL> ] , reverse = True ) <NEWLINE>
+<STRING_LITERAL> . format ( <STRING_LITERAL> ) <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , s ) <NEWLINE>
+[ i for i , j in enumerate ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) if j == <STRING_LITERAL> ] <NEWLINE>
+print ( list ( itertools . product ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] ) ) ) <NEWLINE>
+itertools . permutations ( [ 1 , 2 , 3 ] ) <NEWLINE>
+return re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) <NEWLINE>
+raise ValueError ( <STRING_LITERAL> ) <NEWLINE>
+raise Exception ( <STRING_LITERAL> ) <NEWLINE>
+raise Exception ( <STRING_LITERAL> ) <NEWLINE>
+raise ValueError ( <STRING_LITERAL> ) <NEWLINE>
+raise Exception ( <STRING_LITERAL> ) <NEWLINE>
+raise ValueError ( <STRING_LITERAL> ) <NEWLINE>
+raise RuntimeError ( <STRING_LITERAL> ) <NEWLINE>
+raise AssertionError ( <STRING_LITERAL> , distance ) <NEWLINE>
+driver . find_element_by_id ( <STRING_LITERAL> ) . clear ( ) <NEWLINE>
+driver . find_element_by_id ( <STRING_LITERAL> ) . clear ( ) <NEWLINE>
+socket . inet_ntoa ( struct . pack ( <STRING_LITERAL> , 2130706433 ) ) <NEWLINE>
+df = df [ [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ] <NEWLINE>
+super ( ChildClass , self ) . __init__ ( * args , ** kwargs ) <NEWLINE>
+sum ( d . values ( ) ) <NEWLINE>
+json . dumps ( your_data , ensure_ascii = False ) <NEWLINE>
+values = np . array ( [ i for i in range ( 100 ) ] , dtype = np . float64 ) <NEWLINE>
+sorted ( list_of_dct , key = lambda x : order . index ( list ( x . values ( ) ) [ 0 ] ) ) <NEWLINE>
+return s [ 0 ] . upper ( ) + s [ 1 : ] <NEWLINE>
+<STRING_LITERAL> . join ( [ 1 , 2 , 3 , 4 ] ) <NEWLINE>
+line = line . decode ( <STRING_LITERAL> , <STRING_LITERAL> ) . encode ( <STRING_LITERAL> ) <NEWLINE>
+os . system ( command ) <NEWLINE>
+c . execute ( <STRING_LITERAL> , ( param1 , param2 ) ) <NEWLINE>
+dateobj = datetime . datetime . strptime ( datestr , <STRING_LITERAL> ) . date ( ) <NEWLINE>

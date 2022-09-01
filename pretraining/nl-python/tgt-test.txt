@@ -1,0 +1,477 @@
+os . kill ( os . getpid ( ) , signal . SIGUSR1 ) <NEWLINE>
+bytes . fromhex ( <STRING_LITERAL> ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+all ( x == myList [ 0 ] for x in myList ) <NEWLINE>
+print ( <STRING_LITERAL> % ( 20 , <STRING_LITERAL> , 20 , <STRING_LITERAL> ) ) <NEWLINE>
+res = { k : v for k , v in list ( kwargs . items ( ) ) if v is not None } <NEWLINE>
+res = dict ( ( k , v ) for k , v in kwargs . items ( ) if v is not None ) <NEWLINE>
+subprocess . check_output ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+<STRING_LITERAL> . join ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+pd . Series ( list ( set ( s1 ) . intersection ( set ( s2 ) ) ) ) <NEWLINE>
+client . send ( <STRING_LITERAL> ) <NEWLINE>
+then = datetime . datetime . strptime ( when , <STRING_LITERAL> ) . date ( ) <NEWLINE>
+inputString . split ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . split ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . join ( str ( x ) for x in b ) <NEWLINE>
+Entry . objects . filter ( ) [ : 1 ] . get ( ) <NEWLINE>
+a . sum ( axis = 1 ) <NEWLINE>
+warnings . simplefilter ( <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( map ( str , l ) ) ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+my_float = float ( my_string . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+float ( <STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+sys . path . append ( <STRING_LITERAL> ) <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+file = open ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+urllib . request . urlretrieve ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+u = urllib . request . urlopen ( url ) <NEWLINE> f = open ( file_name , <STRING_LITERAL> ) <NEWLINE> meta = u . info ( ) <NEWLINE> file_size = int ( meta . getheaders ( <STRING_LITERAL> ) [ 0 ] ) <NEWLINE> print ( ( <STRING_LITERAL> % ( file_name , file_size ) ) ) <NEWLINE> file_size_dl = 0 <NEWLINE> block_sz = 8192 <NEWLINE> while True : <NEWLINE> <INDENT> buffer = u . read ( block_sz ) <NEWLINE> if ( not buffer ) : <NEWLINE> <INDENT> break <NEWLINE> <DEDENT> file_size_dl += len ( buffer ) <NEWLINE> f . write ( buffer ) <NEWLINE> status = ( <STRING_LITERAL> % ( file_size_dl , ( ( file_size_dl * 100.0 ) / file_size ) ) ) <NEWLINE> status = ( status + ( chr ( 8 ) * ( len ( status ) + 1 ) ) ) <NEWLINE> print ( status , end = <STRING_LITERAL> ) <NEWLINE> <DEDENT> f . close ( ) <NEWLINE>
+response = urllib . request . urlopen ( <STRING_LITERAL> ) <NEWLINE> html = response . read ( ) <NEWLINE>
+r = requests . get ( url ) <NEWLINE>
+response = requests . get ( url , stream = True ) <NEWLINE> with open ( <STRING_LITERAL> , <STRING_LITERAL> ) as handle : <NEWLINE> <INDENT> for data in tqdm ( response . iter_content ( ) ) : <NEWLINE> <INDENT> handle . write ( data ) <NEWLINE> <DEDENT> <DEDENT>
+parser . add_argument ( <STRING_LITERAL> , action = <STRING_LITERAL> , version = <STRING_LITERAL> ) <NEWLINE>
+{ i : d [ i ] for i in d if i != <STRING_LITERAL> } <NEWLINE>
+pd . merge ( split_df , csv_df , on = [ <STRING_LITERAL> ] , suffixes = ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+s . split ( <STRING_LITERAL> , 4 ) <NEWLINE>
+input ( <STRING_LITERAL> ) <NEWLINE>
+app . run ( debug = True ) <NEWLINE>
+pickle . dump ( mylist , open ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+scipy . tensordot ( P , T , axes = [ 1 , 1 ] ) . swapaxes ( 0 , 1 ) <NEWLINE>
+numpy . zeros ( ( 3 , 3 , 3 ) ) <NEWLINE>
+<STRING_LITERAL> . join ( content . split ( <STRING_LITERAL> ) [ : - 1 ] ) <NEWLINE>
+x = np . asarray ( x ) . reshape ( 1 , - 1 ) [ ( 0 ) , : ] <NEWLINE>
+sum ( sum ( i ) if isinstance ( i , list ) else i for i in L ) <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , <STRING_LITERAL> . decode ( <STRING_LITERAL> ) ) [ 0 ] <NEWLINE>
+my_dict . update ( ( x , y * 2 ) for x , y in list ( my_dict . items ( ) ) ) <NEWLINE>
+subprocess . call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+<STRING_LITERAL> . join ( l ) <NEWLINE>
+myList = <STRING_LITERAL> . join ( map ( str , myList ) ) <NEWLINE>
+list ( reversed ( list ( range ( 10 ) ) ) ) <NEWLINE>
+print ( <STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+<STRING_LITERAL> . join ( s . split ( <STRING_LITERAL> ) [ : : - 1 ] ) <NEWLINE>
+datetime . datetime . fromtimestamp ( s ) . strftime ( <STRING_LITERAL> ) <NEWLINE>
+time . strftime ( <STRING_LITERAL> , time . gmtime ( 1236472051807 / 1000.0 ) ) <NEWLINE>
+( datetime . datetime . now ( ) - datetime . timedelta ( days = 7 ) ) . date ( ) <NEWLINE>
+print ( sum ( row [ column ] for row in data ) ) <NEWLINE>
+[ sum ( row [ i ] for row in array ) for i in range ( len ( array [ 0 ] ) ) ] <NEWLINE>
+base64 . b64encode ( bytes ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+dict ( ( k , [ d [ k ] for d in dicts ] ) for k in dicts [ 0 ] ) <NEWLINE>
+{ k : [ d [ k ] for d in dicts ] for k in dicts [ 0 ] } <NEWLINE>
+[ k for k , v in list ( Counter ( mylist ) . items ( ) ) if v > 1 ] <NEWLINE>
+sys . path . insert ( 1 , os . path . join ( os . path . dirname ( __file__ ) , <STRING_LITERAL> ) ) <NEWLINE>
+sys . path . append ( os . path . join ( os . path . dirname ( __file__ ) , <STRING_LITERAL> ) ) <NEWLINE>
+db . execute ( <STRING_LITERAL> , ( None , ) ) <NEWLINE>
+[ image for menuitem in list_of_menuitems for image in menuitem ] <NEWLINE>
+a . extend ( b ) <NEWLINE>
+np . savetxt ( <STRING_LITERAL> , df . values , fmt = <STRING_LITERAL> ) <NEWLINE>
+df . to_csv ( <STRING_LITERAL> , header = None , index = None , sep = <STRING_LITERAL> , mode = <STRING_LITERAL> ) <NEWLINE>
+print ( x . rpartition ( <STRING_LITERAL> ) [ 0 ] ) <NEWLINE>
+print ( x . rsplit ( <STRING_LITERAL> , 1 ) [ 0 ] ) <NEWLINE>
+ftp . storlines ( <STRING_LITERAL> + filename , open ( filename , <STRING_LITERAL> ) ) <NEWLINE>
+browser . execute_script ( <STRING_LITERAL> ) <NEWLINE>
+np . maximum ( [ 2 , 3 , 4 ] , [ 1 , 5 , 2 ] ) <NEWLINE>
+print ( l [ 3 : ] + l [ : 3 ] ) <NEWLINE>
+for fn in os . listdir ( <STRING_LITERAL> ) : <NEWLINE> <INDENT> if os . path . isfile ( fn ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT> <DEDENT>
+for ( root , dirs , filenames ) in os . walk ( source ) : <NEWLINE> <INDENT> for f in filenames : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT> <DEDENT>
+[ int ( 1000 * random . random ( ) ) for i in range ( 10000 ) ] <NEWLINE>
+db . GqlQuery ( <STRING_LITERAL> , foo . key ( ) ) <NEWLINE>
+df . b . str . contains ( <STRING_LITERAL> ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( <STRING_LITERAL> . join ( str ( col ) for col in row ) for row in tab ) ) <NEWLINE>
+df . set_index ( list ( <STRING_LITERAL> ) ) . drop ( tuples , errors = <STRING_LITERAL> ) . reset_index ( ) <NEWLINE>
+<STRING_LITERAL> . format ( self . goals , self . penalties ) <NEWLINE>
+<STRING_LITERAL> . format ( self . goals , self . penalties ) <NEWLINE>
+<STRING_LITERAL> . format ( self ) <NEWLINE>
+[ int ( <STRING_LITERAL> . join ( str ( d ) for d in x ) ) for x in L ] <NEWLINE>
+[ <STRING_LITERAL> . join ( str ( d ) for d in x ) for x in L ] <NEWLINE>
+L = [ int ( <STRING_LITERAL> . join ( [ str ( y ) for y in x ] ) ) for x in L ] <NEWLINE>
+myfile . write ( <STRING_LITERAL> . join ( lines ) ) <NEWLINE>
+[ x for x in [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] if <STRING_LITERAL> not in x and <STRING_LITERAL> not in x ] <NEWLINE>
+text = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) <NEWLINE>
+df . astype ( bool ) . sum ( axis = 1 ) <NEWLINE>
+re . search ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . split ( ) <NEWLINE>
+print ( re . search ( <STRING_LITERAL> , line ) . group ( 0 ) ) <NEWLINE>
+open ( filename , <STRING_LITERAL> ) . close ( ) <NEWLINE>
+datetime . datetime . strptime ( string_date , <STRING_LITERAL> ) <NEWLINE>
+[ index for index , item in enumerate ( thelist ) if item [ 0 ] == <STRING_LITERAL> ] <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) . lower ( ) . strip ( ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) . lower ( ) . strip ( ) <NEWLINE>
+plt . plot ( x , y , label = <STRING_LITERAL> ) <NEWLINE>
+plt . plot ( x , y , label = <STRING_LITERAL> ) <NEWLINE>
+[ x for x in mylist if len ( x ) == 3 ] <NEWLINE>
+lst = [ Object ( ) for _ in range ( 100 ) ] <NEWLINE>
+lst = [ Object ( ) for i in range ( 100 ) ] <NEWLINE>
+self . driver . find_element_by_css_selector ( <STRING_LITERAL> ) . get_attribute ( <STRING_LITERAL> ) <NEWLINE>
+df1 . merge ( df2 , on = <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> % ( str1 , <STRING_LITERAL> ) <NEWLINE>
+if ( not os . path . exists ( directory ) ) : <NEWLINE> <INDENT> os . makedirs ( directory ) <NEWLINE> <DEDENT>
+try : <NEWLINE> <INDENT> os . makedirs ( path ) <NEWLINE> <DEDENT> except OSError : <NEWLINE> <INDENT> if ( not os . path . isdir ( path ) ) : <NEWLINE> <INDENT> raise <NEWLINE> <DEDENT> <DEDENT>
+distutils . dir_util . mkpath ( path ) <NEWLINE>
+try : <NEWLINE> <INDENT> os . makedirs ( path ) <NEWLINE> <DEDENT> except OSError as exception : <NEWLINE> <INDENT> if ( exception . errno != errno . EEXIST ) : <NEWLINE> <INDENT> raise <NEWLINE> <DEDENT> <DEDENT>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . join ( [ x for x in <STRING_LITERAL> if x . isdigit ( ) ] ) <NEWLINE>
+print ( soup . find ( <STRING_LITERAL> ) . string ) <NEWLINE>
+records = dict ( ( record [ <STRING_LITERAL> ] , record ) for record in cursor ) <NEWLINE>
+np . concatenate ( ( A , B ) ) <NEWLINE>
+np . vstack ( ( A , B ) ) <NEWLINE>
+os . stat ( filepath ) . st_size <NEWLINE>
+l . count ( <STRING_LITERAL> ) <NEWLINE>
+Counter ( l ) <NEWLINE>
+[ [ x , l . count ( x ) ] for x in set ( l ) ] <NEWLINE>
+dict ( ( ( x , l . count ( x ) ) for x in set ( l ) ) ) <NEWLINE>
+l . count ( <STRING_LITERAL> ) <NEWLINE>
+shutil . copy ( srcfile , dstdir ) <NEWLINE>
+max ( k for k , v in x . items ( ) if v != 0 ) <NEWLINE>
+( k for k , v in x . items ( ) if v != 0 ) <NEWLINE>
+max ( k for k , v in x . items ( ) if v != 0 ) <NEWLINE>
+file . seek ( 0 ) <NEWLINE>
+df [ <STRING_LITERAL> ] = np . where ( df [ <STRING_LITERAL> ] . isnull , df [ <STRING_LITERAL> ] , df [ <STRING_LITERAL> ] ) <NEWLINE>
+del d [ <STRING_LITERAL> ] <NEWLINE>
+MyModel . objects . update ( timestamp = F ( <STRING_LITERAL> ) + timedelta ( days = 36524.25 ) ) <NEWLINE>
+[ <STRING_LITERAL> ] + [ <STRING_LITERAL> ] + [ <STRING_LITERAL> ] <NEWLINE>
+str ( int ( x ) + 1 ) . zfill ( len ( x ) ) <NEWLINE>
+all ( df . index [ : - 1 ] <= df . index [ 1 : ] ) <NEWLINE>
+list ( t ) <NEWLINE>
+tuple ( l ) <NEWLINE>
+level1 = map ( list , level1 ) <NEWLINE>
+pprint . pprint ( dataobject , logFile ) <NEWLINE>
+df . loc [ df [ <STRING_LITERAL> ] ] <NEWLINE>
+df . iloc [ np . flatnonzero ( df [ <STRING_LITERAL> ] ) ] <NEWLINE>
+df [ df [ <STRING_LITERAL> ] == True ] . index . tolist ( ) <NEWLINE>
+df [ df [ <STRING_LITERAL> ] ] . index . tolist ( ) <NEWLINE>
+os . chdir ( owd ) <NEWLINE>
+c . execute ( <STRING_LITERAL> , ( testfield , ) ) <NEWLINE>
+<STRING_LITERAL> . decode ( <STRING_LITERAL> ) <NEWLINE>
+raw_string . decode ( <STRING_LITERAL> ) <NEWLINE>
+raw_byte_string . decode ( <STRING_LITERAL> ) <NEWLINE>
+[ m . group ( 0 ) for m in re . finditer ( <STRING_LITERAL> , s ) ] <NEWLINE>
+plt . scatter ( np . random . randn ( 100 ) , np . random . randn ( 100 ) , facecolors = <STRING_LITERAL> ) <NEWLINE>
+plt . plot ( np . random . randn ( 100 ) , np . random . randn ( 100 ) , <STRING_LITERAL> , mfc = <STRING_LITERAL> ) <NEWLINE>
+soup . find ( <STRING_LITERAL> , id = <STRING_LITERAL> ) . decompose ( ) <NEWLINE>
+df [ df [ <STRING_LITERAL> ] . str . contains ( <STRING_LITERAL> ) ] <NEWLINE>
+df . reset_index ( level = 0 , inplace = True ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df . index <NEWLINE>
+df . reset_index ( level = [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+[ x [ : : - 1 ] for x in b ] <NEWLINE>
+np . array ( [ zip ( x , y ) for x , y in zip ( a , b ) ] ) <NEWLINE>
+np . array ( zip ( a . ravel ( ) , b . ravel ( ) ) , dtype = <STRING_LITERAL> ) . reshape ( a . shape ) <NEWLINE>
+<STRING_LITERAL> . join ( [ str ( i ) for i in list_of_ints ] ) <NEWLINE>
+requests . post ( url , data = DATA , headers = HEADERS_DICT , auth = ( username , password ) ) <NEWLINE>
+<STRING_LITERAL> . rfind ( <STRING_LITERAL> ) <NEWLINE>
+print ( [ item for item in [ 1 , 2 , 3 ] ] ) <NEWLINE>
+[ ( x [ <STRING_LITERAL> ] , x [ <STRING_LITERAL> ] ) for x in d ] <NEWLINE>
+print ( os . path . splitext ( os . path . basename ( <STRING_LITERAL> ) ) [ 0 ] ) <NEWLINE>
+dict ( x [ i : i + 2 ] for i in range ( 0 , len ( x ) , 2 ) ) <NEWLINE>
+values = sum ( [ [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] , [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] , [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ] , [ ] ) <NEWLINE>
+df = df [ ( df [ <STRING_LITERAL> ] >= 99 ) & ( df [ <STRING_LITERAL> ] <= 101 ) ] <NEWLINE>
+df . replace ( { <STRING_LITERAL> : <STRING_LITERAL> } , regex = True ) <NEWLINE>
+df . replace ( { <STRING_LITERAL> : <STRING_LITERAL> } , regex = True ) <NEWLINE>
+[ ( x + y ) for x , y in zip ( word , word [ 1 : ] ) ] <NEWLINE>
+list ( map ( lambda x , y : x + y , word [ : - 1 ] , word [ 1 : ] ) ) <NEWLINE>
+print ( re . findall ( <STRING_LITERAL> , myString ) ) <NEWLINE>
+print ( re . search ( <STRING_LITERAL> , myString ) . group ( <STRING_LITERAL> ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , mystring ) <NEWLINE>
+pd . date_range ( <STRING_LITERAL> , freq = <STRING_LITERAL> , periods = 13 ) <NEWLINE>
+matrix = [ [ a , b ] , [ c , d ] , [ e , f ] ] <NEWLINE>
+mystring . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+os . path . abspath ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . join ( my_string . split ( ) ) <NEWLINE>
+os . path . splitext ( filename ) [ 0 ] <NEWLINE>
+[ sum ( l [ : i ] ) for i , _ in enumerate ( l ) ] <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . split ( <STRING_LITERAL> ) <NEWLINE>
+np . random . shuffle ( np . transpose ( r ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] = df [ <STRING_LITERAL> ] <NEWLINE>
+list ( data [ <STRING_LITERAL> ] [ <STRING_LITERAL> ] . values ( ) ) [ 0 ] [ <STRING_LITERAL> ] [ 0 ] [ <STRING_LITERAL> ] <NEWLINE>
+all ( predicate ( x ) for x in string ) <NEWLINE>
+os . statvfs ( <STRING_LITERAL> ) . f_files - os . statvfs ( <STRING_LITERAL> ) . f_ffree <NEWLINE>
+user_list = [ int ( number ) for number in user_input . split ( <STRING_LITERAL> ) ] <NEWLINE>
+[ int ( s ) for s in user . split ( <STRING_LITERAL> ) ] <NEWLINE>
+ut . sort ( key = cmpfun , reverse = True ) <NEWLINE>
+ut . sort ( key = lambda x : x . count , reverse = True ) <NEWLINE>
+ut . sort ( key = lambda x : x . count , reverse = True ) <NEWLINE>
+driver . find_element_by_partial_link_text ( <STRING_LITERAL> ) . click ( ) <NEWLINE>
+driver . findElement ( By . linkText ( <STRING_LITERAL> ) ) . click ( ) <NEWLINE>
+driver . find_element_by_link_text ( <STRING_LITERAL> ) . click ( ) <NEWLINE>
+<STRING_LITERAL> + str ( i ) <NEWLINE>
+open ( <STRING_LITERAL> , <STRING_LITERAL> ) . write ( <STRING_LITERAL> + open ( <STRING_LITERAL> ) . read ( ) ) <NEWLINE>
+l . sort ( key = lambda t : len ( t [ 1 ] ) , reverse = True ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , s ) <NEWLINE>
+bool ( re . search ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+list ( set ( t ) ) <NEWLINE>
+list ( set ( source_list ) ) <NEWLINE>
+list ( OrderedDict . fromkeys ( <STRING_LITERAL> ) ) <NEWLINE>
+numpy . array ( a ) . reshape ( - 1 ) . tolist ( ) <NEWLINE>
+numpy . array ( a ) [ 0 ] . tolist ( ) <NEWLINE>
+print ( soup . find ( text = <STRING_LITERAL> ) . findNext ( <STRING_LITERAL> ) . contents [ 0 ] ) <NEWLINE>
+<STRING_LITERAL> . join ( [ ( <STRING_LITERAL> % t ) for t in l ] ) <NEWLINE>
+<STRING_LITERAL> . join ( [ ( <STRING_LITERAL> % ( t [ 0 ] , t [ 1 ] ) ) for t in l ] ) <NEWLINE>
+driver . execute_script ( <STRING_LITERAL> ) <NEWLINE>
+[ i for i in teststr if re . search ( <STRING_LITERAL> , i ) ] <NEWLINE>
+df [ <STRING_LITERAL> ] [ ( df [ <STRING_LITERAL> ] > 50 ) & ( df [ <STRING_LITERAL> ] == 900 ) ] <NEWLINE>
+sorted ( o . items ( ) ) <NEWLINE>
+sorted ( d ) <NEWLINE>
+int ( <STRING_LITERAL> ) <NEWLINE>
+int ( ) <NEWLINE>
+T2 = [ map ( int , x ) for x in T1 ] <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> ] ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> ] ) <NEWLINE>
+[ val for pair in zip ( l1 , l2 ) for val in pair ] <NEWLINE>
+encoded = base64 . b64encode ( <STRING_LITERAL> ) <NEWLINE>
+encoded = <STRING_LITERAL> . encode ( <STRING_LITERAL> ) <NEWLINE>
+lol = list ( csv . reader ( open ( <STRING_LITERAL> , <STRING_LITERAL> ) , delimiter = <STRING_LITERAL> ) ) <NEWLINE>
+getattr ( my_object , my_str ) <NEWLINE>
+print ( dict ( zip ( LD [ 0 ] , zip ( * [ list ( d . values ( ) ) for d in LD ] ) ) ) ) <NEWLINE>
+d = ast . literal_eval ( <STRING_LITERAL> ) <NEWLINE>
+[ word for word in mystring . split ( ) if word . startswith ( <STRING_LITERAL> ) ] <NEWLINE>
+text = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , text , flags = re . MULTILINE ) <NEWLINE>
+np . where ( np . in1d ( A , [ 1 , 3 , 4 ] ) . reshape ( A . shape ) , A , 0 ) <NEWLINE>
+np . mean ( a , axis = 1 ) <NEWLINE>
+subprocess . call ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+subprocess . call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+writer . writeheader ( ) <NEWLINE>
+df . fillna ( df . mean ( axis = 1 ) , axis = 1 ) <NEWLINE>
+time . strftime ( <STRING_LITERAL> , time . localtime ( 1347517370 ) ) <NEWLINE>
+super ( Derived , cls ) . do ( a ) <NEWLINE>
+a [ np . where ( ( a [ : , ( 0 ) ] == 0 ) * ( a [ : , ( 1 ) ] == 1 ) ) ] <NEWLINE>
+re . split ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+len ( max ( words , key = len ) ) <NEWLINE>
+result [ 0 ] [ <STRING_LITERAL> ] <NEWLINE>
+[ line . split ( ) for line in open ( <STRING_LITERAL> ) ] <NEWLINE>
+res = dict ( ( v , k ) for k , v in a . items ( ) ) <NEWLINE>
+new_file = open ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+any ( key . startswith ( <STRING_LITERAL> ) for key in dict1 ) <NEWLINE>
+[ value for key , value in list ( dict1 . items ( ) ) if key . startswith ( <STRING_LITERAL> ) ] <NEWLINE>
+pd . DataFrame ( { <STRING_LITERAL> : sf . index , <STRING_LITERAL> : sf . values } ) <NEWLINE>
+print ( <STRING_LITERAL> . join ( map ( str , list ) ) ) <NEWLINE>
+print ( <STRING_LITERAL> . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+<STRING_LITERAL> . encode ( <STRING_LITERAL> ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+image = image . resize ( ( x , y ) , Image . ANTIALIAS ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , s ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( 1.0 / 3 * 100 ) ) <NEWLINE>
+mylist . sort ( key = lambda x : x [ <STRING_LITERAL> ] ) <NEWLINE>
+l . sort ( key = lambda x : x [ <STRING_LITERAL> ] ) <NEWLINE>
+l . sort ( key = lambda x : ( x [ <STRING_LITERAL> ] , x [ <STRING_LITERAL> ] , x [ <STRING_LITERAL> ] ) ) <NEWLINE>
+heapq . nlargest ( 10 , range ( len ( l1 ) ) , key = lambda i : abs ( l1 [ i ] - l2 [ i ] ) ) <NEWLINE>
+soup . find_all ( <STRING_LITERAL> , { <STRING_LITERAL> : <STRING_LITERAL> } ) <NEWLINE>
+df . to_sql ( <STRING_LITERAL> , engine , schema = <STRING_LITERAL> ) <NEWLINE>
+brackets = re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+list ( dict ( ( x [ 0 ] , x ) for x in L ) . values ( ) ) <NEWLINE>
+[ line . rstrip ( <STRING_LITERAL> ) for line in file ] <NEWLINE>
+[ i for ( i , x ) in enumerate ( testlist ) if ( x == 1 ) ] <NEWLINE>
+[ i for ( i , x ) in enumerate ( testlist ) if ( x == 1 ) ] <NEWLINE>
+for i in [ i for ( i , x ) in enumerate ( testlist ) if ( x == 1 ) ] : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for i in ( i for ( i , x ) in enumerate ( testlist ) if ( x == 1 ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+gen = ( i for ( i , x ) in enumerate ( testlist ) if ( x == 1 ) ) <NEWLINE> for i in gen : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+print ( testlist . index ( element ) ) <NEWLINE>
+try : <NEWLINE> <INDENT> print ( testlist . index ( element ) ) <NEWLINE> <DEDENT> except ValueError : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+max ( lis , key = lambda item : item [ 1 ] ) [ 0 ] <NEWLINE>
+max ( lis , key = itemgetter ( 1 ) ) [ 0 ] <NEWLINE>
+time . sleep ( 1 ) <NEWLINE>
+<STRING_LITERAL> . join ( <STRING_LITERAL> + <STRING_LITERAL> . join ( i ) + <STRING_LITERAL> for i in L ) <NEWLINE>
+b = models . CharField ( max_length = 7 , default = <STRING_LITERAL> , editable = False ) <NEWLINE>
+sorted ( list5 , lambda x : ( degree ( x ) , x ) ) <NEWLINE>
+( n for n in [ 1 , 2 , 3 , 5 ] ) <NEWLINE>
+newlist = [ v for i , v in enumerate ( oldlist ) if i not in removelist ] <NEWLINE>
+f = open ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+getattr ( obj , <STRING_LITERAL> ) <NEWLINE>
+from functools import reduce <NEWLINE> reduce ( lambda a , b : a + b , ( ( <STRING_LITERAL> , ) , ( <STRING_LITERAL> , ) , ( <STRING_LITERAL> , ) ) ) <NEWLINE>
+map ( lambda a : a [ 0 ] , ( ( <STRING_LITERAL> , ) , ( <STRING_LITERAL> , ) , ( <STRING_LITERAL> , ) ) ) <NEWLINE>
+zip ( * [ ( <STRING_LITERAL> , 1 ) , ( <STRING_LITERAL> , 2 ) , ( <STRING_LITERAL> , 3 ) , ( <STRING_LITERAL> , 4 ) ] ) <NEWLINE>
+zip ( * [ ( <STRING_LITERAL> , 1 ) , ( <STRING_LITERAL> , 2 ) , ( <STRING_LITERAL> , 3 ) , ( <STRING_LITERAL> , 4 ) ] ) <NEWLINE>
+result = ( [ a for ( a , b ) in original ] , [ b for ( a , b ) in original ] ) <NEWLINE>
+result = ( ( a for ( a , b ) in original ) , ( b for ( a , b ) in original ) ) <NEWLINE>
+zip ( * [ ( <STRING_LITERAL> , 1 ) , ( <STRING_LITERAL> , 2 ) , ( <STRING_LITERAL> , 3 ) , ( <STRING_LITERAL> , 4 ) , ( <STRING_LITERAL> , ) ] ) <NEWLINE>
+map ( None , * [ ( <STRING_LITERAL> , 1 ) , ( <STRING_LITERAL> , 2 ) , ( <STRING_LITERAL> , 3 ) , ( <STRING_LITERAL> , 4 ) , ( <STRING_LITERAL> , ) ] ) <NEWLINE>
+json . dumps ( Decimal ( <STRING_LITERAL> ) ) <NEWLINE>
+d [ <STRING_LITERAL> ] = <STRING_LITERAL> <NEWLINE>
+data . update ( { <STRING_LITERAL> : 1 , } ) <NEWLINE>
+data . update ( dict ( a = 1 ) ) <NEWLINE>
+data . update ( a = 1 ) <NEWLINE>
+max ( [ max ( i ) for i in matrix ] ) <NEWLINE>
+answer = str ( round ( answer , 2 ) ) <NEWLINE>
+ip = re . findall ( <STRING_LITERAL> , s ) <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) . filter ( lambda x : len ( x ) > 1 ) <NEWLINE>
+[ x for x in myfile . splitlines ( ) if x != <STRING_LITERAL> ] <NEWLINE>
+lst = map ( int , open ( <STRING_LITERAL> ) . readlines ( ) ) <NEWLINE>
+plt . colorbar ( mappable = mappable , cax = ax3 ) <NEWLINE>
+Counter ( <STRING_LITERAL> . join ( df [ <STRING_LITERAL> ] ) . split ( ) ) . most_common ( 100 ) <NEWLINE>
+list ( itertools . combinations ( ( 1 , 2 , 3 ) , 2 ) ) <NEWLINE>
+datetime . now ( pytz . utc ) <NEWLINE>
+list2 = [ x for x in list1 if x != [ ] ] <NEWLINE>
+list2 = [ x for x in list1 if x ] <NEWLINE>
+return HttpResponse ( data , mimetype = <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , example_str ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , example_str ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+elements = [ <STRING_LITERAL> . format ( element ) for element in elements ] <NEWLINE>
+subprocess . Popen ( [ <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+[ mydict [ x ] for x in mykeys ] <NEWLINE>
+dict ( [ ( <STRING_LITERAL> , <STRING_LITERAL> ) , ( <STRING_LITERAL> , 22 ) ] ) <NEWLINE>
+data . reshape ( - 1 , j ) . mean ( axis = 1 ) . reshape ( data . shape [ 0 ] , - 1 ) <NEWLINE>
+print ( s . encode ( <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) ) <NEWLINE>
+re . split ( <STRING_LITERAL> , s ) <NEWLINE>
+{ i [ 1 ] : i [ 0 ] for i in list ( myDictionary . items ( ) ) } <NEWLINE>
+[ i for i , j in enumerate ( myList ) if <STRING_LITERAL> in j . lower ( ) or <STRING_LITERAL> in j . lower ( ) ] <NEWLINE>
+isinstance ( obj , str ) <NEWLINE>
+isinstance ( o , str ) <NEWLINE>
+( type ( o ) is str ) <NEWLINE>
+isinstance ( o , str ) <NEWLINE>
+isinstance ( obj_to_test , str ) <NEWLINE>
+list2 . extend ( list1 ) <NEWLINE>
+list1 . extend ( mylog ) <NEWLINE>
+c . extend ( a ) <NEWLINE>
+for line in mylog : <NEWLINE> <INDENT> list1 . append ( line ) <NEWLINE> <DEDENT>
+b . append ( ( a [ 0 ] [ 0 ] , a [ 0 ] [ 2 ] ) ) <NEWLINE>
+app . config [ <STRING_LITERAL> ] = <STRING_LITERAL> <NEWLINE>
+pd . DataFrame ( out . tolist ( ) , columns = [ <STRING_LITERAL> , <STRING_LITERAL> ] , index = out . index ) <NEWLINE>
+[ x for x in range ( len ( stocks_list ) ) if stocks_list [ x ] == <STRING_LITERAL> ] <NEWLINE>
+ax . set_xticklabels ( labels , rotation = 45 ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , s ) <NEWLINE>
+os . path . basename ( os . path . dirname ( os . path . realpath ( __file__ ) ) ) <NEWLINE>
+print ( re . findall ( <STRING_LITERAL> , str ) ) <NEWLINE>
+re . split ( <STRING_LITERAL> , input ) <NEWLINE>
+re . split ( <STRING_LITERAL> , input ) <NEWLINE>
+r = requests . post ( url , files = files , headers = headers , data = data ) <NEWLINE>
+open ( <STRING_LITERAL> , <STRING_LITERAL> ) . write ( bytes_ ) <NEWLINE>
+[ dct [ k ] for k in lst ] <NEWLINE>
+x . set_index ( <STRING_LITERAL> ) . index . get_duplicates ( ) <NEWLINE>
+round ( 1.923328437452 , 3 ) <NEWLINE>
+sorted ( li , key = lambda x : datetime . strptime ( x [ 1 ] , <STRING_LITERAL> ) , reverse = True ) <NEWLINE>
+ax . set_rlabel_position ( 135 ) <NEWLINE>
+os . path . isabs ( my_path ) <NEWLINE>
+len ( list ( yourdict . keys ( ) ) ) <NEWLINE>
+len ( set ( open ( yourdictfile ) . read ( ) . split ( ) ) ) <NEWLINE>
+df . groupby ( <STRING_LITERAL> ) . first ( ) <NEWLINE>
+pd . concat ( [ df [ 0 ] . apply ( pd . Series ) , df [ 1 ] ] , axis = 1 ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , data ) <NEWLINE>
+sum ( int ( float ( item ) ) for item in [ _f for _f in [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] if _f ] ) <NEWLINE>
+subprocess . Popen ( [ <STRING_LITERAL> ] ) <NEWLINE>
+q . put ( ( - n , n ) ) <NEWLINE>
+df [ <STRING_LITERAL> ] . plot ( kind = <STRING_LITERAL> , color = [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , data ) <NEWLINE>
+len ( my_list ) <NEWLINE>
+len ( l ) <NEWLINE>
+len ( s ) <NEWLINE>
+len ( my_tuple ) <NEWLINE>
+len ( my_string ) <NEWLINE>
+<STRING_LITERAL> . decode ( <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+shutil . rmtree ( <STRING_LITERAL> ) <NEWLINE>
+data [ <STRING_LITERAL> ] = data [ <STRING_LITERAL> ] . apply ( lambda x : x . weekday ( ) ) <NEWLINE>
+sorted ( x , key = x . get , reverse = True ) <NEWLINE>
+sorted ( list ( x . items ( ) ) , key = lambda pair : pair [ 1 ] , reverse = True ) <NEWLINE>
+np . vstack ( ( a , b ) ) <NEWLINE>
+print ( concatenate ( ( a , b ) , axis = 0 ) ) <NEWLINE>
+print ( concatenate ( ( a , b ) , axis = 1 ) ) <NEWLINE>
+c = np . r_ [ ( a [ None , : ] , b [ None , : ] ) ] <NEWLINE>
+np . array ( ( a , b ) ) <NEWLINE>
+print ( socket . getaddrinfo ( <STRING_LITERAL> , 80 ) ) <NEWLINE>
+df . xs ( <STRING_LITERAL> , level = <STRING_LITERAL> , drop_level = False ) <NEWLINE>
+return HttpResponse ( <STRING_LITERAL> , status = 401 ) <NEWLINE>
+Flask ( __name__ , template_folder = <STRING_LITERAL> ) <NEWLINE>
+session . execute ( <STRING_LITERAL> ) <NEWLINE>
+c2 . sort ( key = lambda row : row [ 2 ] ) <NEWLINE>
+matplotlib . rc ( <STRING_LITERAL> , ** { <STRING_LITERAL> : <STRING_LITERAL> , <STRING_LITERAL> : <STRING_LITERAL> } ) <NEWLINE>
+df [ <STRING_LITERAL> ] . apply ( lambda x : x . toordinal ( ) ) <NEWLINE>
+element . get_attribute ( <STRING_LITERAL> ) <NEWLINE>
+df . index . get_loc ( <STRING_LITERAL> ) <NEWLINE>
+os . system ( <STRING_LITERAL> ) <NEWLINE>
+my_dict . update ( { <STRING_LITERAL> : 1 } ) <NEWLINE>
+my_list = [ ] <NEWLINE>
+my_list . append ( 12 ) <NEWLINE>
+myList . insert ( 0 , <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . decode ( <STRING_LITERAL> ) <NEWLINE>
+df [ df . columns [ - 1 ] ] <NEWLINE>
+df . loc [ df [ <STRING_LITERAL> ] == <STRING_LITERAL> , <STRING_LITERAL> ] . values [ 0 ] <NEWLINE>
+np . column_stack ( ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] ) ) <NEWLINE>
+type ( i ) <NEWLINE>
+type ( v ) <NEWLINE>
+type ( v ) <NEWLINE>
+type ( v ) <NEWLINE>
+type ( v ) <NEWLINE>
+print ( type ( variable_name ) ) <NEWLINE>
+next ( itertools . islice ( range ( 10 ) , 5 , 5 + 1 ) ) <NEWLINE>
+print ( <STRING_LITERAL> . format ( word ) ) <NEWLINE>
+<STRING_LITERAL> . join ( list ) <NEWLINE>
+y = [ [ ] for n in range ( 2 ) ] <NEWLINE>
+data = [ line . strip ( ) for line in open ( <STRING_LITERAL> , <STRING_LITERAL> ) ] <NEWLINE>
+<STRING_LITERAL> . join ( [ char for char in <STRING_LITERAL> if char != <STRING_LITERAL> ] ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+<STRING_LITERAL> . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+df . dropna ( subset = [ 1 ] ) <NEWLINE>
+[ x for x in myList if x . n == 30 ] <NEWLINE>
+nums = [ int ( x ) for x in intstringlist ] <NEWLINE>
+map ( int , eval ( input ( <STRING_LITERAL> ) ) ) <NEWLINE>
+sys . stdout . write ( <STRING_LITERAL> ) <NEWLINE>
+int ( round ( 2.51 * 100 ) ) <NEWLINE>
+os . chdir ( <STRING_LITERAL> ) <NEWLINE> for file in glob . glob ( <STRING_LITERAL> ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+for file in os . listdir ( <STRING_LITERAL> ) : <NEWLINE> <INDENT> if file . endswith ( <STRING_LITERAL> ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT> <DEDENT>
+for ( root , dirs , files ) in os . walk ( <STRING_LITERAL> ) : <NEWLINE> <INDENT> for file in files : <NEWLINE> <INDENT> if file . endswith ( <STRING_LITERAL> ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT> <DEDENT> <DEDENT>
+df . plot ( legend = False ) <NEWLINE>
+for i in range ( 256 ) : <NEWLINE> <INDENT> for j in range ( 256 ) : <NEWLINE> <INDENT> ip = ( <STRING_LITERAL> % ( i , j ) ) <NEWLINE> print ( ip ) <NEWLINE> <DEDENT> <DEDENT>
+for ( i , j ) in product ( list ( range ( 256 ) ) , list ( range ( 256 ) ) ) : <NEWLINE> <INDENT> pass <NEWLINE> <DEDENT>
+generator = iter_iprange ( <STRING_LITERAL> , <STRING_LITERAL> , step = 1 ) <NEWLINE>
+sum ( 1 << i for i , b in enumerate ( x ) if b ) <NEWLINE>
+target . write ( <STRING_LITERAL> % ( line1 , line2 , line3 ) ) <NEWLINE>
+[ y for x in data for y in ( x if isinstance ( x , list ) else [ x ] ) ] <NEWLINE>
+print ( <STRING_LITERAL> . encode ( <STRING_LITERAL> ) ) <NEWLINE>
+<STRING_LITERAL> . join ( s . rsplit ( <STRING_LITERAL> , 1 ) ) <NEWLINE>
+( x [ 1 : ] + x [ : - 1 ] ) / 2 <NEWLINE>
+x [ : - 1 ] + ( x [ 1 : ] - x [ : - 1 ] ) / 2 <NEWLINE>
+arr = numpy . fromiter ( codecs . open ( <STRING_LITERAL> , encoding = <STRING_LITERAL> ) , dtype = <STRING_LITERAL> ) <NEWLINE>
+l = sorted ( l , key = itemgetter ( <STRING_LITERAL> ) , reverse = True ) <NEWLINE>
+l = sorted ( l , key = lambda a : a [ <STRING_LITERAL> ] , reverse = True ) <NEWLINE>
+df . loc [ df [ 0 ] . str . contains ( <STRING_LITERAL> ) ] <NEWLINE>
+re . search ( <STRING_LITERAL> , your_string ) . group ( 1 ) <NEWLINE>
+<STRING_LITERAL> . count ( <STRING_LITERAL> ) <NEWLINE>
+json . loads ( request . body ) <NEWLINE>
+urllib . request . urlretrieve ( url , file_name ) <NEWLINE>
+text . split ( ) <NEWLINE>
+text . split ( <STRING_LITERAL> ) <NEWLINE>
+line . split ( ) <NEWLINE>
+[ re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , i ) for i in s ] <NEWLINE>
+sorted ( list_of_strings , key = lambda s : s . split ( <STRING_LITERAL> ) [ 1 ] ) <NEWLINE>
+subprocess . check_call ( <STRING_LITERAL> , shell = True ) <NEWLINE>
+[ element for element in lst if isinstance ( element , int ) ] <NEWLINE>
+[ element for element in lst if not isinstance ( element , str ) ] <NEWLINE>
+newlist = sorted ( list_to_be_sorted , key = lambda k : k [ <STRING_LITERAL> ] ) <NEWLINE>
+newlist = sorted ( l , key = itemgetter ( <STRING_LITERAL> ) , reverse = True ) <NEWLINE>
+<STRING_LITERAL> . join ( trans [ <STRING_LITERAL> ] ) <NEWLINE>
+<STRING_LITERAL> . join ( [ <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ] ) <NEWLINE>
+json . load ( urllib . request . urlopen ( <STRING_LITERAL> ) ) <NEWLINE>
+[ x for x in sents if not x . startswith ( <STRING_LITERAL> ) and not x . startswith ( <STRING_LITERAL> ) ] <NEWLINE>
+Entry . objects . filter ( pub_date__contains = <STRING_LITERAL> ) <NEWLINE>
+list . sort ( key = lambda item : ( item [ <STRING_LITERAL> ] , item [ <STRING_LITERAL> ] ) ) <NEWLINE>
+( t - datetime . datetime ( 1970 , 1 , 1 ) ) . total_seconds ( ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+import imp <NEWLINE> imp . reload ( module ) <NEWLINE>
+struct . unpack ( <STRING_LITERAL> , struct . pack ( <STRING_LITERAL> , number ) ) <NEWLINE>
+numlist = [ float ( x ) for x in numlist ] <NEWLINE>
+df . to_csv ( filename , index = False ) <NEWLINE>
+json_data = json . loads ( unescaped ) <NEWLINE>
+[ chr ( i ) for i in range ( 127 ) ] <NEWLINE>
+newFile . write ( struct . pack ( <STRING_LITERAL> , * newFileBytes ) ) <NEWLINE>
+re . sub ( <STRING_LITERAL> , <STRING_LITERAL> , string ) <NEWLINE>
+list ( dict . keys ( ) ) [ - 1 ] <NEWLINE>
+print ( <STRING_LITERAL> , file = f ) <NEWLINE>
+f = open ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE> f . write ( <STRING_LITERAL> ) <NEWLINE> f . close ( ) <NEWLINE>
+with open ( <STRING_LITERAL> , <STRING_LITERAL> ) as the_file : <NEWLINE> <INDENT> the_file . write ( <STRING_LITERAL> ) <NEWLINE> <DEDENT>
+s . encode ( <STRING_LITERAL> ) <NEWLINE>
+AuthorizedEmail . objects . filter ( group = group ) . order_by ( <STRING_LITERAL> ) [ 0 ] <NEWLINE>
+re . findall ( <STRING_LITERAL> , text ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , text ) <NEWLINE>
+os . system ( <STRING_LITERAL> , <STRING_LITERAL> ) <NEWLINE>
+b . sort ( key = lambda x : x [ 1 ] [ 2 ] ) <NEWLINE>
+list ( cf . get_range ( ) . get_keys ( ) ) <NEWLINE>
+datetime . datetime . now ( ) <NEWLINE>
+next ( i for i , x in enumerate ( lst ) if not isinstance ( x , bool ) and x == 1 ) <NEWLINE>
+a [ : ] = [ ( x - 13 ) for x in a ] <NEWLINE>
+random . choice ( os . listdir ( <STRING_LITERAL> ) ) <NEWLINE>
+max ( x . min ( ) , x . max ( ) , key = abs ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , s , re . MULTILINE | re . DOTALL ) <NEWLINE>
+re . findall ( <STRING_LITERAL> , document ) <NEWLINE>
+mystring . replace ( <STRING_LITERAL> , <STRING_LITERAL> ) . split ( <STRING_LITERAL> ) <NEWLINE>
+open ( path , <STRING_LITERAL> ) <NEWLINE>
+[ [ sum ( item ) for item in zip ( * items ) ] for items in zip ( * data ) ] <NEWLINE>
+a [ : , ( np . newaxis ) ] <NEWLINE>

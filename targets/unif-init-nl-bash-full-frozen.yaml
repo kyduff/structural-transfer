@@ -24,12 +24,12 @@ gpu_ranks:
   - 1
 
 # Where to save checkpoints
-save_model: targets/nl-bash/run/full-seed1
+save_model: targets/nl-bash/run/unif-init-frozen-manualseed
 save_checkpoint_steps: 100
-keep_checkpoint: 6
+keep_checkpoint: 1
 
 # Reproducibility
-# seed: 9001
+seed: 9001
 
 # Define model
 encoder_type: transformer
@@ -49,9 +49,8 @@ dropout: 0.1
 label_smoothing: 0.1
 position_encoding: true
 
-# Initialization
-param_init: 0.0
-param_init_glorot: true
+# (Uniform) Initialization
+param_init: 0.4 # determined by grid search
 replace_unk: true
 
 # define optimizer
@@ -64,8 +63,8 @@ learning_rate: 2.0
 max_grad_norm: 0.0
 
 # Freeze layers
-# freeze_encoder: true
-# freeze_decoder: true
+freeze_encoder: true
+freeze_decoder: true
 
 
 train_steps: 2500

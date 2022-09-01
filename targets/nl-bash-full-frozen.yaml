@@ -24,9 +24,9 @@ gpu_ranks:
   - 1
 
 # Where to save checkpoints
-save_model: targets/nl-bash/run/full-frozen-copytask
+# save_model: targets/nl-bash/run/full-frozen-en-de
 save_checkpoint_steps: 100
-keep_checkpoint: 6
+keep_checkpoint: 1
 
 # Reproducibility
 seed: 9001
@@ -69,6 +69,6 @@ freeze_decoder: true
 
 
 train_steps: 2500
-valid_steps: 500
+valid_steps: 100
 warm_up_steps: 8000
 report_every: 10

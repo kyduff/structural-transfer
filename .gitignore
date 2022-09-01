@@ -162,6 +162,7 @@ cython_debug/
 # Misc records
 *.tar.gz
 run/
+pred.*
 
 # Exclude model files
 *.pt

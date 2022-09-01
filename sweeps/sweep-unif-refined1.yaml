@@ -1,0 +1,14 @@
+program: utils/OpenNMT-py/train.py
+method: grid
+metric:
+  goal: minimize
+  name: valid.ppl
+parameters:
+  config:
+    value: targets/unif-init-nl-bash-full-frozen.yaml
+  param_init:
+    values:
+      - 0.2
+      - 0.3
+      - 0.4
+

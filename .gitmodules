@@ -1,3 +1,7 @@
 [submodule "utils/OpenNMT-py"]
 	path = utils/OpenNMT-py
 	url = git@github.com:kyduff/OpenNMT-py.git
+[submodule "utils/clai"]
+	path = utils/clai
+	url = git@github.com:kyduff/clai.git
+	branch = nlc2cmd

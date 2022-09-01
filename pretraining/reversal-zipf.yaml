@@ -1,17 +1,17 @@
-save_data: targets/nl-bash/run/example
+save_data: pretraining/reversal/run/example
 
-src_vocab: targets/nl-bash/run/nl.vocab.src
-tgt_vocab: targets/nl-bash/run/cmd.vocab.tgt
+src_vocab: pretraining/reversal/run/all.vocab.src
+tgt_vocab: pretraining/reversal/run/all.vocab.tgt
 
 overwrite: False
 
 data:
   corpus_1:
-    path_src: targets/nl-bash/src-train-full.txt
-    path_tgt: targets/nl-bash/tgt-train-full.txt
+    path_src: pretraining/reversal/src-train-zipf.txt
+    path_tgt: pretraining/reversal/tgt-train-zipf.txt
   valid:
-    path_src: targets/nl-bash/src-test-full.txt
-    path_tgt: targets/nl-bash/tgt-test-full.txt
+    path_src: pretraining/reversal/src-test-zipf.txt
+    path_tgt: pretraining/reversal/tgt-test-zipf.txt
 
 # Record run on wandb
 wandb: true
@@ -24,9 +24,9 @@ gpu_ranks:
   - 1
 
 # Where to save checkpoints
-save_model: targets/nl-bash/run/full-seed1
+# save_model: pretraining/reversal/run/reversal-zipf
 save_checkpoint_steps: 100
-keep_checkpoint: 6
+keep_checkpoint: 1
 
 # Reproducibility
 # seed: 9001

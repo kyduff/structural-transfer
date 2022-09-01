@@ -1,0 +1,477 @@
+send a signal _FILE to current process
+decod a hex string _REGEX to _REGEX
+check if all element in list _REGEX are ident
+format number of space between string _REGEX _REGEX and _REGEX to be _REGEX
+get rid of none valu in dictionari _REGEX
+get rid of none valu in dictionari _REGEX
+captur final output of a chain of system command _REGEX _REGEX _REGEX grep someth _REGEX wc _REGEX
+concaten a list of string _REGEX _REGEX _REGEX
+find intersect data between seri _REGEX and seri _REGEX
+send http header to _REGEX
+format a datetim string _REGEX to extract date onli
+split a multi-lin string _REGEX into separ string
+split a multi-lin string _REGEX by new line charact _REGEX
+concaten element of list _REGEX by a colon _REGEX
+get first object from a queryset in django model _REGEX
+calcul sum over all row of _TIMESPAN numpi array
+enabl warn use action _REGEX
+concaten item of list _REGEX with a space _REGEX
+run script _FILE with argument _FILE on termin use python execut
+convert a string _REGEX with dot and comma into a float number _REGEX
+convert a string _FILE with dot and comma into a float number
+set pythonpath in python script
+split string _REGEX use a regex
+open a file _FILE in append mode
+download a file _FILE over http and save to _FILE
+download a file _REGEX over http and save to _REGEX
+download a file _DIRECTORY over http
+download a file _REGEX over http
+download a file _REGEX over http and save to _REGEX
+argpars add argument with flag _REGEX and version action of _REGEX to parser _REGEX
+remov key _FILE from dictionari _REGEX
+creat new datafram object by merg column _REGEX of datafram _REGEX and _REGEX and renam column from datafram _REGEX and _REGEX with suffix _REGEX and _REGEX respect
+split a string _REGEX by space with _NUMBER split
+read keyboard-input
+enabl debug mode on flask applic _REGEX
+python save list _REGEX to file object _FILE
+multipli a matrix _REGEX with a _TIMESPAN sensor _REGEX in scipi
+creat _TIMESPAN array of zero of size
+cut off last word of a sentenc _REGEX
+convert scalar _REGEX to array
+sum all element of nest list _REGEX
+convert hex string _REGEX to a float number
+multipl each valu by _NUMBER for all key in a dictionari _REGEX
+run bash script _FILE
+join element of list _REGEX with a comma _REGEX
+make a comma-separ string from a list _REGEX
+revers list that contain _NUMBER to _NUMBER
+remov substr _REGEX from a string _REGEX
+revers order of word delimit by _FILE in string _REGEX
+convert epoch time repres as millisecond _REGEX to string use format _FILE
+pars millisecond epoch time _NUMBER to format _REGEX
+get date _TIMESPAN befor current date
+sum element at index _REGEX of each list in list _REGEX
+sum column of a list _REGEX
+encod binari string _REGEX to _REGEX code
+combin list of dictionari _REGEX with same key in each list to a singl dictionari
+merg a nest dictionari _REGEX into a flat dictionari by concaten nest valu with same key _REGEX
+identifi duplic valu in list _REGEX
+insert directori _REGEX into directori _REGEX
+modifi _REGEX for python modul _REGEX
+insert a _REGEX valu into a _REGEX tabl
+flatten list _REGEX
+append element of a set _REGEX to a list _REGEX
+write data of datafram _REGEX into text file _FILE
+write content of datafram _REGEX into text file _FILE
+split a string _REGEX by last occurr of charact _REGEX
+get last part of a string befor charact _REGEX
+upload file use ftp
+add one to hidden web element with id _REGEX with selenium python script
+creat array contain maximum valu of respect element of array _REGEX and array _REGEX _NUMBER _REGEX
+print a list _REGEX and move first _NUMBER element to end of list
+loop over file in directori _REGEX
+loop over file in directori _REGEX
+creat a random list of integ
+googl app engin execut _FILE queri _REGEX with paramet _FILE
+filter row in panda start with alphabet _REGEX use regular express
+print a _NUMBER dimension list _REGEX as a tabl with delimit
+panda delet row in datafram _REGEX base on multipl column valu
+format variabl _FILE and _FILE use string format
+format string _REGEX with variabl _REGEX and _REGEX
+format string _REGEX
+convert list of list _REGEX to list of integ
+combin element of each list in list _REGEX into digit of a singl integ
+convert a list of list _REGEX to list of integ
+write element of list _REGEX concaten by special charact _REGEX to file _REGEX
+remov an element from a list base on a predic _REGEX or _REGEX
+remov duplic word from a string _REGEX use regex
+count non _NUMBER valu in each column in panda data frame
+search for string that match regular express pattern _FILE in string _FILE
+split string _REGEX into a list on white space
+search for occurr of regex pattern _FILE in _FILE string _REGEX
+eras all content of a file _REGEX
+convert a string into datetim use format _FILE
+find index of a list with first element equal to _NUMBER within list of list _REGEX
+lower a string _REGEX and remov non-alphanumer charact asid from space
+remov all non-alphanumer charact except space from a string _REGEX and lower it
+subscript text _REGEX with _NUMBER as subscript in matplotlib label for array _REGEX and _REGEX
+subscript text _REGEX with _NUMBER as subscript in matplotlib label for array _REGEX and _REGEX
+loop over a list _REGEX if sublist length equal _NUMBER
+initi a list _REGEX of _NUMBER object object
+creat list _REGEX contain _NUMBER instanc of object _REGEX
+get content of child tag _REGEX attribut whose parent _FILE _REGEX
+join data from datafram _REGEX with data from datafram _REGEX base on match valu of column _REGEX in both datafram
+use _REGEX oper to print variabl valu _REGEX insid a string
+check if directori _REGEX exist and creat it if necessari
+check if a directori _REGEX exist and creat it if necessari
+check if a directori _REGEX exist and creat it if necessari
+check if a directori _REGEX exist and creat it if necessari
+replac a separ word _REGEX by _REGEX in a string _REGEX
+substitut ascii letter in string _REGEX with empti string
+get digit onli from a string _REGEX use lambda function
+access a tag call _REGEX in beautifulsoup _REGEX
+get a dictionari _REGEX of key-valu pair in pymongo cursor _REGEX
+creat new matrix object by concaten data from matrix a and matrix b
+concat _NUMBER matric _REGEX and _REGEX in numpi
+get charact count in a file _REGEX
+count occurr of item _REGEX in list _REGEX
+count occurr of item in list _REGEX
+count occurr of item in list _REGEX
+count occurr of item in list _REGEX
+count occurr of item _REGEX in list _REGEX
+copi file _REGEX to directori _REGEX
+find key associ with largest valu in dictionari _REGEX whilst key is non-zero valu
+get largest key whose not associ with valu of _NUMBER in dictionari _REGEX
+get largest key in a dictionari _REGEX with non-zero valu
+put cursor at begin of file
+combin valu from column _REGEX and column _REGEX of datafram _REGEX into column _FILE of datafram _REGEX
+remov key _REGEX from dictionari _REGEX
+updat datetim field in _REGEX to be exist _REGEX plus _TIMESPAN
+merg list _REGEX and list _REGEX and list _REGEX into one list
+increment a valu with lead zero in a number _REGEX
+check if a panda datafram _REGEX s index is sort
+convert tupl _REGEX to list
+convert list _REGEX to tupl
+convert tupl _REGEX to list
+send output of pprint object _REGEX to file _REGEX
+get index of row in column _REGEX
+creat a list contain index of row where valu of column _REGEX in datafram _REGEX are equal to true
+get list of index of row where column _REGEX valu match true
+get index of row in datafram _REGEX which column _REGEX match valu true
+chang work directori to directori _REGEX
+insert data from a string _REGEX to sqlite _FILE _REGEX
+decod string _REGEX into a normal string
+convert a raw string _REGEX into a normal string
+convert a raw string _REGEX into a normal string
+split a string _REGEX with into all string of repeat charact
+matter a plot with x y posit of _FILE and face color equal to none
+a matter plot with empti circl
+remov a div with a id _REGEX use beautifulsoup
+filter row contain key word _REGEX in column _REGEX
+convert index at level _NUMBER into a column in datafram _REGEX
+add index in a data frame _REGEX to a column _REGEX
+convert panda index in a datafram to column
+get revers of list item from list _REGEX use extend slice
+join each element in array _REGEX with element at same index in array _REGEX as a tupl
+zip _NUMBER _REGEX array _REGEX and _REGEX
+convert list _REGEX into a comma separ string
+send a post request with raw data _REGEX and basic authent with _REGEX and _REGEX
+find last occurr of charact _REGEX in string _REGEX
+iter one list _REGEX use list comprehens
+extract all valu with key _REGEX and _REGEX from a list of dictionari _REGEX to list of tupl
+get filenam without extens from file _FILE
+creat a dictionari by ad each _NUMBER adjac element in tupl _REGEX as _FILE pair to it
+creat a list contain flatten list _REGEX _REGEX _REGEX _REGEX _REGEX _REGEX _REGEX _FILE _REGEX
+select row in a datafram _REGEX column _REGEX between _NUMBER valu _NUMBER and _NUMBER
+replac all occur of newlin _REGEX with _REGEX in datafram _REGEX
+replac all occurr of a string _REGEX by string _REGEX in a panda data frame _REGEX
+creat a list contain each _NUMBER adjac letter in string _REGEX as it element
+get a list of pair from a string _REGEX use lambda function
+extract a url from a string _REGEX
+extract a url from a string _REGEX
+remov all special charact punctuat and space from a string _REGEX use regex
+creat a datetimeindex contain _NUMBER period of second friday of each month start from date _DATETIME
+creat multidimension array _REGEX with _NUMBER row and _NUMBER column in python
+replac space with underscor
+get an absolut file path of file _FILE
+split string _REGEX on white space
+get filenam without extens from file _REGEX
+get a list contain sum of each element _REGEX in list _REGEX plus previous element
+split a string _FILE by _DIRECTORY keep _DIRECTORY in result
+shuffl column of an numpi array _REGEX
+copi all valu in a column _REGEX to a new column _REGEX in a panda data frame _REGEX
+find a valu within nest _FILE _REGEX where key insid anoth key _REGEX is unknown
+check charact of string _REGEX are true predict of function _REGEX
+determin number of file on a drive with python
+convert string _REGEX into a list of integ _REGEX
+get a list of integ by split a string _REGEX with comma
+sort a list of object _REGEX base on a function _REGEX in descend order
+revers list _REGEX base on _REGEX attribut of each object
+sort a list of object _REGEX in revers order by _REGEX properti
+click a href button _REGEX with selenium
+click a href button have text _REGEX with selenium
+click a href button with text _REGEX with selenium
+cast an int _REGEX to a string and concat to string _REGEX
+prepend line _REGEX to content of file _REGEX and save as file _REGEX
+sort a list _REGEX by length of valu in tupl
+split string _REGEX by word that end with _REGEX
+return _REGEX if string _REGEX contain regex _REGEX
+remov duplic in list _REGEX
+remov duplic in list _REGEX
+remov duplic in list _REGEX
+convert array _REGEX into a list
+convert first row of numpi matrix _REGEX to a list
+in _REGEX get content of sibl of _REGEX tag with text content _REGEX
+convert element of each tupl in list _REGEX into a string separ by charact _REGEX
+convert each tupl in list _REGEX to a string with _REGEX separ _REGEX element
+get _FILE from current web page of a selenium driver
+get all match with regex pattern _REGEX in list of string _REGEX
+select valu from column _REGEX for which correspond valu in column _REGEX will be greater than _NUMBER and in column _FILE equal _NUMBER in datafram _REGEX
+sort dictionari _FILE in ascend order base on it key and item
+get sort list of key of dict _REGEX
+convert string _NUMBER into integ
+function to convert string into integ
+convert item in _REGEX to integ
+call a shell script _FILE use subprocess
+call a shell script _REGEX use subprocess
+combin list _REGEX and _REGEX by altern element
+encod string _REGEX
+encod a string _REGEX to _REGEX encod
+pars tab-delimit _FILE file _FILE into a list
+get attribut _REGEX of object _REGEX
+group a list of dict _REGEX into one dict by key
+convert unicod string _REGEX into dictionari
+find all word in a string _REGEX that start with _REGEX sign
+remov ani url within string _REGEX
+replac all element in array _REGEX that are not present in array _REGEX with zero
+calcul mean across dimens in a _TIMESPAN array _REGEX
+run r script _FILE from python
+run r script _FILE
+add a header to a _FILE file
+replac nan in datafram _REGEX with row averag
+convert unix timestamp _NUMBER to format string _REGEX
+call a base _FILE 's _FILE method _REGEX from deriv _FILE _REGEX
+select row in numpi nsarray _REGEX where valu in first column is _NUMBER and valu in second column is _NUMBER
+separ word delimit by one or more space into a list
+length of longest element in list _REGEX
+get valu associ with unicod key _REGEX of first dictionari in list _REGEX
+retriev each line from a file _FILE as a list
+swap key with valu in a dictionari _REGEX
+open a file _FILE in write mode
+check if ani key in dictionari _REGEX start with string _REGEX
+creat list of valu from dictionari _REGEX that a key that start with _REGEX
+convert a panda seri _REGEX into a panda datafram _REGEX with column _REGEX and _REGEX
+print element of list _REGEX seper by tab _REGEX
+print unicod string _REGEX with _REGEX
+encod a latin charact in string _REGEX proper
+resiz imag _REGEX to width height of with filter of _REGEX
+regex find _REGEX onli in middl of string _REGEX
+display float _FILE as a percentag
+sort a list of dictionari _REGEX by key _REGEX
+sort a list _REGEX of dict by dict valu _REGEX
+sort a list of dictionari by valu of key _REGEX _REGEX _REGEX in ascend order
+find _NUMBER largest differ between each respect element of list _REGEX and list _REGEX
+beautifulsoup find all _REGEX element in _FILE string _REGEX with _FILE of _REGEX
+write record in datafram _REGEX to tabl _REGEX in schema _REGEX
+extract bracket from string _REGEX
+remov duplic element from list _REGEX
+read a file _REGEX without newlin
+get posit of item _NUMBER in _REGEX
+get posit of item _NUMBER in _REGEX
+get posit of item _NUMBER in _REGEX
+get posit of item _NUMBER in _REGEX
+get posit of item _NUMBER in _REGEX
+get posit of item _REGEX in list _REGEX
+get posit of item _REGEX in list _REGEX
+find first element of tupl with maximum second element in a list of tupl _REGEX
+get item at index _NUMBER from tupl that maximum valu at index _NUMBER in list _REGEX
+make a delay of _TIMESPAN
+convert list of tupl _REGEX to a string
+django set default valu of field _REGEX equal to _NUMBER
+sort lis _REGEX in ascend order base on degre valu of it element
+convert a list into a generat object
+remov element from list _REGEX that an index number mention in list _REGEX
+open a file _FILE in write mode
+get attribut _REGEX from object _REGEX
+convert tupl of tupl _REGEX to tupl
+convert tupl of tupl _REGEX to list in one line
+unzip list _REGEX _REGEX
+unzip list _REGEX _REGEX
+unzip list _REGEX
+unzip list _REGEX and return a generat
+unzip list _REGEX _REGEX
+unzip list _REGEX and fill empti result with none
+encod _REGEX to a _FILE string
+add key _REGEX to dictionari _REGEX with valu _REGEX
+add key _REGEX to dictionari _REGEX with valu _NUMBER
+add key _REGEX to dictionari _REGEX with valu _NUMBER
+add key _REGEX to dictionari _REGEX with valu _NUMBER
+find maxim valu in matrix _REGEX
+round number _REGEX to _NUMBER precis after decim point
+extract ip address from an _FILE string
+filter datafram _REGEX by valu in column _REGEX that appear more than onc
+append each line in file _REGEX into a list
+get a list of integ _REGEX from a file _FILE
+add color bar with imag _REGEX to plot _REGEX
+count most frequent _NUMBER word in column _REGEX of datafram _REGEX
+generat all _REGEX subset of tupl
+get a valu of _FILE in utc time zone
+get a new list _REGEX remov empti list from a list of list _REGEX
+creat _REGEX to contain list from list _REGEX exclud empti list from _REGEX
+django respons with _FILE _REGEX
+get all text that is not enclos within squar bracket in string _REGEX
+use a regex to get all text in a string _REGEX that is not surround by squar bracket
+get whatev is between parenthes as a singl match and ani char outsid as an individu match in string _REGEX
+match regex _REGEX with string _REGEX
+match multipl regex pattern with altern oper _REGEX in a string _REGEX
+format each string cin list _REGEX into pattern _REGEX
+open a background process _REGEX with argument _REGEX
+get list of valu from dictionari _REGEX _FILE list of key _REGEX
+convert list _REGEX into a dictionari
+averag each _NUMBER column of array _REGEX
+doubl backslash escap all doubl quot in string _REGEX
+split a string into a list of word and whitespac
+revers key and valu in a dictionari _REGEX
+find index of element contain substr _REGEX and _REGEX in a list of string _REGEX
+check if object _REGEX is a string
+check if object _FILE is a string
+check if object _FILE is a string
+check if object _FILE is a string
+check if _REGEX is a string
+append list _REGEX to _REGEX
+append list _REGEX to _REGEX
+append list _REGEX to _REGEX
+append item in list _REGEX to _REGEX
+append a tupl of element from list _REGEX with index _REGEX to list _REGEX
+initi _REGEX in flask config with _REGEX
+unpack a seri of tupl in panda into a datafram with column name _REGEX and _REGEX
+find index of an element _REGEX in a list _REGEX
+rotat stick label of matplotlib plot _REGEX by _NUMBER degre to make long label readabl
+remov symbol from a string _REGEX
+get current directori of a script
+find octal charact match from a string _REGEX use regex
+split string _REGEX base on occurr of regex pattern _REGEX
+split string _REGEX at everi space follow by an upper-cas letter
+send multipart encod file _REGEX to url _REGEX with header _REGEX and metadata _REGEX
+write byte _REGEX to a file _REGEX in python _NUMBER
+get a list from a list _REGEX with valu map into a dictionari _REGEX
+find duplic name in column _REGEX of datafram _REGEX
+truncat float _NUMBER to _NUMBER decim place
+sort list _REGEX in descend order base on date valu in second element of each list in list _REGEX
+place racial tick in plot _REGEX at _NUMBER degre
+check if path _REGEX is an absolut path
+get number of key in dictionari _REGEX
+count number of key in dictionari _REGEX
+panda datafram get first row of each group by _REGEX
+split a list in first column into multipl column keep other column as well in panda data frame
+extract attribut _REGEX from string _REGEX
+sum integ contain in string in list _REGEX _REGEX
+call a subprocess with argument _FILE that may contain space
+revers a prioriti queue _REGEX in python without use _FILE
+make a barlop of data in column _REGEX of datafram _REGEX colour-cod accord to list _REGEX
+find all match of regex pattern in string _REGEX
+get length of list _REGEX
+get length of array _REGEX
+get length of array _REGEX
+get length of _REGEX
+get length of _REGEX
+remov escap charact from string _REGEX
+replac each _REGEX with _REGEX and each _REGEX with _REGEX in string _REGEX in a singl pass
+remov directori tree _FILE
+creat a new column _REGEX in panda data frame _REGEX base on valu in column _REGEX
+revers sort counter _REGEX by valu
+revers sort counter _REGEX by valu
+append a numpi array _REGEX to a numpi array _REGEX
+numpi concaten _NUMBER array _REGEX and _REGEX along first axi
+numpi concaten _NUMBER array _REGEX and _REGEX along second axi
+numpi concaten _NUMBER array _REGEX and _REGEX along first axi
+numpi concaten _NUMBER array _REGEX and _REGEX along first axi
+fetch address inform for host _FILE ion port _NUMBER
+add a column _REGEX with valu _REGEX to datafram _REGEX
+return a _NUMBER unauthor in django
+flask set folder _REGEX as default templat folder
+insert into _REGEX in _REGEX
+sort a list of list _REGEX such that third row come first
+set font _REGEX to display non-ascii charact in matplotlib
+convert datetim column _REGEX of panda datafram _REGEX to ordin
+get _FILE sourc of selenium webel _REGEX
+get integ locat of a key _REGEX in a panda data frame
+open a _REGEX termin from python script and run _REGEX command
+add an item with key _REGEX and valu _NUMBER to an dictionari _REGEX
+declar an array
+insert item _NUMBER to a list _REGEX
+add an entri _REGEX at begin of list _REGEX
+convert a hex-str represent to actual byte
+select last column of datafram _REGEX
+get first valu from datafram _REGEX where column _REGEX is equal to _FILE
+convert _NUMBER list _REGEX and _REGEX into a matrix
+get type of _REGEX
+determin type of variabl _REGEX
+determin type of variabl _REGEX
+determin type of variabl _REGEX
+determin type of variabl _REGEX
+get type of variabl _REGEX
+get _REGEX item of a generat
+print a string _REGEX with string format
+join a list of string _REGEX use a space _REGEX
+creat list _REGEX contain _NUMBER empti list
+read a file _FILE into a list _REGEX
+delet all occurr of charact _REGEX in string _REGEX
+delet all instanc of a charact _REGEX in a string _REGEX
+delet all charact _REGEX in string _REGEX
+drop row of panda datafram _REGEX have nan in column at index _NUMBER
+get element from list _REGEX that a field _REGEX valu _NUMBER
+convert list of string _REGEX to list of integ _REGEX
+convert list of string number into list of integ
+print _REGEX without newlin
+round off float that is product of _REGEX and convert it to an int
+find all file in directori _FILE with extens _FILE
+find all file in directori _FILE with extens _FILE
+find all file in directori _FILE with extens _FILE
+plot datafram _REGEX without a legend
+loop through ip address rang _FILE
+loop through ip address rang _FILE
+loop through ip address rang _FILE
+sum correspond decim valu for binari valu of each boolean element in list _REGEX
+write multipl string _REGEX _REGEX and _REGEX in one line in a file _REGEX
+convert list of list _REGEX into a flat list
+print new line charact as _REGEX in a string _REGEX
+remov last comma charact _REGEX in string _REGEX
+calcul mean of each element in array _REGEX with element previous to it
+get an array of mean of each _NUMBER consecut valu in numpi array _REGEX
+load data contain _REGEX from file _FILE into numpi array _REGEX
+revers sort list of dict _REGEX by valu for key _REGEX
+sort a list of dictionari _REGEX base on key _REGEX in descend order
+get row of datafram _REGEX that match regex
+find string in _REGEX between _NUMBER special charact _REGEX and _REGEX
+count number of time string _REGEX occur in string _REGEX
+decod _FILE string _FILE to python dict
+download file from url _REGEX and save it under file _REGEX
+split string _REGEX by space
+split string _REGEX by _REGEX
+split string _REGEX into a list by whitespac
+replac dot charact _REGEX associ with ascii letter in list _REGEX with space _REGEX
+sort list _REGEX base on second index of each string _REGEX
+call multipl bash function _REGEX and _REGEX use _REGEX
+elimin all string from list _REGEX
+get all element except string from list _REGEX
+sort a list of dictionari _REGEX by valu of dictionari key _REGEX
+sort a list of dictionari _REGEX by valu in key _REGEX in descend order
+join togeth with _REGEX element insid a list index with _REGEX within a dictionari _REGEX
+concaten array of string _REGEX _REGEX _FILE _REGEX into a string
+get _FILE data from rest servic _REGEX
+remov all string from a list a string _REGEX where valu start with _REGEX or _REGEX
+django filter by hour
+sort a list of dictionari _REGEX first by key _REGEX and by _REGEX
+convert datetim object to second
+insert _REGEX befor file extens in _FILE or replac _REGEX with _REGEX if it preced extens
+reload a modul _REGEX
+convert integ _REGEX into an unassign integ
+convert int valu in list _REGEX to float
+write datafram _REGEX exclud index to a _FILE file
+convert a urllib unquot string _REGEX to a _FILE data _REGEX
+creat a list contain all ascii charact as it element
+write _REGEX to a binari file _REGEX
+python regex check for a capit letter with a follow lowercas in string _REGEX
+get last key of dictionari _REGEX
+write line _REGEX to file _REGEX
+write line _REGEX to file _REGEX
+write line _REGEX to file _FILE
+convert unicod string _REGEX to ascii
+django get maximum valu associ with field _REGEX in model _REGEX
+find all number and dot from a string _REGEX use regex
+python regex to find all number and dot from _REGEX
+execut script _FILE use _FILE shell
+sort a list of tupl _REGEX by third item in tupl
+get a list of all key in cassandra databas _REGEX with picasa
+creat a datetim with current date _REGEX time
+get index of an integ _NUMBER from a list _REGEX if list also contain boolean item
+subtract _NUMBER from everi number in a list _REGEX
+choos a random file from directori content of _FILE drive _REGEX
+get highest element in absolut valu in a numpi matrix _REGEX
+get all url within text _REGEX
+match url whose domain doesn 't start with _REGEX from string _REGEX use regex
+split a string _REGEX consid space _REGEX
+open file _REGEX with mode _REGEX
+sum element at same index in list _REGEX
+add a new axi to array _REGEX
